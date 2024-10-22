@@ -1,46 +1,27 @@
 import pandas as pd
 
+def infer_data_types(file_path, chunksize=10000):
+    # Create an empty dictionary to store the inferred data types
+    combined_dtypes = {}
 
-def infer_data_types(file_path):
-    # Read the file into a DataFrame
-    df = pd.read_csv(file_path)
+    # Process the file in chunks
+    for chunk in pd.read_csv(file_path, chunksize=chunksize):
+        # Try to convert the 'Birthdate' column (or any other datetime-like columns) to datetime format
+        for column in chunk.columns:
+            if column.lower().startswith('birthdate'):
+                chunk[column] = pd.to_datetime(chunk[column], errors='coerce')
 
-    # Print the first few rows to inspect the data
-    print("Sample Data:")
-    print(df.head())
+        # Infer data types for the current chunk after the conversion
+        chunk_dtypes = chunk.dtypes
 
-    # Try to convert object types to more specific types
-    for column in df.columns:
-        if df[column].dtype == 'object':
-            # If the column contains mostly strings, skip conversion
-            if df[column].str.isnumeric().sum() == 0 and not is_date_column(df[column]):
-                continue  # Skip non-numeric and non-date columns like Name and Grade
-
-            # Check if the column could be a date
-            if is_date_column(df[column]):
-                df[column] = pd.to_datetime(df[column], errors='coerce')
-            # Otherwise, try to convert to numeric
+        # Merge inferred types with combined_dtypes
+        for column, dtype in chunk_dtypes.items():
+            if column not in combined_dtypes:
+                combined_dtypes[column] = dtype
             else:
-                df[column] = pd.to_numeric(df[column], errors='coerce')
+                # If there's a conflict in data types, set it to 'object'
+                if combined_dtypes[column] != dtype:
+                    combined_dtypes[column] = 'object'
 
-    # Print the inferred data types after conversion attempts
-    inferred_types = df.dtypes
-    print("Inferred Data Types after conversion attempts:")
-    print(inferred_types)
-
-    # Return the DataFrame with inferred types
-    return df
-
-
-def is_date_column(column):
-    """Checks if a column can be inferred as a date."""
-    try:
-        pd.to_datetime(column, errors='raise')
-        return True
-    except (ValueError, TypeError):
-        return False
-
-
-if __name__ == "__main__":
-    file_path = "C:/Users/User/PycharmProjects/Django-data-process/backend/sample_data.csv"
-    df = infer_data_types(file_path)
+    # Convert combined_dtypes to a pandas Series for consistency
+    return pd.Series(combined_dtypes)
