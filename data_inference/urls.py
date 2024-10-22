@@ -21,5 +21,7 @@ from django.http import HttpResponseRedirect
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('data/', include('data_processing.urls')),
-    path('', lambda request: HttpResponseRedirect('/data/upload/')),
+    # path('', lambda request: HttpResponseRedirect('/data/api/upload/')),
+    path( '', lambda request: HttpResponseRedirect( 'http://localhost:3000' ) ),
+    # path('', lambda request: HttpResponseRedirect('http://127.0.0.1:8000/')),
 ]
