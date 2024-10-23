@@ -1,9 +1,9 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-import pandas as pd
-from backend.infer_data_types import infer_data_types  # Ensure proper import of infer_data_types function
 import os
+from backend.infer_data_types import infer_data_types
+import pandas as pd
 
 @api_view(['POST'])
 def api_upload_file(request):
@@ -20,7 +20,6 @@ def api_upload_file(request):
     # Process the uploaded file using the infer_data_types function
     inferred_dtypes_series = infer_data_types(file_path)
 
-    # Ensure the result is a pandas Series or DataFrame
     if isinstance(inferred_dtypes_series, pd.Series):
         inferred_types = inferred_dtypes_series.astype(str).to_dict()
 
