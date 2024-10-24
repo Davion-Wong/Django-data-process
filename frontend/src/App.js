@@ -1,61 +1,55 @@
 import React, { useState } from 'react';
-import axios from 'axios';  // Make sure Axios is imported
+import axios from 'axios';
 
 function App() {
-    const [file, setFile] = useState(null);  // Initialize file state
-    const [inferredTypes, setInferredTypes] = useState(null);  // Initialize inferredTypes state
-    const [error, setError] = useState('');  // Initialize error state
+  const [file, setFile] = useState(null);
+  const [error, setError] = useState('');
 
-    const handleFileChange = (e) => {
-        setFile(e.target.files[0]);  // Set the selected file
-    };
+  const getCSRFToken = () => {
+    let csrfToken = null;
+    const cookies = document.cookie.split(';');
+    cookies.forEach((cookie) => {
+      const [key, value] = cookie.trim().split('=');
+      if (key === 'csrftoken') {
+        csrfToken = value;
+      }
+    });
+    return csrfToken;
+  };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        if (!file) {
-            setError('Please upload a file.');
-            return;
-        }
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
 
-        const formData = new FormData();
-        formData.append('file', file);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append('file', file);
 
-        try {
-            const response = await axios.post('http://127.0.0.1:8000/data/api/upload/', formData, {
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                }
-            });
-            setInferredTypes(response.data.inferred_types);
-            setError('');
-        } catch (err) {
-            setError('File upload failed.');
-            console.error(err);
-        }
-    };
+    try {
+      const response = await axios.post('/data/api/upload/', formData, {
+        headers: {
+          'X-CSRFToken': getCSRFToken(),  // Pass CSRF token with the request
+        },
+      });
+      alert('File uploaded successfully');
+    } catch (err) {
+      setError('File upload failed.');
+    }
+  };
 
-    return (
-        <div className="App">
-            <h1>Upload CSV/Excel for Data Type Inference</h1>
-            <form onSubmit={handleSubmit}>
-                <input type="file" onChange={handleFileChange} accept=".csv, .xlsx" />
-                <button type="submit">Upload</button>
-            </form>
+  return (
+    <div>
+      <h1>Upload Your Data File</h1>
 
-            {error && <p style={{ color: 'red' }}>{error}</p>}
+      <form onSubmit={handleSubmit}>
+        <input type="file" onChange={handleFileChange} accept=".csv, .xlsx" />
+        <button type="submit">Upload File</button>
+      </form>
 
-            {inferredTypes && (
-                <div>
-                    <h2>Inferred Data Types:</h2>
-                    <ul>
-                        {Object.entries(inferredTypes).map(([column, dtype]) => (
-                            <li key={column}>{column}: {dtype}</li>
-                        ))}
-                    </ul>
-                </div>
-            )}
-        </div>
-    );
+      {error && <p>{error}</p>}
+    </div>
+  );
 }
 
 export default App;
