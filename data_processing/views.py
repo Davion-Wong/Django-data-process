@@ -72,8 +72,7 @@ def api_upload_file(request):
         for chunk in uploaded_file.chunks():
             destination.write(chunk)
 
-    # Process the uploaded file (e.g., infer data types)
-    inferred_dtypes_series = infer_data_types(file_path)
+    inferred_dtypes_series = infer_data_types.delay(file_path)
 
     if isinstance(inferred_dtypes_series, pd.Series):
         inferred_types = inferred_dtypes_series.astype(str).to_dict()
@@ -132,3 +131,12 @@ def dataset_view(request):
     paginator = DatasetPagination()
     result_page = paginator.paginate_queryset(queryset, request)
     return paginator.get_paginated_response(result_page)
+
+def task_progress(request, task_id):
+    task_result = AsyncResult(task_id)
+    if task_result.state == "PROGRESS":
+        return JsonResponse({"progress": task_result.info.get("progress", 0)})
+    elif task_result.state == "SUCCESS":
+        return JsonResponse({"progress": 100})
+    else:
+        return JsonResponse({"progress": 0, "status": task_result.state})
