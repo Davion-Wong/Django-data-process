@@ -6,4 +6,6 @@ urlpatterns = [
     path('api/dataset/', views.get_processed_dataset, name='get_processed_dataset'),
     path('display/', views.dataset_display_view, name='dataset_display'),
     path('api/task-status/<str:task_id>/', views.check_task_status, name='check_task_status'),
+    path("api/task-progress/<str:task_id>/", views.task_progress, name="task_progress"),
+
 ]
