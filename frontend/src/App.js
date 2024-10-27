@@ -1,79 +1,104 @@
-import React, { useState } from 'react';
+// App.js
+
 import axios from 'axios';
+import { useEffect, useState } from 'react';
+
+
+const handleUpload = async (event) => {
+    event.preventDefault();
+    const formData = new FormData();
+    formData.append('file', event.target.files[0]); // Adjust if necessary
+
+    try {
+        const response = await axios.post("http://127.0.0.1:8000/data/api/upload/", formData, {
+            headers: {
+                'X-CSRFToken': getCSRFToken(),
+            },
+            withCredentials: true
+        });
+        console.log("File uploaded successfully:", response.data); // Check the response data here
+    } catch (error) {
+        console.error("File upload failed:", error);
+    }
+
+    axios.post("http://127.0.0.1:8000/data/api/upload/", formData, {
+        headers: {
+            'X-CSRFToken': getCSRFToken(),
+        },
+        withCredentials: true
+    })
+    .then(response => {
+        // Handle success
+    })
+    .catch(error => {
+        // Handle error
+    });
+};
+
+
+
+
+function getCSRFToken() {
+    const name = 'csrftoken';
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+        }
+    }
+    return null;
+}
 
 function App() {
     const [file, setFile] = useState(null);
-    const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(false);
-    const [view, setView] = useState('upload'); // Track view: 'upload' or 'display'
+    const [progress, setProgress] = useState(0);
+    const [taskId, setTaskId] = useState(null);
 
     const handleFileChange = (event) => {
         setFile(event.target.files[0]);
     };
 
     const handleUpload = async () => {
-        if (!file) {
-            alert("Please select a file first!");
-            return;
-        }
+        if (!file) return;
 
-        setLoading(true);
         const formData = new FormData();
         formData.append('file', file);
 
         try {
-            await axios.post("http://127.0.0.1:8000/data/api/upload/", formData);
-            alert("File uploaded successfully!");
-            // Fetch first page of data after successful upload
-            const response = await axios.get("http://127.0.0.1:8000/data/api/dataset/?page=1");
-            setData(response.data.results);
-            setView('display'); // Switch to display view
-        } catch (err) {
-            alert("File upload failed.");
-        } finally {
-            setLoading(false);
+            // Upload file and start the task
+            const response = await axios.post('http://127.0.0.1:8000/data/api/upload/', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                    'X-CSRFToken': getCSRFToken(),  // Make sure you have a function to retrieve the CSRF token
+                },
+                withCredentials: true,
+            });
+
+            setTaskId(response.data.task_id);  // Retrieve task ID after upload
+            pollProgress(response.data.task_id);  // Start polling progress
+        } catch (error) {
+            console.error('File upload failed:', error);
         }
     };
 
-    if (loading) {
-        return <div>Loading...</div>;
-    }
-
-    if (view === 'upload') {
-        return (
-            <div>
-                <h1>Upload Dataset</h1>
-                <input type="file" onChange={handleFileChange} />
-                <button onClick={handleUpload}>Upload</button>
-            </div>
-        );
-    }
+    const pollProgress = (taskId) => {
+        const interval = setInterval(async () => {
+            try {
+                const response = await axios.get(`http://127.0.0.1:8000/data/api/task-progress/${taskId}/`);
+                setProgress(response.data.progress);
+                if (response.data.progress >= 100) clearInterval(interval);
+            } catch (error) {
+                console.error('Progress check failed:', error);
+            }
+        }, 1000);
+    };
 
     return (
         <div>
-            <h1>Dataset</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Birthdate</th>
-                        <th>Score</th>
-                        <th>Grade</th>
-                        <th>Comments</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.map((item, index) => (
-                        <tr key={index}>
-                            <td>{item.Name}</td>
-                            <td>{item.Birthdate}</td>
-                            <td>{item.Score}</td>
-                            <td>{item.Grade}</td>
-                            <td>{item.Comments}</td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+            <input type="file" onChange={handleFileChange} />
+            <button onClick={handleUpload}>Upload and Start Task</button>
+            <p>Task Progress: {progress}%</p>
         </div>
     );
 }
