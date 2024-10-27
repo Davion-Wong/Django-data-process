@@ -1,0 +1,1000 @@
+Name,Birthdate,Score,Grade,Comments
+David,1/1/1990 0:00,71,D,Excellent
+Charlie,1/1/1990 0:01,54,B,Poor
+Charlie,1/1/1990 0:02,51,A,Needs Improvement
+Alice,1/1/1990 0:03,64,C,Needs Improvement
+Alice,1/1/1990 0:04,77,F,Excellent
+David,1/1/1990 0:05,67,D,Poor
+David,1/1/1990 0:06,98,B,Poor
+Bob,1/1/1990 0:07,76,A,Average
+Eve,1/1/1990 0:08,50,C,Poor
+Eve,1/1/1990 0:09,60,B,Needs Improvement
+Charlie,1/1/1990 0:10,55,F,Poor
+Alice,1/1/1990 0:11,94,F,Poor
+Charlie,1/1/1990 0:12,98,B,Excellent
+Eve,1/1/1990 0:13,66,A,Excellent
+David,1/1/1990 0:14,70,C,Poor
+David,1/1/1990 0:15,50,F,Good
+Bob,1/1/1990 0:16,84,C,Needs Improvement
+Bob,1/1/1990 0:17,64,D,Average
+Charlie,1/1/1990 0:18,57,F,Excellent
+Bob,1/1/1990 0:19,86,F,Excellent
+Charlie,1/1/1990 0:20,79,C,Excellent
+Alice,1/1/1990 0:21,90,C,Average
+David,1/1/1990 0:22,56,A,Good
+Alice,1/1/1990 0:23,64,D,Excellent
+Bob,1/1/1990 0:24,54,C,Needs Improvement
+Eve,1/1/1990 0:25,83,B,Good
+Alice,1/1/1990 0:26,80,D,Poor
+Charlie,1/1/1990 0:27,65,F,Average
+Bob,1/1/1990 0:28,58,B,Poor
+David,1/1/1990 0:29,84,A,Poor
+Eve,1/1/1990 0:30,86,B,Excellent
+Alice,1/1/1990 0:31,87,F,Needs Improvement
+David,1/1/1990 0:32,80,A,Excellent
+Bob,1/1/1990 0:33,62,B,Good
+Eve,1/1/1990 0:34,69,A,Excellent
+Charlie,1/1/1990 0:35,67,D,Average
+Charlie,1/1/1990 0:36,51,C,Needs Improvement
+Eve,1/1/1990 0:37,98,B,Poor
+Bob,1/1/1990 0:38,63,D,Poor
+Eve,1/1/1990 0:39,63,D,Poor
+Alice,1/1/1990 0:40,94,C,Needs Improvement
+Alice,1/1/1990 0:41,88,D,Excellent
+Eve,1/1/1990 0:42,53,A,Excellent
+Charlie,1/1/1990 0:43,72,F,Needs Improvement
+Eve,1/1/1990 0:44,81,C,Good
+Eve,1/1/1990 0:45,72,B,Needs Improvement
+Eve,1/1/1990 0:46,62,C,Excellent
+Alice,1/1/1990 0:47,92,A,Poor
+Charlie,1/1/1990 0:48,50,B,Average
+David,1/1/1990 0:49,51,B,Needs Improvement
+David,1/1/1990 0:50,94,B,Average
+Alice,1/1/1990 0:51,73,D,Average
+Eve,1/1/1990 0:52,84,D,Needs Improvement
+Bob,1/1/1990 0:53,74,A,Needs Improvement
+David,1/1/1990 0:54,77,A,Poor
+Charlie,1/1/1990 0:55,88,D,Good
+Charlie,1/1/1990 0:56,88,A,Good
+Bob,1/1/1990 0:57,90,D,Average
+Bob,1/1/1990 0:58,80,B,Good
+David,1/1/1990 0:59,54,D,Average
+Charlie,1/1/1990 1:00,57,F,Average
+Eve,1/1/1990 1:01,95,A,Good
+Eve,1/1/1990 1:02,63,C,Average
+Bob,1/1/1990 1:03,87,B,Average
+Eve,1/1/1990 1:04,82,C,Average
+Bob,1/1/1990 1:05,89,A,Average
+Eve,1/1/1990 1:06,84,C,Poor
+Bob,1/1/1990 1:07,85,B,Good
+Charlie,1/1/1990 1:08,65,C,Needs Improvement
+Bob,1/1/1990 1:09,60,B,Excellent
+Eve,1/1/1990 1:10,74,C,Good
+Charlie,1/1/1990 1:11,82,F,Needs Improvement
+Eve,1/1/1990 1:12,66,F,Average
+Alice,1/1/1990 1:13,70,A,Poor
+Bob,1/1/1990 1:14,99,B,Good
+Bob,1/1/1990 1:15,50,D,Needs Improvement
+Bob,1/1/1990 1:16,83,F,Average
+Alice,1/1/1990 1:17,53,B,Good
+Eve,1/1/1990 1:18,79,A,Poor
+Bob,1/1/1990 1:19,66,C,Needs Improvement
+David,1/1/1990 1:20,83,B,Excellent
+David,1/1/1990 1:21,62,B,Excellent
+Charlie,1/1/1990 1:22,55,F,Average
+Bob,1/1/1990 1:23,58,B,Average
+Alice,1/1/1990 1:24,95,B,Poor
+Bob,1/1/1990 1:25,80,B,Good
+Eve,1/1/1990 1:26,66,C,Poor
+Charlie,1/1/1990 1:27,51,A,Excellent
+Alice,1/1/1990 1:28,87,D,Excellent
+Alice,1/1/1990 1:29,97,A,Needs Improvement
+David,1/1/1990 1:30,62,C,Good
+Eve,1/1/1990 1:31,66,F,Needs Improvement
+Eve,1/1/1990 1:32,67,D,Average
+David,1/1/1990 1:33,86,F,Poor
+Charlie,1/1/1990 1:34,92,F,Excellent
+Eve,1/1/1990 1:35,69,D,Good
+David,1/1/1990 1:36,87,C,Excellent
+David,1/1/1990 1:37,68,C,Good
+Charlie,1/1/1990 1:38,93,C,Needs Improvement
+Alice,1/1/1990 1:39,72,A,Needs Improvement
+Charlie,1/1/1990 1:40,72,A,Excellent
+Bob,1/1/1990 1:41,72,F,Needs Improvement
+Charlie,1/1/1990 1:42,92,B,Needs Improvement
+Charlie,1/1/1990 1:43,87,F,Average
+David,1/1/1990 1:44,91,F,Average
+Eve,1/1/1990 1:45,77,D,Good
+Alice,1/1/1990 1:46,50,F,Average
+Bob,1/1/1990 1:47,54,F,Excellent
+Bob,1/1/1990 1:48,55,A,Good
+Bob,1/1/1990 1:49,51,D,Excellent
+David,1/1/1990 1:50,69,F,Excellent
+Bob,1/1/1990 1:51,72,B,Excellent
+Alice,1/1/1990 1:52,57,D,Average
+Alice,1/1/1990 1:53,89,F,Needs Improvement
+Charlie,1/1/1990 1:54,61,D,Excellent
+David,1/1/1990 1:55,76,A,Poor
+Alice,1/1/1990 1:56,73,C,Poor
+David,1/1/1990 1:57,88,B,Excellent
+David,1/1/1990 1:58,56,B,Poor
+Bob,1/1/1990 1:59,86,A,Good
+David,1/1/1990 2:00,91,F,Needs Improvement
+Eve,1/1/1990 2:01,97,F,Good
+Eve,1/1/1990 2:02,71,F,Average
+Alice,1/1/1990 2:03,67,B,Excellent
+Alice,1/1/1990 2:04,82,D,Poor
+Charlie,1/1/1990 2:05,82,D,Average
+Bob,1/1/1990 2:06,84,B,Needs Improvement
+Bob,1/1/1990 2:07,86,C,Poor
+Eve,1/1/1990 2:08,61,B,Needs Improvement
+Bob,1/1/1990 2:09,63,D,Good
+Alice,1/1/1990 2:10,64,C,Excellent
+Bob,1/1/1990 2:11,72,D,Needs Improvement
+Bob,1/1/1990 2:12,88,B,Good
+Alice,1/1/1990 2:13,80,D,Excellent
+Charlie,1/1/1990 2:14,88,D,Poor
+David,1/1/1990 2:15,93,F,Needs Improvement
+Bob,1/1/1990 2:16,75,D,Excellent
+Bob,1/1/1990 2:17,77,F,Needs Improvement
+Alice,1/1/1990 2:18,98,F,Poor
+David,1/1/1990 2:19,74,A,Needs Improvement
+Bob,1/1/1990 2:20,79,A,Average
+David,1/1/1990 2:21,87,A,Average
+Alice,1/1/1990 2:22,81,F,Needs Improvement
+Alice,1/1/1990 2:23,78,F,Average
+Charlie,1/1/1990 2:24,98,B,Good
+Alice,1/1/1990 2:25,61,C,Needs Improvement
+Alice,1/1/1990 2:26,61,C,Good
+Bob,1/1/1990 2:27,70,B,Average
+Alice,1/1/1990 2:28,90,D,Poor
+Alice,1/1/1990 2:29,92,C,Poor
+Alice,1/1/1990 2:30,69,B,Average
+Bob,1/1/1990 2:31,89,C,Excellent
+Bob,1/1/1990 2:32,54,C,Excellent
+David,1/1/1990 2:33,84,D,Needs Improvement
+David,1/1/1990 2:34,73,C,Poor
+Alice,1/1/1990 2:35,98,C,Needs Improvement
+Alice,1/1/1990 2:36,72,F,Good
+David,1/1/1990 2:37,98,D,Average
+Eve,1/1/1990 2:38,90,F,Good
+Eve,1/1/1990 2:39,72,B,Poor
+Eve,1/1/1990 2:40,79,B,Good
+David,1/1/1990 2:41,96,A,Average
+Charlie,1/1/1990 2:42,77,D,Good
+Eve,1/1/1990 2:43,83,C,Good
+David,1/1/1990 2:44,56,B,Needs Improvement
+Charlie,1/1/1990 2:45,75,D,Poor
+Charlie,1/1/1990 2:46,94,A,Needs Improvement
+Alice,1/1/1990 2:47,92,A,Needs Improvement
+Alice,1/1/1990 2:48,61,D,Good
+Charlie,1/1/1990 2:49,75,B,Excellent
+Bob,1/1/1990 2:50,51,C,Excellent
+Bob,1/1/1990 2:51,67,A,Poor
+Charlie,1/1/1990 2:52,95,C,Average
+David,1/1/1990 2:53,57,B,Poor
+Charlie,1/1/1990 2:54,94,A,Poor
+Alice,1/1/1990 2:55,58,D,Poor
+Bob,1/1/1990 2:56,60,B,Excellent
+Charlie,1/1/1990 2:57,93,D,Poor
+Eve,1/1/1990 2:58,71,B,Needs Improvement
+Alice,1/1/1990 2:59,99,F,Poor
+Eve,1/1/1990 3:00,93,B,Average
+Alice,1/1/1990 3:01,96,A,Average
+Bob,1/1/1990 3:02,91,B,Poor
+Alice,1/1/1990 3:03,55,B,Good
+Alice,1/1/1990 3:04,76,F,Average
+David,1/1/1990 3:05,84,C,Needs Improvement
+David,1/1/1990 3:06,61,C,Average
+Eve,1/1/1990 3:07,84,B,Excellent
+David,1/1/1990 3:08,55,A,Excellent
+Eve,1/1/1990 3:09,58,B,Needs Improvement
+David,1/1/1990 3:10,59,B,Needs Improvement
+David,1/1/1990 3:11,58,A,Good
+Alice,1/1/1990 3:12,86,C,Average
+David,1/1/1990 3:13,87,A,Excellent
+Charlie,1/1/1990 3:14,51,F,Good
+Eve,1/1/1990 3:15,50,A,Needs Improvement
+Alice,1/1/1990 3:16,62,A,Average
+David,1/1/1990 3:17,68,F,Needs Improvement
+Alice,1/1/1990 3:18,71,B,Poor
+Bob,1/1/1990 3:19,81,C,Poor
+Eve,1/1/1990 3:20,83,D,Average
+Bob,1/1/1990 3:21,71,D,Poor
+Charlie,1/1/1990 3:22,98,C,Average
+Alice,1/1/1990 3:23,79,D,Good
+Alice,1/1/1990 3:24,81,F,Poor
+Alice,1/1/1990 3:25,72,A,Excellent
+Charlie,1/1/1990 3:26,57,A,Needs Improvement
+David,1/1/1990 3:27,70,F,Excellent
+David,1/1/1990 3:28,69,C,Needs Improvement
+Charlie,1/1/1990 3:29,69,D,Poor
+Alice,1/1/1990 3:30,75,B,Needs Improvement
+David,1/1/1990 3:31,92,B,Poor
+David,1/1/1990 3:32,73,B,Needs Improvement
+Charlie,1/1/1990 3:33,56,B,Needs Improvement
+Alice,1/1/1990 3:34,88,C,Excellent
+Bob,1/1/1990 3:35,72,A,Needs Improvement
+Bob,1/1/1990 3:36,64,D,Poor
+Charlie,1/1/1990 3:37,90,D,Excellent
+Charlie,1/1/1990 3:38,71,B,Needs Improvement
+Bob,1/1/1990 3:39,93,B,Excellent
+Alice,1/1/1990 3:40,83,A,Needs Improvement
+Alice,1/1/1990 3:41,84,A,Average
+Eve,1/1/1990 3:42,88,F,Poor
+David,1/1/1990 3:43,61,A,Excellent
+Bob,1/1/1990 3:44,99,B,Average
+Bob,1/1/1990 3:45,63,A,Poor
+David,1/1/1990 3:46,85,F,Poor
+David,1/1/1990 3:47,66,A,Average
+Charlie,1/1/1990 3:48,54,D,Needs Improvement
+Charlie,1/1/1990 3:49,62,F,Needs Improvement
+Eve,1/1/1990 3:50,64,F,Poor
+Charlie,1/1/1990 3:51,52,B,Poor
+Bob,1/1/1990 3:52,89,F,Average
+Charlie,1/1/1990 3:53,91,F,Poor
+Eve,1/1/1990 3:54,60,A,Poor
+Bob,1/1/1990 3:55,69,F,Average
+Charlie,1/1/1990 3:56,80,F,Needs Improvement
+Charlie,1/1/1990 3:57,98,F,Excellent
+David,1/1/1990 3:58,64,A,Needs Improvement
+Bob,1/1/1990 3:59,91,F,Good
+David,1/1/1990 4:00,89,B,Excellent
+Bob,1/1/1990 4:01,95,B,Poor
+David,1/1/1990 4:02,95,C,Good
+Alice,1/1/1990 4:03,61,C,Average
+Charlie,1/1/1990 4:04,83,D,Poor
+Charlie,1/1/1990 4:05,85,C,Average
+Bob,1/1/1990 4:06,91,C,Needs Improvement
+Charlie,1/1/1990 4:07,53,B,Good
+Bob,1/1/1990 4:08,58,F,Excellent
+Charlie,1/1/1990 4:09,62,A,Excellent
+Alice,1/1/1990 4:10,51,A,Average
+Charlie,1/1/1990 4:11,68,A,Needs Improvement
+Charlie,1/1/1990 4:12,85,D,Good
+Alice,1/1/1990 4:13,59,F,Poor
+Charlie,1/1/1990 4:14,98,D,Poor
+Eve,1/1/1990 4:15,91,D,Average
+David,1/1/1990 4:16,63,A,Poor
+David,1/1/1990 4:17,55,F,Excellent
+Eve,1/1/1990 4:18,77,D,Excellent
+Bob,1/1/1990 4:19,50,B,Average
+David,1/1/1990 4:20,53,C,Needs Improvement
+David,1/1/1990 4:21,53,B,Good
+Charlie,1/1/1990 4:22,74,D,Needs Improvement
+Charlie,1/1/1990 4:23,95,A,Good
+Bob,1/1/1990 4:24,69,A,Poor
+Charlie,1/1/1990 4:25,58,A,Average
+Eve,1/1/1990 4:26,85,F,Good
+David,1/1/1990 4:27,81,F,Excellent
+Eve,1/1/1990 4:28,96,B,Average
+Bob,1/1/1990 4:29,61,F,Needs Improvement
+Bob,1/1/1990 4:30,71,A,Good
+Eve,1/1/1990 4:31,60,C,Poor
+Eve,1/1/1990 4:32,66,B,Average
+Bob,1/1/1990 4:33,58,A,Needs Improvement
+Eve,1/1/1990 4:34,89,F,Average
+Eve,1/1/1990 4:35,97,D,Excellent
+Eve,1/1/1990 4:36,59,A,Poor
+Eve,1/1/1990 4:37,84,A,Average
+Alice,1/1/1990 4:38,78,D,Poor
+Charlie,1/1/1990 4:39,63,F,Poor
+Alice,1/1/1990 4:40,56,A,Excellent
+Alice,1/1/1990 4:41,65,C,Needs Improvement
+Bob,1/1/1990 4:42,78,D,Needs Improvement
+Alice,1/1/1990 4:43,64,A,Needs Improvement
+Charlie,1/1/1990 4:44,58,C,Excellent
+David,1/1/1990 4:45,66,A,Needs Improvement
+Eve,1/1/1990 4:46,75,C,Average
+Alice,1/1/1990 4:47,61,F,Excellent
+Eve,1/1/1990 4:48,56,C,Excellent
+David,1/1/1990 4:49,93,C,Good
+Eve,1/1/1990 4:50,97,B,Poor
+David,1/1/1990 4:51,99,A,Average
+Charlie,1/1/1990 4:52,70,A,Good
+Eve,1/1/1990 4:53,95,F,Poor
+Bob,1/1/1990 4:54,64,F,Excellent
+Charlie,1/1/1990 4:55,78,B,Average
+Bob,1/1/1990 4:56,50,F,Poor
+Alice,1/1/1990 4:57,97,F,Poor
+David,1/1/1990 4:58,88,C,Poor
+Charlie,1/1/1990 4:59,72,C,Poor
+David,1/1/1990 5:00,87,F,Excellent
+Alice,1/1/1990 5:01,50,A,Needs Improvement
+Bob,1/1/1990 5:02,68,C,Poor
+David,1/1/1990 5:03,97,C,Average
+David,1/1/1990 5:04,68,D,Poor
+Charlie,1/1/1990 5:05,58,F,Poor
+Bob,1/1/1990 5:06,51,B,Average
+Alice,1/1/1990 5:07,97,A,Poor
+Eve,1/1/1990 5:08,90,B,Average
+David,1/1/1990 5:09,73,B,Poor
+Charlie,1/1/1990 5:10,83,F,Good
+Alice,1/1/1990 5:11,87,A,Needs Improvement
+Eve,1/1/1990 5:12,82,D,Needs Improvement
+Alice,1/1/1990 5:13,91,F,Excellent
+David,1/1/1990 5:14,88,A,Good
+Bob,1/1/1990 5:15,87,F,Average
+Bob,1/1/1990 5:16,70,F,Good
+Eve,1/1/1990 5:17,59,B,Poor
+Eve,1/1/1990 5:18,80,D,Needs Improvement
+David,1/1/1990 5:19,61,D,Excellent
+Eve,1/1/1990 5:20,56,C,Excellent
+Charlie,1/1/1990 5:21,96,D,Average
+Bob,1/1/1990 5:22,59,B,Average
+Charlie,1/1/1990 5:23,98,C,Average
+Charlie,1/1/1990 5:24,82,F,Good
+Bob,1/1/1990 5:25,57,F,Excellent
+David,1/1/1990 5:26,69,B,Needs Improvement
+David,1/1/1990 5:27,62,F,Average
+Eve,1/1/1990 5:28,67,D,Excellent
+Bob,1/1/1990 5:29,54,A,Needs Improvement
+Bob,1/1/1990 5:30,91,B,Poor
+Bob,1/1/1990 5:31,55,A,Good
+Alice,1/1/1990 5:32,57,D,Needs Improvement
+David,1/1/1990 5:33,88,C,Good
+Alice,1/1/1990 5:34,81,B,Good
+David,1/1/1990 5:35,66,B,Needs Improvement
+David,1/1/1990 5:36,55,D,Excellent
+Alice,1/1/1990 5:37,93,F,Needs Improvement
+David,1/1/1990 5:38,70,C,Excellent
+Bob,1/1/1990 5:39,51,F,Good
+Eve,1/1/1990 5:40,65,F,Excellent
+Alice,1/1/1990 5:41,76,A,Needs Improvement
+Charlie,1/1/1990 5:42,54,C,Average
+David,1/1/1990 5:43,60,B,Excellent
+Eve,1/1/1990 5:44,70,D,Excellent
+Charlie,1/1/1990 5:45,76,C,Average
+David,1/1/1990 5:46,62,B,Excellent
+Bob,1/1/1990 5:47,75,D,Excellent
+Alice,1/1/1990 5:48,87,F,Average
+Eve,1/1/1990 5:49,59,A,Average
+David,1/1/1990 5:50,87,A,Poor
+David,1/1/1990 5:51,64,C,Good
+Alice,1/1/1990 5:52,99,C,Needs Improvement
+Bob,1/1/1990 5:53,69,F,Poor
+Bob,1/1/1990 5:54,86,D,Poor
+Bob,1/1/1990 5:55,84,D,Excellent
+Charlie,1/1/1990 5:56,64,D,Good
+Charlie,1/1/1990 5:57,67,C,Poor
+Alice,1/1/1990 5:58,78,D,Good
+Charlie,1/1/1990 5:59,96,A,Good
+Eve,1/1/1990 6:00,82,B,Poor
+Bob,1/1/1990 6:01,90,D,Good
+Bob,1/1/1990 6:02,93,B,Excellent
+Charlie,1/1/1990 6:03,93,A,Good
+Eve,1/1/1990 6:04,65,D,Average
+Charlie,1/1/1990 6:05,74,C,Needs Improvement
+Alice,1/1/1990 6:06,67,D,Excellent
+Eve,1/1/1990 6:07,68,C,Average
+Charlie,1/1/1990 6:08,64,C,Average
+Alice,1/1/1990 6:09,99,B,Average
+Alice,1/1/1990 6:10,74,D,Needs Improvement
+David,1/1/1990 6:11,88,F,Good
+Alice,1/1/1990 6:12,51,B,Good
+Charlie,1/1/1990 6:13,83,C,Average
+Eve,1/1/1990 6:14,79,D,Good
+Bob,1/1/1990 6:15,65,D,Excellent
+Charlie,1/1/1990 6:16,74,F,Excellent
+Eve,1/1/1990 6:17,72,B,Average
+Charlie,1/1/1990 6:18,98,D,Excellent
+Bob,1/1/1990 6:19,78,B,Needs Improvement
+David,1/1/1990 6:20,82,C,Excellent
+Charlie,1/1/1990 6:21,82,B,Poor
+David,1/1/1990 6:22,65,B,Excellent
+Alice,1/1/1990 6:23,76,F,Average
+Bob,1/1/1990 6:24,94,C,Good
+Bob,1/1/1990 6:25,63,D,Poor
+Bob,1/1/1990 6:26,56,A,Good
+Charlie,1/1/1990 6:27,82,D,Needs Improvement
+Charlie,1/1/1990 6:28,71,F,Good
+Alice,1/1/1990 6:29,88,F,Excellent
+Charlie,1/1/1990 6:30,69,D,Excellent
+Charlie,1/1/1990 6:31,68,A,Excellent
+Charlie,1/1/1990 6:32,69,A,Poor
+David,1/1/1990 6:33,72,F,Poor
+Eve,1/1/1990 6:34,61,C,Good
+Alice,1/1/1990 6:35,50,A,Average
+Bob,1/1/1990 6:36,64,B,Excellent
+Alice,1/1/1990 6:37,87,D,Poor
+Eve,1/1/1990 6:38,99,B,Excellent
+Eve,1/1/1990 6:39,77,D,Needs Improvement
+David,1/1/1990 6:40,87,D,Needs Improvement
+Charlie,1/1/1990 6:41,56,F,Needs Improvement
+Bob,1/1/1990 6:42,56,A,Good
+David,1/1/1990 6:43,97,C,Poor
+David,1/1/1990 6:44,60,B,Needs Improvement
+Eve,1/1/1990 6:45,86,A,Poor
+David,1/1/1990 6:46,92,D,Excellent
+Eve,1/1/1990 6:47,86,F,Needs Improvement
+David,1/1/1990 6:48,56,C,Poor
+Bob,1/1/1990 6:49,55,B,Poor
+Alice,1/1/1990 6:50,56,A,Good
+Eve,1/1/1990 6:51,51,F,Needs Improvement
+Charlie,1/1/1990 6:52,85,D,Average
+Bob,1/1/1990 6:53,95,F,Poor
+David,1/1/1990 6:54,70,B,Average
+Alice,1/1/1990 6:55,91,A,Excellent
+David,1/1/1990 6:56,55,D,Excellent
+Charlie,1/1/1990 6:57,60,F,Excellent
+David,1/1/1990 6:58,85,A,Good
+David,1/1/1990 6:59,98,C,Excellent
+Bob,1/1/1990 7:00,72,A,Needs Improvement
+Bob,1/1/1990 7:01,88,F,Average
+Alice,1/1/1990 7:02,55,F,Good
+Bob,1/1/1990 7:03,66,F,Excellent
+Eve,1/1/1990 7:04,80,B,Needs Improvement
+Eve,1/1/1990 7:05,78,D,Average
+Charlie,1/1/1990 7:06,91,C,Poor
+Bob,1/1/1990 7:07,79,B,Poor
+Eve,1/1/1990 7:08,62,B,Excellent
+David,1/1/1990 7:09,63,B,Needs Improvement
+Bob,1/1/1990 7:10,98,A,Excellent
+David,1/1/1990 7:11,96,F,Good
+Bob,1/1/1990 7:12,61,B,Average
+Alice,1/1/1990 7:13,57,D,Excellent
+Alice,1/1/1990 7:14,64,A,Average
+Alice,1/1/1990 7:15,97,B,Excellent
+David,1/1/1990 7:16,64,B,Excellent
+Eve,1/1/1990 7:17,83,A,Good
+David,1/1/1990 7:18,71,B,Needs Improvement
+Charlie,1/1/1990 7:19,61,A,Average
+Alice,1/1/1990 7:20,82,F,Poor
+Eve,1/1/1990 7:21,53,A,Average
+Eve,1/1/1990 7:22,84,D,Average
+Alice,1/1/1990 7:23,78,F,Poor
+Charlie,1/1/1990 7:24,58,C,Needs Improvement
+Charlie,1/1/1990 7:25,92,F,Needs Improvement
+Bob,1/1/1990 7:26,76,F,Good
+Eve,1/1/1990 7:27,66,D,Good
+Bob,1/1/1990 7:28,65,B,Needs Improvement
+Bob,1/1/1990 7:29,73,C,Poor
+Charlie,1/1/1990 7:30,82,B,Excellent
+Charlie,1/1/1990 7:31,57,C,Poor
+Bob,1/1/1990 7:32,52,F,Average
+Eve,1/1/1990 7:33,64,B,Good
+Eve,1/1/1990 7:34,95,D,Good
+Bob,1/1/1990 7:35,89,F,Average
+Eve,1/1/1990 7:36,52,F,Excellent
+Charlie,1/1/1990 7:37,89,D,Needs Improvement
+Eve,1/1/1990 7:38,51,D,Good
+Bob,1/1/1990 7:39,55,A,Needs Improvement
+Eve,1/1/1990 7:40,53,D,Poor
+Alice,1/1/1990 7:41,56,B,Poor
+David,1/1/1990 7:42,91,F,Excellent
+Bob,1/1/1990 7:43,64,C,Needs Improvement
+Alice,1/1/1990 7:44,54,C,Needs Improvement
+Eve,1/1/1990 7:45,76,A,Needs Improvement
+Eve,1/1/1990 7:46,99,B,Poor
+Alice,1/1/1990 7:47,62,C,Needs Improvement
+Alice,1/1/1990 7:48,96,F,Good
+David,1/1/1990 7:49,52,B,Needs Improvement
+Charlie,1/1/1990 7:50,77,F,Excellent
+Bob,1/1/1990 7:51,58,F,Good
+David,1/1/1990 7:52,86,B,Excellent
+Bob,1/1/1990 7:53,58,F,Needs Improvement
+Charlie,1/1/1990 7:54,52,B,Needs Improvement
+Alice,1/1/1990 7:55,76,C,Needs Improvement
+David,1/1/1990 7:56,79,A,Poor
+Alice,1/1/1990 7:57,97,C,Poor
+Bob,1/1/1990 7:58,73,F,Excellent
+Eve,1/1/1990 7:59,81,C,Good
+Eve,1/1/1990 8:00,95,A,Excellent
+Charlie,1/1/1990 8:01,97,C,Excellent
+David,1/1/1990 8:02,86,A,Needs Improvement
+Eve,1/1/1990 8:03,90,C,Poor
+Charlie,1/1/1990 8:04,87,F,Poor
+Eve,1/1/1990 8:05,95,C,Poor
+David,1/1/1990 8:06,65,C,Excellent
+Alice,1/1/1990 8:07,60,C,Average
+Charlie,1/1/1990 8:08,65,F,Good
+Charlie,1/1/1990 8:09,84,C,Excellent
+Alice,1/1/1990 8:10,57,C,Excellent
+Charlie,1/1/1990 8:11,89,A,Average
+Alice,1/1/1990 8:12,91,F,Average
+David,1/1/1990 8:13,93,B,Poor
+Alice,1/1/1990 8:14,65,C,Poor
+David,1/1/1990 8:15,98,D,Poor
+Bob,1/1/1990 8:16,72,C,Needs Improvement
+Charlie,1/1/1990 8:17,85,B,Needs Improvement
+Bob,1/1/1990 8:18,83,C,Average
+Alice,1/1/1990 8:19,60,B,Poor
+Bob,1/1/1990 8:20,65,F,Needs Improvement
+Bob,1/1/1990 8:21,66,F,Good
+Alice,1/1/1990 8:22,99,D,Poor
+David,1/1/1990 8:23,55,C,Excellent
+Charlie,1/1/1990 8:24,64,F,Average
+Alice,1/1/1990 8:25,60,F,Excellent
+Alice,1/1/1990 8:26,67,D,Excellent
+David,1/1/1990 8:27,51,B,Average
+David,1/1/1990 8:28,99,F,Average
+Charlie,1/1/1990 8:29,97,A,Poor
+Eve,1/1/1990 8:30,94,D,Needs Improvement
+Bob,1/1/1990 8:31,70,D,Average
+Eve,1/1/1990 8:32,78,F,Needs Improvement
+Eve,1/1/1990 8:33,80,B,Excellent
+Alice,1/1/1990 8:34,66,A,Needs Improvement
+David,1/1/1990 8:35,50,A,Average
+Eve,1/1/1990 8:36,85,B,Excellent
+David,1/1/1990 8:37,57,A,Average
+Charlie,1/1/1990 8:38,77,F,Average
+Eve,1/1/1990 8:39,91,F,Average
+Alice,1/1/1990 8:40,96,A,Average
+Bob,1/1/1990 8:41,63,F,Good
+Alice,1/1/1990 8:42,96,F,Good
+Eve,1/1/1990 8:43,95,D,Poor
+Bob,1/1/1990 8:44,98,F,Average
+Bob,1/1/1990 8:45,80,B,Good
+Alice,1/1/1990 8:46,65,A,Excellent
+Eve,1/1/1990 8:47,68,C,Poor
+Alice,1/1/1990 8:48,66,B,Average
+Alice,1/1/1990 8:49,99,B,Excellent
+Bob,1/1/1990 8:50,76,C,Needs Improvement
+David,1/1/1990 8:51,50,D,Average
+David,1/1/1990 8:52,87,C,Average
+Alice,1/1/1990 8:53,81,C,Good
+Alice,1/1/1990 8:54,98,A,Poor
+Alice,1/1/1990 8:55,72,C,Excellent
+David,1/1/1990 8:56,79,B,Needs Improvement
+Bob,1/1/1990 8:57,62,C,Average
+Alice,1/1/1990 8:58,96,B,Good
+Alice,1/1/1990 8:59,59,F,Needs Improvement
+Bob,1/1/1990 9:00,98,F,Excellent
+Bob,1/1/1990 9:01,61,D,Needs Improvement
+Charlie,1/1/1990 9:02,86,C,Needs Improvement
+David,1/1/1990 9:03,95,B,Average
+Alice,1/1/1990 9:04,77,F,Excellent
+Charlie,1/1/1990 9:05,73,B,Good
+Charlie,1/1/1990 9:06,53,B,Average
+Alice,1/1/1990 9:07,56,D,Excellent
+Charlie,1/1/1990 9:08,80,F,Poor
+Charlie,1/1/1990 9:09,67,A,Good
+David,1/1/1990 9:10,94,C,Needs Improvement
+Bob,1/1/1990 9:11,62,B,Needs Improvement
+Alice,1/1/1990 9:12,56,B,Excellent
+Eve,1/1/1990 9:13,78,D,Poor
+Eve,1/1/1990 9:14,78,F,Average
+Bob,1/1/1990 9:15,78,A,Poor
+Eve,1/1/1990 9:16,69,C,Needs Improvement
+Alice,1/1/1990 9:17,53,B,Needs Improvement
+Eve,1/1/1990 9:18,54,B,Excellent
+Charlie,1/1/1990 9:19,55,D,Needs Improvement
+Bob,1/1/1990 9:20,79,D,Good
+Bob,1/1/1990 9:21,67,B,Needs Improvement
+Bob,1/1/1990 9:22,70,C,Excellent
+Eve,1/1/1990 9:23,89,A,Average
+David,1/1/1990 9:24,66,F,Excellent
+Eve,1/1/1990 9:25,65,D,Average
+Alice,1/1/1990 9:26,95,F,Average
+Bob,1/1/1990 9:27,59,F,Poor
+Charlie,1/1/1990 9:28,56,D,Excellent
+Eve,1/1/1990 9:29,62,F,Good
+Bob,1/1/1990 9:30,82,F,Good
+Eve,1/1/1990 9:31,77,F,Average
+Alice,1/1/1990 9:32,91,B,Average
+Charlie,1/1/1990 9:33,98,C,Average
+Eve,1/1/1990 9:34,55,C,Poor
+Eve,1/1/1990 9:35,95,D,Excellent
+Charlie,1/1/1990 9:36,88,F,Poor
+Eve,1/1/1990 9:37,54,B,Excellent
+David,1/1/1990 9:38,71,D,Excellent
+Bob,1/1/1990 9:39,50,F,Poor
+David,1/1/1990 9:40,54,B,Excellent
+Bob,1/1/1990 9:41,58,B,Good
+Bob,1/1/1990 9:42,97,B,Average
+David,1/1/1990 9:43,60,B,Poor
+Bob,1/1/1990 9:44,57,B,Excellent
+Bob,1/1/1990 9:45,75,C,Average
+Bob,1/1/1990 9:46,64,C,Poor
+Alice,1/1/1990 9:47,74,A,Average
+David,1/1/1990 9:48,75,B,Excellent
+Bob,1/1/1990 9:49,66,A,Average
+David,1/1/1990 9:50,93,A,Needs Improvement
+Charlie,1/1/1990 9:51,67,C,Excellent
+Bob,1/1/1990 9:52,88,B,Average
+Alice,1/1/1990 9:53,92,B,Needs Improvement
+Bob,1/1/1990 9:54,93,D,Excellent
+David,1/1/1990 9:55,95,A,Needs Improvement
+Eve,1/1/1990 9:56,65,C,Good
+Bob,1/1/1990 9:57,58,C,Average
+Bob,1/1/1990 9:58,95,D,Needs Improvement
+David,1/1/1990 9:59,50,A,Good
+David,1/1/1990 10:00,50,D,Good
+Alice,1/1/1990 10:01,67,D,Needs Improvement
+Alice,1/1/1990 10:02,55,A,Poor
+Charlie,1/1/1990 10:03,69,A,Average
+Bob,1/1/1990 10:04,60,F,Average
+Charlie,1/1/1990 10:05,68,A,Poor
+Charlie,1/1/1990 10:06,77,C,Poor
+Charlie,1/1/1990 10:07,78,F,Needs Improvement
+Charlie,1/1/1990 10:08,59,B,Average
+Charlie,1/1/1990 10:09,53,A,Good
+Charlie,1/1/1990 10:10,93,F,Good
+Alice,1/1/1990 10:11,88,F,Average
+Charlie,1/1/1990 10:12,97,C,Poor
+Charlie,1/1/1990 10:13,63,C,Poor
+Alice,1/1/1990 10:14,92,A,Excellent
+Eve,1/1/1990 10:15,68,C,Average
+Bob,1/1/1990 10:16,56,A,Poor
+Alice,1/1/1990 10:17,78,F,Good
+Alice,1/1/1990 10:18,72,C,Poor
+David,1/1/1990 10:19,66,F,Good
+Charlie,1/1/1990 10:20,74,C,Average
+Alice,1/1/1990 10:21,68,A,Poor
+Bob,1/1/1990 10:22,59,F,Average
+David,1/1/1990 10:23,89,D,Needs Improvement
+Bob,1/1/1990 10:24,88,B,Needs Improvement
+David,1/1/1990 10:25,94,D,Poor
+Alice,1/1/1990 10:26,67,F,Excellent
+David,1/1/1990 10:27,92,F,Good
+David,1/1/1990 10:28,56,A,Average
+Charlie,1/1/1990 10:29,54,A,Needs Improvement
+David,1/1/1990 10:30,76,F,Excellent
+David,1/1/1990 10:31,80,A,Poor
+Bob,1/1/1990 10:32,57,D,Good
+Alice,1/1/1990 10:33,58,C,Average
+David,1/1/1990 10:34,64,C,Poor
+Eve,1/1/1990 10:35,87,C,Excellent
+Eve,1/1/1990 10:36,69,F,Needs Improvement
+Bob,1/1/1990 10:37,85,D,Needs Improvement
+Charlie,1/1/1990 10:38,75,A,Excellent
+David,1/1/1990 10:39,95,D,Average
+Charlie,1/1/1990 10:40,59,A,Poor
+David,1/1/1990 10:41,74,B,Average
+Charlie,1/1/1990 10:42,84,A,Needs Improvement
+David,1/1/1990 10:43,97,C,Good
+Eve,1/1/1990 10:44,58,D,Poor
+Eve,1/1/1990 10:45,97,A,Needs Improvement
+Bob,1/1/1990 10:46,70,A,Needs Improvement
+Bob,1/1/1990 10:47,74,A,Needs Improvement
+Charlie,1/1/1990 10:48,75,A,Needs Improvement
+Eve,1/1/1990 10:49,78,B,Needs Improvement
+Bob,1/1/1990 10:50,72,D,Good
+Alice,1/1/1990 10:51,77,F,Average
+Eve,1/1/1990 10:52,53,A,Excellent
+Alice,1/1/1990 10:53,67,B,Average
+Alice,1/1/1990 10:54,72,D,Poor
+Eve,1/1/1990 10:55,92,F,Excellent
+Bob,1/1/1990 10:56,91,C,Good
+Alice,1/1/1990 10:57,70,C,Good
+Eve,1/1/1990 10:58,99,D,Needs Improvement
+Alice,1/1/1990 10:59,65,B,Good
+Alice,1/1/1990 11:00,90,C,Good
+David,1/1/1990 11:01,52,D,Poor
+Charlie,1/1/1990 11:02,80,B,Needs Improvement
+David,1/1/1990 11:03,79,D,Poor
+Bob,1/1/1990 11:04,56,D,Poor
+Charlie,1/1/1990 11:05,55,C,Poor
+Eve,1/1/1990 11:06,90,A,Excellent
+Alice,1/1/1990 11:07,86,D,Poor
+Eve,1/1/1990 11:08,83,C,Average
+Alice,1/1/1990 11:09,54,B,Good
+Eve,1/1/1990 11:10,80,C,Poor
+Eve,1/1/1990 11:11,61,D,Poor
+David,1/1/1990 11:12,83,C,Excellent
+David,1/1/1990 11:13,55,C,Average
+Bob,1/1/1990 11:14,62,B,Excellent
+David,1/1/1990 11:15,64,F,Good
+Alice,1/1/1990 11:16,76,C,Poor
+Charlie,1/1/1990 11:17,87,D,Poor
+Bob,1/1/1990 11:18,62,A,Average
+Bob,1/1/1990 11:19,62,D,Average
+Bob,1/1/1990 11:20,89,F,Good
+David,1/1/1990 11:21,74,A,Good
+Alice,1/1/1990 11:22,92,A,Needs Improvement
+David,1/1/1990 11:23,92,B,Excellent
+Eve,1/1/1990 11:24,78,A,Poor
+Bob,1/1/1990 11:25,76,F,Average
+Bob,1/1/1990 11:26,76,A,Good
+Eve,1/1/1990 11:27,74,D,Excellent
+Eve,1/1/1990 11:28,55,F,Average
+Alice,1/1/1990 11:29,96,A,Good
+Eve,1/1/1990 11:30,74,D,Poor
+Alice,1/1/1990 11:31,93,C,Good
+Bob,1/1/1990 11:32,73,C,Average
+David,1/1/1990 11:33,79,F,Excellent
+Charlie,1/1/1990 11:34,99,C,Poor
+Bob,1/1/1990 11:35,96,C,Poor
+Charlie,1/1/1990 11:36,73,A,Average
+Bob,1/1/1990 11:37,95,C,Needs Improvement
+David,1/1/1990 11:38,62,B,Average
+Alice,1/1/1990 11:39,68,A,Poor
+Alice,1/1/1990 11:40,77,F,Average
+Charlie,1/1/1990 11:41,92,A,Average
+Eve,1/1/1990 11:42,81,A,Poor
+Charlie,1/1/1990 11:43,94,F,Good
+Eve,1/1/1990 11:44,66,C,Excellent
+Eve,1/1/1990 11:45,86,A,Needs Improvement
+Charlie,1/1/1990 11:46,99,D,Needs Improvement
+Alice,1/1/1990 11:47,83,B,Average
+Alice,1/1/1990 11:48,56,A,Poor
+Alice,1/1/1990 11:49,73,B,Average
+David,1/1/1990 11:50,87,B,Needs Improvement
+Bob,1/1/1990 11:51,97,F,Poor
+Alice,1/1/1990 11:52,73,C,Average
+Alice,1/1/1990 11:53,55,C,Needs Improvement
+Charlie,1/1/1990 11:54,51,B,Needs Improvement
+Bob,1/1/1990 11:55,51,F,Needs Improvement
+Bob,1/1/1990 11:56,64,B,Needs Improvement
+Eve,1/1/1990 11:57,54,A,Average
+Charlie,1/1/1990 11:58,69,A,Poor
+David,1/1/1990 11:59,85,D,Poor
+David,1/1/1990 12:00,75,D,Needs Improvement
+Alice,1/1/1990 12:01,51,D,Average
+David,1/1/1990 12:02,70,A,Poor
+Eve,1/1/1990 12:03,59,F,Average
+Eve,1/1/1990 12:04,76,B,Good
+David,1/1/1990 12:05,90,F,Average
+Eve,1/1/1990 12:06,70,D,Average
+Alice,1/1/1990 12:07,86,F,Excellent
+Charlie,1/1/1990 12:08,88,A,Needs Improvement
+Charlie,1/1/1990 12:09,89,C,Excellent
+David,1/1/1990 12:10,96,B,Needs Improvement
+Bob,1/1/1990 12:11,62,A,Average
+Alice,1/1/1990 12:12,77,F,Excellent
+Alice,1/1/1990 12:13,52,F,Needs Improvement
+Eve,1/1/1990 12:14,52,F,Poor
+Bob,1/1/1990 12:15,71,C,Poor
+David,1/1/1990 12:16,71,C,Good
+Eve,1/1/1990 12:17,61,F,Average
+David,1/1/1990 12:18,59,F,Good
+Bob,1/1/1990 12:19,78,A,Good
+Eve,1/1/1990 12:20,66,F,Good
+David,1/1/1990 12:21,75,D,Excellent
+Charlie,1/1/1990 12:22,70,D,Poor
+Eve,1/1/1990 12:23,74,B,Average
+Charlie,1/1/1990 12:24,80,F,Good
+David,1/1/1990 12:25,99,A,Needs Improvement
+Charlie,1/1/1990 12:26,51,D,Good
+Bob,1/1/1990 12:27,63,F,Needs Improvement
+Eve,1/1/1990 12:28,56,B,Needs Improvement
+Alice,1/1/1990 12:29,67,D,Poor
+David,1/1/1990 12:30,60,A,Poor
+Alice,1/1/1990 12:31,78,C,Needs Improvement
+Eve,1/1/1990 12:32,52,A,Poor
+Bob,1/1/1990 12:33,69,F,Excellent
+David,1/1/1990 12:34,60,A,Excellent
+David,1/1/1990 12:35,57,C,Excellent
+Alice,1/1/1990 12:36,66,A,Average
+Bob,1/1/1990 12:37,53,B,Average
+Charlie,1/1/1990 12:38,74,D,Excellent
+Eve,1/1/1990 12:39,51,B,Average
+Eve,1/1/1990 12:40,68,D,Excellent
+Eve,1/1/1990 12:41,70,A,Excellent
+Bob,1/1/1990 12:42,50,C,Excellent
+Eve,1/1/1990 12:43,72,F,Average
+Alice,1/1/1990 12:44,63,B,Poor
+Charlie,1/1/1990 12:45,59,D,Needs Improvement
+David,1/1/1990 12:46,60,A,Excellent
+Bob,1/1/1990 12:47,81,A,Excellent
+Bob,1/1/1990 12:48,80,D,Poor
+David,1/1/1990 12:49,77,C,Poor
+Eve,1/1/1990 12:50,76,C,Average
+Charlie,1/1/1990 12:51,82,B,Good
+Eve,1/1/1990 12:52,94,F,Excellent
+Charlie,1/1/1990 12:53,71,C,Needs Improvement
+Bob,1/1/1990 12:54,97,F,Needs Improvement
+Eve,1/1/1990 12:55,93,B,Good
+David,1/1/1990 12:56,57,D,Poor
+Alice,1/1/1990 12:57,90,C,Good
+Alice,1/1/1990 12:58,62,B,Poor
+Eve,1/1/1990 12:59,84,B,Good
+Eve,1/1/1990 13:00,73,B,Good
+David,1/1/1990 13:01,90,F,Good
+Eve,1/1/1990 13:02,80,B,Excellent
+David,1/1/1990 13:03,58,C,Needs Improvement
+Alice,1/1/1990 13:04,94,A,Poor
+David,1/1/1990 13:05,58,B,Poor
+David,1/1/1990 13:06,91,B,Good
+Bob,1/1/1990 13:07,55,A,Needs Improvement
+Bob,1/1/1990 13:08,91,A,Poor
+Bob,1/1/1990 13:09,83,A,Poor
+Alice,1/1/1990 13:10,85,C,Needs Improvement
+Eve,1/1/1990 13:11,93,F,Good
+Eve,1/1/1990 13:12,88,D,Needs Improvement
+David,1/1/1990 13:13,68,B,Good
+Bob,1/1/1990 13:14,91,B,Excellent
+Alice,1/1/1990 13:15,60,F,Needs Improvement
+Charlie,1/1/1990 13:16,59,C,Good
+David,1/1/1990 13:17,56,B,Needs Improvement
+Charlie,1/1/1990 13:18,71,B,Needs Improvement
+Charlie,1/1/1990 13:19,88,F,Excellent
+David,1/1/1990 13:20,69,F,Excellent
+Charlie,1/1/1990 13:21,75,A,Needs Improvement
+David,1/1/1990 13:22,68,B,Average
+Charlie,1/1/1990 13:23,72,B,Excellent
+Alice,1/1/1990 13:24,60,B,Excellent
+David,1/1/1990 13:25,77,A,Good
+David,1/1/1990 13:26,74,B,Excellent
+Bob,1/1/1990 13:27,83,F,Average
+Alice,1/1/1990 13:28,99,C,Poor
+Alice,1/1/1990 13:29,78,F,Average
+Charlie,1/1/1990 13:30,74,D,Poor
+Bob,1/1/1990 13:31,62,B,Excellent
+David,1/1/1990 13:32,67,A,Excellent
+Eve,1/1/1990 13:33,72,A,Good
+David,1/1/1990 13:34,82,B,Needs Improvement
+Alice,1/1/1990 13:35,99,A,Good
+David,1/1/1990 13:36,90,F,Good
+Alice,1/1/1990 13:37,92,D,Needs Improvement
+David,1/1/1990 13:38,67,B,Excellent
+David,1/1/1990 13:39,68,A,Good
+David,1/1/1990 13:40,55,B,Poor
+Bob,1/1/1990 13:41,73,B,Excellent
+David,1/1/1990 13:42,89,B,Needs Improvement
+David,1/1/1990 13:43,88,C,Average
+Alice,1/1/1990 13:44,95,C,Poor
+Bob,1/1/1990 13:45,83,D,Excellent
+Bob,1/1/1990 13:46,68,C,Excellent
+Eve,1/1/1990 13:47,98,C,Needs Improvement
+David,1/1/1990 13:48,89,A,Average
+Charlie,1/1/1990 13:49,86,D,Average
+Eve,1/1/1990 13:50,62,D,Needs Improvement
+Eve,1/1/1990 13:51,51,C,Average
+Bob,1/1/1990 13:52,90,F,Poor
+Bob,1/1/1990 13:53,88,A,Excellent
+Alice,1/1/1990 13:54,84,B,Excellent
+David,1/1/1990 13:55,84,F,Average
+David,1/1/1990 13:56,73,C,Poor
+Charlie,1/1/1990 13:57,99,B,Excellent
+Charlie,1/1/1990 13:58,71,C,Needs Improvement
+Charlie,1/1/1990 13:59,52,F,Poor
+Bob,1/1/1990 14:00,55,A,Excellent
+Eve,1/1/1990 14:01,62,F,Poor
+Bob,1/1/1990 14:02,59,D,Average
+Bob,1/1/1990 14:03,75,D,Good
+Charlie,1/1/1990 14:04,90,F,Needs Improvement
+Charlie,1/1/1990 14:05,63,D,Good
+Bob,1/1/1990 14:06,57,C,Excellent
+Eve,1/1/1990 14:07,82,D,Needs Improvement
+David,1/1/1990 14:08,80,B,Average
+Eve,1/1/1990 14:09,91,F,Excellent
+David,1/1/1990 14:10,81,C,Poor
+David,1/1/1990 14:11,56,F,Good
+Bob,1/1/1990 14:12,55,F,Good
+Charlie,1/1/1990 14:13,53,D,Average
+David,1/1/1990 14:14,98,A,Excellent
+Eve,1/1/1990 14:15,74,A,Average
+Alice,1/1/1990 14:16,63,B,Average
+Alice,1/1/1990 14:17,88,C,Excellent
+Eve,1/1/1990 14:18,73,B,Needs Improvement
+Eve,1/1/1990 14:19,99,A,Average
+Eve,1/1/1990 14:20,59,D,Poor
+Alice,1/1/1990 14:21,98,C,Poor
+Alice,1/1/1990 14:22,51,C,Excellent
+Eve,1/1/1990 14:23,68,D,Excellent
+David,1/1/1990 14:24,84,A,Good
+Charlie,1/1/1990 14:25,77,D,Excellent
+Charlie,1/1/1990 14:26,99,B,Needs Improvement
+Eve,1/1/1990 14:27,71,C,Poor
+David,1/1/1990 14:28,95,B,Excellent
+Alice,1/1/1990 14:29,75,B,Average
+Bob,1/1/1990 14:30,92,C,Excellent
+Bob,1/1/1990 14:31,87,F,Excellent
+Bob,1/1/1990 14:32,91,F,Needs Improvement
+Charlie,1/1/1990 14:33,93,D,Good
+Bob,1/1/1990 14:34,73,A,Excellent
+David,1/1/1990 14:35,58,C,Excellent
+David,1/1/1990 14:36,57,A,Good
+David,1/1/1990 14:37,67,A,Average
+Bob,1/1/1990 14:38,80,C,Excellent
+Charlie,1/1/1990 14:39,94,A,Good
+Charlie,1/1/1990 14:40,70,F,Excellent
+Charlie,1/1/1990 14:41,74,B,Needs Improvement
+David,1/1/1990 14:42,65,A,Needs Improvement
+Eve,1/1/1990 14:43,67,B,Poor
+Alice,1/1/1990 14:44,63,D,Excellent
+David,1/1/1990 14:45,69,D,Good
+Charlie,1/1/1990 14:46,69,A,Excellent
+David,1/1/1990 14:47,60,B,Needs Improvement
+Alice,1/1/1990 14:48,67,A,Average
+David,1/1/1990 14:49,80,A,Average
+Charlie,1/1/1990 14:50,85,A,Good
+Charlie,1/1/1990 14:51,52,C,Needs Improvement
+Charlie,1/1/1990 14:52,89,B,Average
+Eve,1/1/1990 14:53,87,A,Needs Improvement
+Eve,1/1/1990 14:54,60,B,Excellent
+Eve,1/1/1990 14:55,95,D,Average
+Charlie,1/1/1990 14:56,87,A,Good
+Charlie,1/1/1990 14:57,53,A,Needs Improvement
+Bob,1/1/1990 14:58,85,C,Excellent
+David,1/1/1990 14:59,88,A,Good
+Charlie,1/1/1990 15:00,91,F,Average
+David,1/1/1990 15:01,66,A,Good
+Alice,1/1/1990 15:02,61,D,Needs Improvement
+David,1/1/1990 15:03,62,A,Needs Improvement
+Charlie,1/1/1990 15:04,67,A,Good
+Eve,1/1/1990 15:05,68,F,Poor
+David,1/1/1990 15:06,77,B,Good
+Alice,1/1/1990 15:07,93,B,Average
+Bob,1/1/1990 15:08,62,D,Good
+Charlie,1/1/1990 15:09,79,F,Average
+David,1/1/1990 15:10,89,F,Excellent
+Charlie,1/1/1990 15:11,76,C,Poor
+Charlie,1/1/1990 15:12,81,F,Poor
+Eve,1/1/1990 15:13,70,B,Average
+Eve,1/1/1990 15:14,89,F,Excellent
+David,1/1/1990 15:15,75,F,Needs Improvement
+Charlie,1/1/1990 15:16,90,D,Average
+Charlie,1/1/1990 15:17,81,C,Needs Improvement
+Bob,1/1/1990 15:18,71,C,Excellent
+David,1/1/1990 15:19,61,F,Excellent
+Alice,1/1/1990 15:20,69,C,Excellent
+Alice,1/1/1990 15:21,95,D,Excellent
+David,1/1/1990 15:22,90,D,Average
+Bob,1/1/1990 15:23,99,C,Average
+Bob,1/1/1990 15:24,50,A,Excellent
+Charlie,1/1/1990 15:25,59,A,Average
+Alice,1/1/1990 15:26,63,C,Poor
+Eve,1/1/1990 15:27,78,D,Needs Improvement
+Charlie,1/1/1990 15:28,90,B,Poor
+Charlie,1/1/1990 15:29,63,F,Average
+David,1/1/1990 15:30,61,A,Good
+Alice,1/1/1990 15:31,82,C,Excellent
+Bob,1/1/1990 15:32,55,F,Poor
+David,1/1/1990 15:33,80,B,Needs Improvement
+David,1/1/1990 15:34,81,A,Good
+David,1/1/1990 15:35,82,F,Poor
+Alice,1/1/1990 15:36,59,B,Needs Improvement
+Alice,1/1/1990 15:37,78,C,Poor
+Bob,1/1/1990 15:38,61,A,Average
+Charlie,1/1/1990 15:39,79,F,Poor
+Charlie,1/1/1990 15:40,78,B,Good
+David,1/1/1990 15:41,65,D,Poor
+Charlie,1/1/1990 15:42,77,A,Needs Improvement
+Eve,1/1/1990 15:43,66,C,Good
+Bob,1/1/1990 15:44,94,F,Excellent
+Eve,1/1/1990 15:45,54,B,Excellent
+Charlie,1/1/1990 15:46,98,F,Needs Improvement
+David,1/1/1990 15:47,83,A,Poor
+Bob,1/1/1990 15:48,73,D,Excellent
+Eve,1/1/1990 15:49,82,B,Average
+Alice,1/1/1990 15:50,53,F,Needs Improvement
+David,1/1/1990 15:51,63,C,Excellent
+Bob,1/1/1990 15:52,75,A,Good
+Eve,1/1/1990 15:53,72,A,Excellent
+Eve,1/1/1990 15:54,78,F,Good
+Bob,1/1/1990 15:55,59,A,Poor
+Alice,1/1/1990 15:56,79,D,Needs Improvement
+Eve,1/1/1990 15:57,53,F,Poor
+David,1/1/1990 15:58,90,F,Good
+Eve,1/1/1990 15:59,66,D,Needs Improvement
+Alice,1/1/1990 16:00,73,C,Needs Improvement
+Charlie,1/1/1990 16:01,62,B,Needs Improvement
+Charlie,1/1/1990 16:02,93,F,Average
+Charlie,1/1/1990 16:03,60,F,Needs Improvement
+Eve,1/1/1990 16:04,89,C,Good
+Alice,1/1/1990 16:05,82,B,Needs Improvement
+Alice,1/1/1990 16:06,96,A,Needs Improvement
+David,1/1/1990 16:07,64,F,Needs Improvement
+Eve,1/1/1990 16:08,67,F,Needs Improvement
+David,1/1/1990 16:09,52,C,Needs Improvement
+David,1/1/1990 16:10,74,A,Average
+Eve,1/1/1990 16:11,74,B,Excellent
+Eve,1/1/1990 16:12,89,B,Good
+Charlie,1/1/1990 16:13,60,D,Excellent
+Eve,1/1/1990 16:14,62,F,Needs Improvement
+Bob,1/1/1990 16:15,63,A,Good
+Eve,1/1/1990 16:16,83,B,Good
+David,1/1/1990 16:17,60,B,Poor
+David,1/1/1990 16:18,79,B,Good
+Eve,1/1/1990 16:19,84,C,Average
+Bob,1/1/1990 16:20,74,F,Poor
+Charlie,1/1/1990 16:21,65,B,Poor
+Alice,1/1/1990 16:22,82,A,Average
+Charlie,1/1/1990 16:23,72,A,Average
+Charlie,1/1/1990 16:24,52,A,Average
+David,1/1/1990 16:25,97,C,Good
+Charlie,1/1/1990 16:26,71,A,Good
+David,1/1/1990 16:27,91,F,Needs Improvement
+Eve,1/1/1990 16:28,63,D,Poor
+Bob,1/1/1990 16:29,61,A,Average
+David,1/1/1990 16:30,65,F,Excellent
+Eve,1/1/1990 16:31,67,A,Good
+Eve,1/1/1990 16:32,62,A,Excellent
+Bob,1/1/1990 16:33,51,B,Excellent
+Eve,1/1/1990 16:34,76,D,Good
+Eve,1/1/1990 16:35,66,D,Average
+Charlie,1/1/1990 16:36,58,F,Excellent
+Charlie,1/1/1990 16:37,58,C,Excellent
+Bob,1/1/1990 16:38,63,D,Poor

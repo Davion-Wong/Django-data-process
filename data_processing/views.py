@@ -1,9 +1,25 @@
+from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.pagination import PageNumberPagination
+from rest_framework.decorators import api_view
+from backend.infer_data_types import infer_data_types
+from django.shortcuts import render
 import pandas as pd
 import os
+from celery.result import AsyncResult
+from .models import DatasetModel
+
+
+def dataset_display_view(request):
+    # Assuming you pass the processed data to the template
+    # You can load the dataset to render in the template
+    context = {
+        'data': processed_data,  # Replace with your actual dataset or context
+    }
+    return render(request, 'data_display.html', context)
+
 
 # View to handle file upload
 @api_view(['POST'])
@@ -58,3 +74,18 @@ def get_processed_dataset(request):
     page = paginator.paginate_queryset(df.to_dict('records'), request)
 
     return paginator.get_paginated_response(page)
+
+@api_view(['GET'])
+def check_task_status(request, task_id):
+    task_result = AsyncResult(task_id)
+    return JsonResponse({'task_id': task_id, 'status': task_result.status})
+
+
+class DatasetPagination(PageNumberPagination):
+    page_size = 50  # Display 50 rows per page
+@api_view(['GET'])
+def dataset_view(request):
+    queryset = DatasetModel.objects.all()  # or wherever the processed data is stored
+    paginator = DatasetPagination()
+    result_page = paginator.paginate_queryset(queryset, request)
+    return paginator.get_paginated_response(result_page)

@@ -1,6 +1,8 @@
 import pandas as pd
 import os
+from celery import shared_task
 
+@shared_task
 def infer_data_types(file_path, chunksize=10000):
     # Determine if the file is CSV or Excel
     file_extension = os.path.splitext(file_path)[1].lower()
