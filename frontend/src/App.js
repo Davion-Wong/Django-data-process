@@ -1,106 +1,64 @@
-// App.js
+// frontend/src/App.js
 
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useEffect, useState } from 'react';
 
-
-const handleUpload = async (event) => {
-    event.preventDefault();
-    const formData = new FormData();
-    formData.append('file', event.target.files[0]); // Adjust if necessary
-
-    try {
-        const response = await axios.post("http://127.0.0.1:8000/data/api/upload/", formData, {
-            headers: {
-                'X-CSRFToken': getCSRFToken(),
-            },
-            withCredentials: true
-        });
-        console.log("File uploaded successfully:", response.data); // Check the response data here
-    } catch (error) {
-        console.error("File upload failed:", error);
-    }
-
-    axios.post("http://127.0.0.1:8000/data/api/upload/", formData, {
-        headers: {
-            'X-CSRFToken': getCSRFToken(),
-        },
-        withCredentials: true
-    })
-    .then(response => {
-        // Handle success
-    })
-    .catch(error => {
-        // Handle error
-    });
-};
-
-
-
-
-function getCSRFToken() {
-    const name = 'csrftoken';
-    const cookies = document.cookie.split(';');
-    for (let i = 0; i < cookies.length; i++) {
-        const cookie = cookies[i].trim();
-        if (cookie.startsWith(name + '=')) {
-            return cookie.substring(name.length + 1);
-        }
-    }
-    return null;
-}
-
-function App() {
+const App = () => {
+    const [csrfToken, setCSRFToken] = useState(null);
     const [file, setFile] = useState(null);
     const [progress, setProgress] = useState(0);
-    const [taskId, setTaskId] = useState(null);
 
+    // Function to fetch CSRF Token
+    const fetchCSRFToken = async () => {
+        const response = await fetch("http://localhost:8000/data/api/csrf/", {
+            credentials: 'include',
+        });
+        const data = await response.json();
+        return data.csrfToken;
+    };
+
+
+
+    // Trigger CSRF fetch on component mount
+    useEffect(() => {
+        console.log("Fetching CSRF token...");
+        fetchCSRFToken();
+    }, []);
+
+    // Handle file change
     const handleFileChange = (event) => {
         setFile(event.target.files[0]);
     };
 
-    const handleUpload = async () => {
-        if (!file) return;
-
+    // Handle file upload
+    const handleUpload = async (file) => {
+        const csrfToken = await fetchCSRFToken();
         const formData = new FormData();
-        formData.append('file', file);
+        formData.append("file", file);
 
-        try {
-            // Upload file and start the task
-            const response = await axios.post('http://127.0.0.1:8000/data/api/upload/', formData, {
-                headers: {
-                    'Content-Type': 'multipart/form-data',
-                    'X-CSRFToken': getCSRFToken(),  // Make sure you have a function to retrieve the CSRF token
-                },
-                withCredentials: true,
-            });
-
-            setTaskId(response.data.task_id);  // Retrieve task ID after upload
-            pollProgress(response.data.task_id);  // Start polling progress
-        } catch (error) {
-            console.error('File upload failed:', error);
-        }
-    };
-
-    const pollProgress = (taskId) => {
-        const interval = setInterval(async () => {
-            try {
-                const response = await axios.get(`http://127.0.0.1:8000/data/api/task-progress/${taskId}/`);
-                setProgress(response.data.progress);
-                if (response.data.progress >= 100) clearInterval(interval);
-            } catch (error) {
-                console.error('Progress check failed:', error);
-            }
-        }, 1000);
+        axios.post("http://localhost:8000/data/api/upload/", formData, {
+            headers: {
+                "X-CSRFToken": csrfToken,
+            },
+            withCredentials: true,
+        }).then(response => {
+            console.log("File uploaded successfully", response);
+        }).catch(error => {
+            console.error("File upload failed:", error);
+        });
     };
 
     return (
         <div>
-            <input type="file" onChange={handleFileChange} />
-            <button onClick={handleUpload}>Upload and Start Task</button>
-            <p>Task Progress: {progress}%</p>
+            <input
+                type="file"
+                onChange={(e) => handleUpload(e.target.files[0])}
+            />
+            <button onClick={handleUpload}>Upload File</button>
+            <p>Upload Progress: {progress}%</p>
+            <button onClick={fetchCSRFToken}>Fetch CSRF Token</button>
         </div>
     );
-}
+};
 
 export default App;

@@ -8,5 +8,6 @@ urlpatterns = [
     path('api/task-status/<str:task_id>/', views.check_task_status, name='check_task_status'),
     path('api/start-task/', views.start_long_task, name='start_long_task'),
     path('api/task-status/<str:task_id>/', views.check_task_status, name='check_task_status'),
-    path('api/task-progress/<str:task_id>/', views.check_task_progress, name='check_task_progress'),  # Progress check
+    path('api/task-progress/<str:task_id>/', views.check_task_progress, name='check_task_progress'),
+    path('api/csrf/', views.csrf_token_view, name='csrf_token'),
 ]

@@ -1,38 +1,99 @@
-from django.http import JsonResponse
 from rest_framework.response import Response
 from rest_framework import status
-from rest_framework.pagination import PageNumberPagination
+from rest_framework.views import APIView
 from rest_framework.decorators import api_view
+from rest_framework.pagination import PageNumberPagination
+from django.http import JsonResponse
+from django.middleware.csrf import get_token
 from backend.infer_data_types import infer_data_types
 from django.shortcuts import render
 import pandas as pd
 import os
 from .models import DatasetModel
-from .tasks import long_running_task
-from django.http import JsonResponse
 from celery.result import AsyncResult
-from django.views.decorators.csrf import csrf_exempt
-from django.http import JsonResponse
 from django.core.files.storage import default_storage
-from .tasks import long_running_task  # Import your task function
+from .tasks import long_running_task
+import logging
 
-def upload_file_view(request):
-    if request.method == 'POST':
-        # Handle file upload logic here
-        return JsonResponse({"message": "File uploaded successfully"})
-    return JsonResponse({"error": "Invalid request method"}, status=400)
+# Initialize logger
+logger = logging.getLogger(__name__)
 
-@csrf_exempt  # Ensure CSRF is properly configured if using this decorator
-def upload_file(request):
-    if request.method == 'POST' and request.FILES.get('file'):
+
+# CSRF token view for frontend
+def csrf_token_view(request):
+    return JsonResponse({'csrfToken': get_token(request)})
+
+
+# Improved file upload API view
+@api_view(['POST'])
+def api_upload_file(request):
+    logger.info("Starting file upload")
+
+    if 'file' not in request.FILES:
+        logger.error("No file provided in the request")
+        return Response({'error': 'No file provided'}, status=status.HTTP_400_BAD_REQUEST)
+
+    try:
         uploaded_file = request.FILES['file']
-        file_path = default_storage.save(f"uploads/{uploaded_file.name}", uploaded_file)  # Save file
+        file_path = default_storage.save(f"temp/{uploaded_file.name}", uploaded_file)
 
-        # Trigger long-running task with the file path
-        task = long_running_task.delay(file_path)
-        return JsonResponse({'task_id': task.id})
+        # Initiate async processing task
+        task = infer_data_types.delay(file_path)
+
+        logger.info("File uploaded, processing started asynchronously")
+        return Response(
+            {'task_id': task.id, 'message': 'File uploaded, processing started'},
+            status=status.HTTP_202_ACCEPTED
+        )
+    except Exception as e:
+        logger.exception("Exception occurred during file upload")
+        return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+# Display view for processed dataset with pagination
+class DatasetPagination(PageNumberPagination):
+    page_size = 10
+    page_size_query_param = 'page_size'
+    max_page_size = 100
+
+
+@api_view(['GET'])
+def get_processed_dataset(request):
+    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+    if not os.path.exists(processed_dataset_path):
+        return Response({'error': 'No processed dataset found. Please upload a file first.'},
+                        status=status.HTTP_404_NOT_FOUND)
+
+    df = pd.read_csv(processed_dataset_path)
+    paginator = DatasetPagination()
+    page = paginator.paginate_queryset(df.to_dict('records'), request)
+    return paginator.get_paginated_response(page)
+
+def dataset_display_view(request):
+    context = {
+        'data': processed_data,  # Replace with your actual dataset or context
+    }
+    return render(request, 'data_display.html', context)
+
+@api_view(['GET'])
+def check_task_status(request, task_id):
+    task_result = AsyncResult(task_id)
+
+    if task_result.state == 'PENDING':
+        return Response({'status': 'Pending', 'progress': 0})
+    elif task_result.state == 'PROGRESS':
+        return Response({'status': 'In Progress', 'progress': task_result.info.get('progress', 0)})
+    elif task_result.state == 'SUCCESS':
+        return Response({
+            'status': 'Completed',
+            'inferred_types': task_result.result,
+            'progress': 100
+        })
     else:
-        return JsonResponse({'error': 'File not provided'}, status=400)
+        return Response({'status': 'Failed', 'error': str(task_result.info)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+def start_long_task(request):
+    task = long_running_task.delay()
+    return JsonResponse({'task_id': task.id})
 
 def check_task_progress(request, task_id):
     task = AsyncResult(task_id)
@@ -44,99 +105,3 @@ def check_task_progress(request, task_id):
         response = {'state': task.state, 'progress': 100, 'error': str(task.info)}  # In case of error
 
     return JsonResponse(response)
-
-def start_long_task(request):
-    task = long_running_task.delay()
-    return JsonResponse({'task_id': task.id})
-
-
-def dataset_display_view(request):
-    # Assuming you pass the processed data to the template
-    # You can load the dataset to render in the template
-    context = {
-        'data': processed_data,  # Replace with your actual dataset or context
-    }
-    return render(request, 'data_display.html', context)
-
-
-# View to handle file upload
-@api_view(['POST'])
-def api_upload_file(request):
-    if 'file' not in request.FILES:
-        return Response({'error': 'No file provided'}, status=status.HTTP_400_BAD_REQUEST)
-
-    # Save the uploaded file temporarily
-    uploaded_file = request.FILES['file']
-    file_path = os.path.join('temp', uploaded_file.name)
-    with open(file_path, 'wb+') as destination:
-        for chunk in uploaded_file.chunks():
-            destination.write(chunk)
-
-    inferred_dtypes_series = infer_data_types.delay(file_path)
-
-    if isinstance(inferred_dtypes_series, pd.Series):
-        inferred_types = inferred_dtypes_series.astype(str).to_dict()
-
-        # Save the processed dataset to a file (for later display)
-        processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-        df = pd.read_csv(file_path)  # Assuming file processing happens here
-        df.to_csv(processed_dataset_path, index=False)
-
-        # Return inferred types and a success message
-        return Response({'inferred_types': inferred_types, 'message': 'File uploaded and processed successfully!'}, status=status.HTTP_200_OK)
-    else:
-        return Response({'error': 'Data processing error'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-
-# View to handle dataset display with pagination
-class DatasetPagination(PageNumberPagination):
-    page_size = 10  # Adjust the page size as needed
-    page_size_query_param = 'page_size'
-    max_page_size = 100
-
-
-@api_view(['GET'])
-def get_processed_dataset(request):
-    # Load the processed dataset (assuming it's stored temporarily after upload)
-    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-
-    # Check if the dataset file exists
-    if not os.path.exists(processed_dataset_path):
-        return Response({'error': 'No processed dataset found. Please upload a file first.'}, status=status.HTTP_404_NOT_FOUND)
-
-    df = pd.read_csv(processed_dataset_path)
-
-    # Paginate the dataset
-    paginator = DatasetPagination()
-    page = paginator.paginate_queryset(df.to_dict('records'), request)
-
-    return paginator.get_paginated_response(page)
-
-def check_task_status(request, task_id):
-    task_result = AsyncResult(task_id)
-    if task_result.state == 'PENDING':
-        response = {'state': task_result.state, 'progress': 0}
-    elif task_result.state != 'FAILURE':
-        response = {'state': task_result.state, 'progress': task_result.info.get('current', 0), 'total': task_result.info.get('total', 1)}
-    else:
-        response = {'state': task_result.state, 'progress': 100, 'status': str(task_result.info)}
-    return JsonResponse(response)
-
-
-class DatasetPagination(PageNumberPagination):
-    page_size = 50  # Display 50 rows per page
-@api_view(['GET'])
-def dataset_view(request):
-    queryset = DatasetModel.objects.all()  # or wherever the processed data is stored
-    paginator = DatasetPagination()
-    result_page = paginator.paginate_queryset(queryset, request)
-    return paginator.get_paginated_response(result_page)
-
-def task_progress(request, task_id):
-    task_result = AsyncResult(task_id)
-    if task_result.state == "PROGRESS":
-        return JsonResponse({"progress": task_result.info.get("progress", 0)})
-    elif task_result.state == "SUCCESS":
-        return JsonResponse({"progress": 100})
-    else:
-        return JsonResponse({"progress": 0, "status": task_result.state})

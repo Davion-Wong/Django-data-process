@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponseRedirect
+from data_processing import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('data/', include('data_processing.urls')),
     path( '', lambda request: HttpResponseRedirect( 'http://localhost:3000' ) ),
+    path('data/api/upload/', views.api_upload_file, name='api_upload_file'),
 ]

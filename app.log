@@ -1,0 +1,233 @@
+INFO 2024-10-29 09:00:20,917 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:00:56,611 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:00:59,990 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:01:00,853 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:01:00,875 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:01:06,890 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:01:07,207 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:01:07,212 views Starting file upload
+ERROR 2024-10-29 09:01:07,347 views Exception occurred during file upload
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 44, in api_upload_file
+    inferred_dtypes_series = infer_data_types(file_path)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py", line 13, in infer_data_types
+    self.update_state(state="PROGRESS", meta={"progress": progress})
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 1009, in update_state
+    self.backend.store_result(
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 973, in _store_result
+    current_meta = self._get_task_meta_for(task_id)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 995, in _get_task_meta_for
+    meta = self.get(self.get_key_for_task(task_id))
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 869, in get_key_for_task
+    raise ValueError(f'task_id must not be empty. Got {task_id} instead.')
+ValueError: task_id must not be empty. Got None instead.
+ERROR 2024-10-29 09:01:07,367 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-29 09:01:07,367 basehttp "POST /data/api/upload/ HTTP/1.1" 500 81
+WARNING 2024-10-29 09:01:30,978 log Not Found: /sw.js
+WARNING 2024-10-29 09:01:30,979 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:06:21,782 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:06:23,848 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:06:24,672 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:06:24,672 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:06:30,552 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:06:30,869 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:06:30,869 views Starting file upload
+ERROR 2024-10-29 09:06:31,002 views Exception occurred during file upload
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 44, in api_upload_file
+    inferred_dtypes_series = infer_data_types(file_path)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py", line 13, in infer_data_types
+    self.update_state(state="PROGRESS", meta={"progress": progress})
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 1009, in update_state
+    self.backend.store_result(
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 973, in _store_result
+    current_meta = self._get_task_meta_for(task_id)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 995, in _get_task_meta_for
+    meta = self.get(self.get_key_for_task(task_id))
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 869, in get_key_for_task
+    raise ValueError(f'task_id must not be empty. Got {task_id} instead.')
+ValueError: task_id must not be empty. Got None instead.
+ERROR 2024-10-29 09:06:31,004 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-29 09:06:31,004 basehttp "POST /data/api/upload/ HTTP/1.1" 500 81
+WARNING 2024-10-29 09:06:54,839 log Not Found: /sw.js
+WARNING 2024-10-29 09:06:54,840 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:09:25,288 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-29 09:09:26,082 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:09:31,276 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-29 09:09:52,296 log Not Found: /sw.js
+WARNING 2024-10-29 09:09:52,297 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:09:53,087 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:09:53,897 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:09:53,899 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:09:59,721 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:10:00,034 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:10:00,034 views Starting file upload
+ERROR 2024-10-29 09:10:00,172 views Unexpected data type from infer_data_types: <class 'celery.result.AsyncResult'>
+ERROR 2024-10-29 09:10:00,172 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-29 09:10:00,172 basehttp "POST /data/api/upload/ HTTP/1.1" 500 34
+WARNING 2024-10-29 09:10:24,064 log Not Found: /sw.js
+WARNING 2024-10-29 09:10:24,064 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:13:33,655 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:13:34,636 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:13:57,426 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:13:58,179 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:14:59,854 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:15:00,727 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:15:04,735 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:15:05,480 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:15:14,591 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:15:15,261 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:15:42,190 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:15:42,956 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-29 09:15:54,170 log Not Found: /sw.js
+WARNING 2024-10-29 09:15:54,170 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:15:59,606 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:16:00,371 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:16:11,861 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:16:12,579 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:17:33,175 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:17:35,124 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:17:35,970 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:17:35,970 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:17:45,081 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:17:45,400 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:17:45,400 views Starting file upload
+ERROR 2024-10-29 09:17:45,587 views Unexpected data type from infer_data_types: <class 'celery.result.AsyncResult'>
+ERROR 2024-10-29 09:17:45,588 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-29 09:17:45,588 basehttp "POST /data/api/upload/ HTTP/1.1" 500 34
+WARNING 2024-10-29 09:18:06,093 log Not Found: /sw.js
+WARNING 2024-10-29 09:18:06,094 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:19:47,349 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-29 09:19:48,057 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:19:53,137 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:19:54,537 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:19:55,371 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:19:55,371 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:20:00,548 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:20:00,857 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:20:00,857 views Starting file upload
+INFO 2024-10-29 09:20:01,047 views File uploaded and processed successfully
+INFO 2024-10-29 09:20:01,047 basehttp "POST /data/api/upload/ HTTP/1.1" 200 44
+INFO 2024-10-29 09:20:04,418 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:20:04,426 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:20:04,430 views Starting file upload
+ERROR 2024-10-29 09:20:04,430 views No file provided in the request
+WARNING 2024-10-29 09:20:04,431 log Bad Request: /data/api/upload/
+WARNING 2024-10-29 09:20:04,431 basehttp "POST /data/api/upload/ HTTP/1.1" 400 28
+WARNING 2024-10-29 09:20:25,528 log Not Found: /sw.js
+WARNING 2024-10-29 09:20:25,529 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:20:35,647 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:20:35,647 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-29 09:20:36,456 log Not Found: /sw.js
+WARNING 2024-10-29 09:20:36,456 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:20:40,295 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:20:40,304 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:20:40,307 views Starting file upload
+INFO 2024-10-29 09:20:40,332 views File uploaded and processed successfully
+INFO 2024-10-29 09:20:40,334 basehttp "POST /data/api/upload/ HTTP/1.1" 200 44
+WARNING 2024-10-29 09:25:55,594 log Not Found: /sw.js
+WARNING 2024-10-29 09:25:55,595 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:26:46,860 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-29 09:26:47,679 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:27:06,565 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-29 09:27:07,486 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:27:11,577 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:27:13,402 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:27:14,238 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:27:14,242 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:27:20,007 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:27:20,328 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:27:20,342 views Starting file upload
+INFO 2024-10-29 09:27:20,382 infer_data_types Starting infer_data_types task with file_path: temp/sample_data_rXSNLWe.csv
+ERROR 2024-10-29 09:27:20,485 infer_data_types Error in infer_data_types: task_id must not be empty. Got None instead.
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py", line 19, in infer_data_types
+    self.update_state(state="PROGRESS", meta={"progress": progress})
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 1009, in update_state
+    self.backend.store_result(
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 973, in _store_result
+    current_meta = self._get_task_meta_for(task_id)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 995, in _get_task_meta_for
+    meta = self.get(self.get_key_for_task(task_id))
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 869, in get_key_for_task
+    raise ValueError(f'task_id must not be empty. Got {task_id} instead.')
+ValueError: task_id must not be empty. Got None instead.
+ERROR 2024-10-29 09:27:20,485 views Exception occurred during file upload
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 41, in api_upload_file
+    inferred_types = infer_data_types(file_path)  # Remove delay for synchronous processing
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py", line 19, in infer_data_types
+    self.update_state(state="PROGRESS", meta={"progress": progress})
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 1009, in update_state
+    self.backend.store_result(
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 973, in _store_result
+    current_meta = self._get_task_meta_for(task_id)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 995, in _get_task_meta_for
+    meta = self.get(self.get_key_for_task(task_id))
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\backends\base.py", line 869, in get_key_for_task
+    raise ValueError(f'task_id must not be empty. Got {task_id} instead.')
+ValueError: task_id must not be empty. Got None instead.
+ERROR 2024-10-29 09:27:20,485 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-29 09:27:20,485 basehttp "POST /data/api/upload/ HTTP/1.1" 500 56
+WARNING 2024-10-29 09:27:44,397 log Not Found: /sw.js
+WARNING 2024-10-29 09:27:44,397 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-29 09:29:38,704 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-29 09:29:39,451 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:29:49,003 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:29:50,256 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:29:51,082 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:29:51,083 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:29:57,184 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:29:57,494 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:29:57,507 views Starting file upload
+INFO 2024-10-29 09:29:57,674 views File uploaded, processing started asynchronously
+INFO 2024-10-29 09:29:57,674 basehttp "POST /data/api/upload/ HTTP/1.1" 202 96
+INFO 2024-10-29 09:30:18,112 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-29 09:30:18,843 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:30:25,165 autoreload Watching for file changes with StatReloader
+INFO 2024-10-29 09:30:26,539 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-29 09:30:27,063 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:27,063 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:32,357 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:32,668 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:30:32,683 views Starting file upload
+INFO 2024-10-29 09:30:32,924 views File uploaded, processing started asynchronously
+INFO 2024-10-29 09:30:32,924 basehttp "POST /data/api/upload/ HTTP/1.1" 202 96
+INFO 2024-10-29 09:30:43,168 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:43,175 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:30:43,177 views Starting file upload
+INFO 2024-10-29 09:30:44,387 views File uploaded, processing started asynchronously
+INFO 2024-10-29 09:30:44,387 basehttp "POST /data/api/upload/ HTTP/1.1" 202 96
+INFO 2024-10-29 09:30:49,175 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:49,182 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:30:49,192 views Starting file upload
+INFO 2024-10-29 09:30:49,375 views File uploaded, processing started asynchronously
+INFO 2024-10-29 09:30:49,375 basehttp "POST /data/api/upload/ HTTP/1.1" 202 96
+INFO 2024-10-29 09:30:57,286 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-29 09:30:57,355 basehttp "OPTIONS /data/api/upload/ HTTP/1.1" 200 0
+INFO 2024-10-29 09:30:57,360 views Starting file upload
+ERROR 2024-10-29 09:30:57,361 views No file provided in the request
+WARNING 2024-10-29 09:30:57,367 log Bad Request: /data/api/upload/
+WARNING 2024-10-29 09:30:57,370 basehttp "POST /data/api/upload/ HTTP/1.1" 400 28
+WARNING 2024-10-29 09:30:57,540 log Not Found: /sw.js
+WARNING 2024-10-29 09:30:57,544 basehttp "GET /sw.js HTTP/1.1" 404 2672
