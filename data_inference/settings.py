@@ -208,3 +208,5 @@ LOGGING = {
     },
 }
 
+CELERY_TASK_SOFT_TIME_LIMIT = 600  # Soft limit in seconds
+CELERY_TASK_TIME_LIMIT = 1200      # Hard limit in seconds

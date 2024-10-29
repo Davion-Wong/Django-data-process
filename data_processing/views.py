@@ -36,18 +36,20 @@ def api_upload_file(request):
     try:
         uploaded_file = request.FILES['file']
         file_path = default_storage.save(f"temp/{uploaded_file.name}", uploaded_file)
+        logger.info(f"File saved at {file_path}")
 
-        # Initiate async processing task
+        # Trigger the task asynchronously
         task = infer_data_types.delay(file_path)
+        logger.info(f"Task {task.id} started for file processing.")
 
-        logger.info("File uploaded, processing started asynchronously")
-        return Response(
-            {'task_id': task.id, 'message': 'File uploaded, processing started'},
-            status=status.HTTP_202_ACCEPTED
-        )
+        # Return a response with the task ID
+        return Response({'message': 'File uploaded successfully! Processing task started.', 'task_id': task.id}, status=status.HTTP_202_ACCEPTED)
+
     except Exception as e:
         logger.exception("Exception occurred during file upload")
         return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
 
 # Display view for processed dataset with pagination
 class DatasetPagination(PageNumberPagination):
@@ -56,17 +58,38 @@ class DatasetPagination(PageNumberPagination):
     max_page_size = 100
 
 
+# @api_view(['GET'])
+# def get_processed_dataset(request):
+#     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+#     if not os.path.exists(processed_dataset_path):
+#         return Response({'error': 'No processed dataset found. Please upload a file first.'},
+#                         status=status.HTTP_404_NOT_FOUND)
+#
+#     df = pd.read_csv(processed_dataset_path)
+#     paginator = DatasetPagination()
+#     page = paginator.paginate_queryset(df.to_dict('records'), request)
+#     return paginator.get_paginated_response(page)
+
 @api_view(['GET'])
 def get_processed_dataset(request):
     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+
+    # Add debugging log to check for file existence
     if not os.path.exists(processed_dataset_path):
+        logger.error("Processed dataset file not found.")
         return Response({'error': 'No processed dataset found. Please upload a file first.'},
                         status=status.HTTP_404_NOT_FOUND)
 
+    logger.info("Processed dataset file found. Loading data...")
     df = pd.read_csv(processed_dataset_path)
+
+    # Debugging output for DataFrame
+    logger.info(f"DataFrame loaded with {len(df)} rows.")
+
     paginator = DatasetPagination()
     page = paginator.paginate_queryset(df.to_dict('records'), request)
     return paginator.get_paginated_response(page)
+
 
 def dataset_display_view(request):
     context = {
