@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import DataDisplay from './components/DataDisplay';
+import './App.css';
 
 const App = () => {
     const [csrfToken, setCSRFToken] = useState(null);
@@ -80,7 +81,7 @@ const App = () => {
     return (
         <div>
             <div>
-                <h3>Processed Data:</h3>
+                <h2>Data Type Inference Application</h2>
                 <DataDisplay />
             </div>
         </div>

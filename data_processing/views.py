@@ -19,6 +19,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+processed_data_ready = False
+
 # CSRF token view for frontend
 def csrf_token_view(request):
     return JsonResponse({'csrfToken': get_token(request)})
@@ -28,6 +30,8 @@ def csrf_token_view(request):
 @api_view(['POST'])
 def api_upload_file(request):
     logger.info("Starting file upload")
+    global processed_data_ready
+    processed_data_ready = False
 
     if 'file' not in request.FILES:
         logger.error("No file provided in the request")
@@ -57,8 +61,29 @@ class DatasetPagination(PageNumberPagination):
     max_page_size = 100
 
 
+# Check processed data readiness status
+@api_view(['GET'])
+def get_processed_data_status(request):
+    global processed_data_ready
+    return JsonResponse({"processed_data_ready": processed_data_ready})
+
+@api_view(['GET'])
+def processed_data_status(request):
+    processed_data_path = os.path.join('temp', 'processed_dataset.csv')  # Ensure this matches the output file path in your task
+    is_ready = os.path.exists(processed_data_path)  # Check file existence
+    return Response({'processed_data_ready': is_ready})
+
+
+
 @api_view(['GET'])
 def get_processed_dataset(request):
+    global processed_data_ready
+    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+
+    if not processed_data_ready or not os.path.exists(processed_dataset_path):
+        return Response({'error': 'No processed dataset found. Please upload a file first.'},
+                        status=status.HTTP_404_NOT_FOUND)
+
     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
 
     # Check if the processed file exists
@@ -91,21 +116,27 @@ def dataset_display_view(request):
     return render(request, 'data_processing/data_display.html')
 
 
+# Check task status and set processed_data_ready flag
 @api_view(['GET'])
 def check_task_status(request, task_id):
+    global processed_data_ready
     task_result = AsyncResult(task_id)
+    logger.info(f"Checking task status: {task_result.state}")
 
     if task_result.state == 'PENDING':
         return Response({'status': 'Pending', 'progress': 0})
     elif task_result.state == 'PROGRESS':
         return Response({'status': 'In Progress', 'progress': task_result.info.get('progress', 0)})
     elif task_result.state == 'SUCCESS':
+        logger.info("Task completed successfully.")
+        processed_data_ready = True  # Set processed data as ready
         return Response({
             'status': 'Completed',
             'inferred_types': task_result.result,
             'progress': 100
         })
     else:
+        logger.error(f"Task failed with error: {task_result.info}")
         return Response({'status': 'Failed', 'error': str(task_result.info)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 

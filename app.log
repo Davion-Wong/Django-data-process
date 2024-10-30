@@ -6742,3 +6742,999 @@ WARNING 2024-10-31 08:18:05,777 basehttp "GET /sw.js HTTP/1.1" 404 2672
 WARNING 2024-10-31 08:25:29,830 log Not Found: /sw.js
 WARNING 2024-10-31 08:25:29,830 basehttp "GET /sw.js HTTP/1.1" 404 2672
 INFO 2024-10-31 08:25:36,884 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:27:32,966 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:27:34,384 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:27:34,890 views Processed dataset file not found.
+WARNING 2024-10-31 08:27:34,890 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:27:34,891 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:27:34,893 views Processed dataset file not found.
+WARNING 2024-10-31 08:27:34,894 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:27:34,894 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:27:35,194 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:27:35,198 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:27:37,343 views Starting file upload
+INFO 2024-10-31 08:27:37,352 views File saved at temp/sample_data.csv
+INFO 2024-10-31 08:27:37,411 views Task d2b78de9-05ae-4e87-87b7-58e1468ff3de started for file processing.
+INFO 2024-10-31 08:27:37,411 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 08:27:37,428 basehttp "GET /data/api/task-status/d2b78de9-05ae-4e87-87b7-58e1468ff3de/ HTTP/1.1" 200 53
+INFO 2024-10-31 08:27:39,430 basehttp "GET /data/api/task-status/d2b78de9-05ae-4e87-87b7-58e1468ff3de/ HTTP/1.1" 200 98
+INFO 2024-10-31 08:27:39,430 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:27:39,441 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 08:27:39,447 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2024-10-31 08:27:39,450 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:27:39,450 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 08:27:39,450 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 495
+WARNING 2024-10-31 08:27:47,896 log Not Found: /sw.js
+WARNING 2024-10-31 08:27:47,896 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:28:05,882 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:28:11,214 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:28:11,437 views Processed dataset file not found.
+WARNING 2024-10-31 08:28:11,437 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:28:11,437 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:28:11,437 views Processed dataset file not found.
+WARNING 2024-10-31 08:28:11,437 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:28:11,437 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:28:11,751 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:28:11,757 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:28:17,039 views Starting file upload
+INFO 2024-10-31 08:28:17,049 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 08:28:17,160 views Task be7e0de6-4f86-4e92-b673-b957631c2b06 started for file processing.
+INFO 2024-10-31 08:28:17,160 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 08:28:17,188 basehttp "GET /data/api/task-status/be7e0de6-4f86-4e92-b673-b957631c2b06/ HTTP/1.1" 200 98
+INFO 2024-10-31 08:28:17,192 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:28:17,204 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:28:17,210 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:28:17,212 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:28:17,216 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:28:17,224 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 08:28:42,248 log Not Found: /sw.js
+WARNING 2024-10-31 08:28:42,248 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:31:46,559 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:31:48,168 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 08:32:02,825 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:32:02,831 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:32:02,838 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:32:03,077 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:32:03,079 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:32:03,087 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:32:03,097 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:32:03,098 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:32:03,104 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:32:03,392 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:32:03,392 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 08:32:19,192 log Not Found: /sw.js
+WARNING 2024-10-31 08:32:19,192 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:35:08,659 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:35:10,239 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 08:35:10,582 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:10,588 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:10,596 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:35:10,599 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:10,603 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:10,612 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:35:10,891 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:35:10,893 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:35:14,737 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:14,741 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:14,747 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:35:15,439 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:15,442 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:15,448 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:35:15,891 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:15,895 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:15,898 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:35:16,180 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:16,183 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:16,187 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 08:35:16,393 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:16,393 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:16,393 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 08:35:16,540 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:16,543 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:16,550 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 08:35:16,721 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:16,725 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:16,732 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 08:35:16,880 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:16,883 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:16,888 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:35:17,016 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,019 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,024 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 08:35:17,169 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,173 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,180 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 08:35:17,332 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,336 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,341 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:35:17,488 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,492 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,496 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 08:35:17,640 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,642 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,647 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 08:35:17,808 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,813 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,817 basehttp "GET /data/api/dataset/?page=15&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:35:17,960 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:35:17,963 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:35:17,968 basehttp "GET /data/api/dataset/?page=16&page_size=10 HTTP/1.1" 200 1189
+WARNING 2024-10-31 08:35:41,267 log Not Found: /sw.js
+WARNING 2024-10-31 08:35:41,267 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:36:22,303 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:36:22,807 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:36:22,823 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:02,833 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,833 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:02,840 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,849 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:02,851 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,856 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,866 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:02,873 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,873 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,873 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:02,882 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,888 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,888 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:02,894 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:02,922 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,922 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:02,926 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:02,927 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,935 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:02,937 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:02,948 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:15,810 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:15,813 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:15,814 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:15,814 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:15,814 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:15,814 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:15,831 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:15,831 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:15,836 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:29,569 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:29,570 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:37:29,570 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:29,573 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:37:29,577 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:29,577 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:37:29,589 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:37:29,589 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,231 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,231 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,231 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:39:40,236 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,242 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,242 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,248 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,811 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,811 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:39:40,825 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,825 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,825 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,825 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:39:40,830 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,835 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,835 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:40,841 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,842 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,842 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:40,842 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:40,842 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:46,818 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:46,818 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:46,833 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:39:46,835 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:46,836 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:46,848 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:46,849 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:39:46,849 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:39:46,854 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:41:37,949 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:37,952 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:37,956 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:41:38,509 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:38,512 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:38,516 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:41:38,786 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:38,789 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:38,793 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:41:38,976 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:38,979 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:38,983 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 08:41:39,331 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:39,334 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:39,338 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 08:41:39,647 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:39,650 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:39,654 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 08:41:39,859 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:39,862 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:39,865 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 08:41:40,007 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,009 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,012 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:41:40,163 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,166 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,170 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 08:41:40,303 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,306 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,311 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 08:41:40,463 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,466 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,471 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:41:40,639 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,641 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,646 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 08:41:40,822 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:40,825 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:40,829 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 08:41:41,011 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:41,014 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:41,019 basehttp "GET /data/api/dataset/?page=15&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:41:41,423 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:41,426 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:41,431 basehttp "GET /data/api/dataset/?page=16&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:41:41,755 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:41,758 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:41,763 basehttp "GET /data/api/dataset/?page=17&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 08:41:41,924 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:41,926 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:41,931 basehttp "GET /data/api/dataset/?page=18&page_size=10 HTTP/1.1" 200 1179
+INFO 2024-10-31 08:41:42,084 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:42,086 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:42,091 basehttp "GET /data/api/dataset/?page=19&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 08:41:42,259 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:42,262 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:42,267 basehttp "GET /data/api/dataset/?page=20&page_size=10 HTTP/1.1" 200 1203
+INFO 2024-10-31 08:41:42,472 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:42,476 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:42,480 basehttp "GET /data/api/dataset/?page=21&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 08:41:42,906 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:42,910 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:42,914 basehttp "GET /data/api/dataset/?page=22&page_size=10 HTTP/1.1" 200 1235
+INFO 2024-10-31 08:41:43,307 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:43,310 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:43,315 basehttp "GET /data/api/dataset/?page=23&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 08:41:44,191 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:44,193 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:44,199 basehttp "GET /data/api/dataset/?page=24&page_size=10 HTTP/1.1" 200 1190
+INFO 2024-10-31 08:41:44,399 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:44,402 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:44,408 basehttp "GET /data/api/dataset/?page=25&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:41:44,779 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:44,782 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:44,787 basehttp "GET /data/api/dataset/?page=26&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 08:41:45,087 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:45,090 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:45,094 basehttp "GET /data/api/dataset/?page=27&page_size=10 HTTP/1.1" 200 1203
+INFO 2024-10-31 08:41:45,688 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:45,691 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:45,695 basehttp "GET /data/api/dataset/?page=28&page_size=10 HTTP/1.1" 200 1168
+INFO 2024-10-31 08:41:45,967 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:45,970 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:45,974 basehttp "GET /data/api/dataset/?page=29&page_size=10 HTTP/1.1" 200 1226
+INFO 2024-10-31 08:41:46,219 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:46,222 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:46,226 basehttp "GET /data/api/dataset/?page=30&page_size=10 HTTP/1.1" 200 1164
+INFO 2024-10-31 08:41:46,521 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:46,524 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:46,528 basehttp "GET /data/api/dataset/?page=31&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 08:41:46,885 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:46,888 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:46,893 basehttp "GET /data/api/dataset/?page=32&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 08:41:47,188 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,191 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,196 basehttp "GET /data/api/dataset/?page=33&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 08:41:47,372 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,375 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,379 basehttp "GET /data/api/dataset/?page=34&page_size=10 HTTP/1.1" 200 1198
+INFO 2024-10-31 08:41:47,533 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,536 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,540 basehttp "GET /data/api/dataset/?page=35&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 08:41:47,661 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,664 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,668 basehttp "GET /data/api/dataset/?page=36&page_size=10 HTTP/1.1" 200 1173
+INFO 2024-10-31 08:41:47,817 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,821 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,825 basehttp "GET /data/api/dataset/?page=37&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 08:41:47,981 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:47,984 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:47,989 basehttp "GET /data/api/dataset/?page=38&page_size=10 HTTP/1.1" 200 1200
+INFO 2024-10-31 08:41:48,169 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:41:48,173 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:41:48,178 basehttp "GET /data/api/dataset/?page=39&page_size=10 HTTP/1.1" 200 1186
+WARNING 2024-10-31 08:42:01,663 log Not Found: /sw.js
+WARNING 2024-10-31 08:42:01,663 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:42:21,469 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:42:23,412 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:42:23,903 views Processed dataset file not found.
+WARNING 2024-10-31 08:42:23,904 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:42:23,904 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:42:23,906 views Processed dataset file not found.
+WARNING 2024-10-31 08:42:23,907 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:42:23,908 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:42:24,207 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:42:24,210 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:42:34,024 views Starting file upload
+INFO 2024-10-31 08:42:34,033 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 08:42:34,156 views Task 3d93f3d1-9033-4e58-ad3b-318953171e59 started for file processing.
+INFO 2024-10-31 08:42:34,156 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+WARNING 2024-10-31 08:42:54,449 log Not Found: /sw.js
+WARNING 2024-10-31 08:42:54,449 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:46:23,935 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:23,941 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:23,948 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:46:42,001 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 08:46:42,235 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:42,235 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:46:42,238 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:46:42,241 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:42,246 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:46:42,247 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:42,251 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:42,256 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:46:44,769 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:44,772 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:44,775 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:46:45,120 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,122 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,126 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 08:46:45,311 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,313 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,317 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:46:45,474 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,477 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,482 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 08:46:45,626 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,630 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,635 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 08:46:45,783 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,786 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,790 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 08:46:45,927 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:45,929 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:45,933 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 08:46:46,071 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,073 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,078 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 08:46:46,214 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,217 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,221 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 08:46:46,362 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,364 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,369 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 08:46:46,503 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,506 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,510 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 08:46:46,649 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,649 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,658 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 08:46:46,830 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:46,834 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:46,838 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 08:46:50,612 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:50,612 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:46:50,612 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:46:50,617 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:46:50,622 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:50,622 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:46:50,632 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:46:50,632 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 08:46:51,450 log Not Found: /sw.js
+WARNING 2024-10-31 08:46:51,450 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:47:07,490 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:47:09,031 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:47:09,258 views Processed dataset file not found.
+WARNING 2024-10-31 08:47:09,262 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:47:09,262 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:47:09,265 views Processed dataset file not found.
+WARNING 2024-10-31 08:47:09,266 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:47:09,266 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:47:09,565 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:47:09,567 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:47:13,090 views Starting file upload
+INFO 2024-10-31 08:47:13,100 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 08:47:13,163 views Task dec4b5ee-dde1-4dda-ae53-890cb73ea5b9 started for file processing.
+INFO 2024-10-31 08:47:13,163 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 08:47:36,312 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 08:47:36,554 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:47:36,554 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:47:36,554 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:47:36,554 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:47:36,571 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:47:36,573 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:47:36,576 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:47:36,582 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 08:47:41,337 log Not Found: /sw.js
+WARNING 2024-10-31 08:47:41,337 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:48:06,309 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:48:07,966 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:48:08,483 views Processed dataset file not found.
+WARNING 2024-10-31 08:48:08,484 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:48:08,484 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:48:08,486 views Processed dataset file not found.
+WARNING 2024-10-31 08:48:08,486 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:48:08,487 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:48:08,800 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:48:08,803 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 08:48:39,000 log Not Found: /sw.js
+WARNING 2024-10-31 08:48:39,001 basehttp "GET /sw.js HTTP/1.1" 404 2672
+ERROR 2024-10-31 08:50:29,154 views Processed dataset file not found.
+ERROR 2024-10-31 08:50:29,154 views Processed dataset file not found.
+INFO 2024-10-31 08:50:29,155 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 08:50:29,156 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:50:29,156 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:50:29,158 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 08:50:29,158 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:50:29,158 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 08:50:29,994 log Not Found: /sw.js
+WARNING 2024-10-31 08:50:29,994 basehttp "GET /sw.js HTTP/1.1" 404 2672
+ERROR 2024-10-31 08:50:47,832 views Processed dataset file not found.
+ERROR 2024-10-31 08:50:47,832 views Processed dataset file not found.
+WARNING 2024-10-31 08:50:47,832 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:50:47,832 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:50:47,832 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 08:50:47,832 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:51:16,307 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:51:18,117 basehttp "GET / HTTP/1.1" 302 0
+ERROR 2024-10-31 08:51:18,643 views Processed dataset file not found.
+WARNING 2024-10-31 08:51:18,643 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:51:18,643 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+ERROR 2024-10-31 08:51:18,643 views Processed dataset file not found.
+WARNING 2024-10-31 08:51:18,643 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:51:18,643 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 08:51:18,960 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:18,962 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:22,743 views Starting file upload
+INFO 2024-10-31 08:51:22,752 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 08:51:22,813 views Task 562d741c-1815-494e-8107-5883ea1d17f9 started for file processing.
+INFO 2024-10-31 08:51:22,813 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 08:51:35,275 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:51:35,277 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:51:35,278 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:35,278 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:35,284 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:51:35,285 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:51:35,298 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:51:35,298 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 08:51:36,100 log Not Found: /sw.js
+WARNING 2024-10-31 08:51:36,100 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:51:50,418 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 08:51:50,620 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:51:50,621 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:50,622 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 08:51:50,625 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:51:50,631 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 08:51:50,632 views Processed dataset file found. Loading data...
+INFO 2024-10-31 08:51:50,637 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 08:51:50,642 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 08:52:21,438 log Not Found: /sw.js
+WARNING 2024-10-31 08:52:21,438 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 08:56:47,961 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 08:56:48,686 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:57:05,178 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 08:57:05,943 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:58:03,453 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 08:58:04,255 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 08:58:21,869 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 08:58:22,525 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 08:59:11,827 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:59:11,827 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 08:59:11,828 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 08:59:11,828 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 09:00:47,014 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:00:48,394 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:00:49,227 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:00:49,229 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:01:03,821 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:03,821 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+WARNING 2024-10-31 09:01:03,821 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:03,821 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:03,821 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+WARNING 2024-10-31 09:01:03,821 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+INFO 2024-10-31 09:01:08,705 views Starting file upload
+INFO 2024-10-31 09:01:08,713 views File saved at temp/large_test_file - Copy_B7fTNuc.csv
+INFO 2024-10-31 09:01:08,788 views Task ebeaaf2b-bba4-44a6-973b-606d7a96b5a5 started for file processing.
+INFO 2024-10-31 09:01:08,788 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+WARNING 2024-10-31 09:01:19,413 log Not Found: /sw.js
+WARNING 2024-10-31 09:01:19,413 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:01:22,088 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:01:22,095 log Not Found: /data/api/processed_data_status/
+INFO 2024-10-31 09:01:22,096 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:01:22,099 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:22,100 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+WARNING 2024-10-31 09:01:22,100 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+WARNING 2024-10-31 09:01:22,929 log Not Found: /sw.js
+WARNING 2024-10-31 09:01:22,929 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:01:41,732 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:01:46,223 basehttp "GET / HTTP/1.1" 302 0
+WARNING 2024-10-31 09:01:46,435 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:46,436 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+WARNING 2024-10-31 09:01:46,441 log Not Found: /data/api/processed_data_status/
+WARNING 2024-10-31 09:01:46,442 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 404 5442
+INFO 2024-10-31 09:01:46,731 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:01:46,734 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:02:17,236 log Not Found: /sw.js
+WARNING 2024-10-31 09:02:17,236 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:04:10,517 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\urls.py changed, reloading.
+INFO 2024-10-31 09:04:11,130 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:04:18,788 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 09:04:20,489 log Not Found: /sw.js
+WARNING 2024-10-31 09:04:20,489 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:04:21,781 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:04:22,279 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:22,279 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:22,591 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:22,596 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:27,463 views Starting file upload
+INFO 2024-10-31 09:04:27,473 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:04:27,539 views Task 615a545f-517f-4340-809e-ec8b0c62456b started for file processing.
+INFO 2024-10-31 09:04:27,539 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:04:50,931 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:04:51,174 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:51,175 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:51,178 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:51,178 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:55,194 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:55,199 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:55,199 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:55,200 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:56,304 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:56,304 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:04:56,307 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:04:56,307 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:08,881 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:08,881 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:08,884 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:08,884 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,635 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,635 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:09,636 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:09,639 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,821 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,821 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:09,826 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:09,826 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,981 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:09,981 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,981 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:09,981 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:14,630 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:05:14,872 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:14,872 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:14,872 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:14,872 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,362 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,366 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,366 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,368 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,710 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,710 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,710 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,710 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,878 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,878 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:27,878 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:27,887 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:28,018 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:28,018 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:28,022 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:28,022 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:28,194 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:28,194 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:05:28,195 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:05:28,195 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:05:45,626 log Not Found: /sw.js
+WARNING 2024-10-31 09:05:45,628 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:09:07,221 log Not Found: /sw.js
+WARNING 2024-10-31 09:09:07,221 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:09:22,707 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:09:24,493 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:09:25,024 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:25,024 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:25,337 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:09:25,337 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:09:28,916 log Not Found: /sw.js
+WARNING 2024-10-31 09:09:28,916 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:09:37,745 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:09:39,244 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:09:39,466 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:39,466 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:39,773 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:09:39,773 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:09:44,109 views Starting file upload
+INFO 2024-10-31 09:09:44,118 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:09:44,182 views Task 7aa4145c-b732-4813-ac11-f9d96511a9e2 started for file processing.
+INFO 2024-10-31 09:09:44,182 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:09:44,195 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:09:46,201 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:09:48,206 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:09:50,018 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:50,022 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:09:50,022 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:09:50,024 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:09:50,972 log Not Found: /sw.js
+WARNING 2024-10-31 09:09:50,972 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:09:57,254 views Starting file upload
+INFO 2024-10-31 09:09:57,261 views File saved at temp/sample_data.csv
+INFO 2024-10-31 09:09:57,262 views Task a91deeb9-50a2-40a7-92e8-d1abafd6e053 started for file processing.
+INFO 2024-10-31 09:09:57,263 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:09:57,269 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:09:59,274 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:01,288 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:03,811 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:04,237 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:10:04,476 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:10:04,476 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:10:04,479 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:10:04,479 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:10:06,807 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:09,814 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:12,806 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:15,806 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:18,803 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:21,819 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:24,809 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:27,812 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:30,804 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:33,808 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+WARNING 2024-10-31 09:10:35,205 log Not Found: /sw.js
+WARNING 2024-10-31 09:10:35,205 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:10:36,814 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:39,813 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:41,826 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:44,814 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:47,816 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:50,812 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:53,803 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:56,804 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:10:59,840 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:02,811 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:05,817 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:08,812 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:11,809 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:14,804 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:17,805 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:20,888 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:23,808 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:26,813 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:29,811 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:32,810 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:35,806 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:38,932 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:41,809 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:44,806 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:47,809 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:50,830 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:11:53,665 basehttp "GET /data/api/task-status/null/ HTTP/1.1" 200 33
+WARNING 2024-10-31 09:11:56,952 log Not Found: /sw.js
+WARNING 2024-10-31 09:11:56,953 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:12:27,039 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:12:28,554 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:12:29,116 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:12:29,119 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:12:29,416 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:12:29,421 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:12:38,439 views Starting file upload
+INFO 2024-10-31 09:12:38,448 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:12:38,571 views Task f1371cbd-f083-4156-9075-1ceaedf2edde started for file processing.
+INFO 2024-10-31 09:12:38,572 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:12:38,590 basehttp "GET /data/api/task-status/f1371cbd-f083-4156-9075-1ceaedf2edde/ HTTP/1.1" 200 40
+INFO 2024-10-31 09:12:40,600 basehttp "GET /data/api/task-status/f1371cbd-f083-4156-9075-1ceaedf2edde/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:12:40,607 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:12:40,607 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:12:40,609 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:12:40,610 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:12:59,572 log Not Found: /sw.js
+WARNING 2024-10-31 09:12:59,573 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:16:11,824 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:16:11,827 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:16:11,828 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:16:16,813 log Not Found: /sw.js
+WARNING 2024-10-31 09:16:16,814 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:16:27,999 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:16:29,350 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:16:29,594 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:16:29,596 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:16:29,904 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:16:29,906 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:16:33,109 views Starting file upload
+INFO 2024-10-31 09:16:33,119 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:16:33,189 views Task a4f84c22-6926-49f1-98d3-d9ac63f9b7dd started for file processing.
+INFO 2024-10-31 09:16:33,189 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:16:33,216 basehttp "GET /data/api/task-status/a4f84c22-6926-49f1-98d3-d9ac63f9b7dd/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:16:33,219 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:16:33,219 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 09:16:54,570 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 09:17:00,369 log Not Found: /sw.js
+WARNING 2024-10-31 09:17:00,370 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:17:03,163 log Not Found: /sw.js
+WARNING 2024-10-31 09:17:03,164 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:17:06,177 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:17:06,398 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:17:06,400 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:17:06,702 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:17:06,706 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:17:11,852 views Starting file upload
+INFO 2024-10-31 09:17:11,862 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:17:11,961 views Task 47740c6f-d70f-4d8c-9326-b8aec2c03ee9 started for file processing.
+INFO 2024-10-31 09:17:11,963 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:17:11,993 basehttp "GET /data/api/task-status/47740c6f-d70f-4d8c-9326-b8aec2c03ee9/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:17:11,999 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:17:12,000 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:17:37,202 log Not Found: /sw.js
+WARNING 2024-10-31 09:17:37,206 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:20:41,366 log Not Found: /sw.js
+WARNING 2024-10-31 09:20:41,367 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:21:06,481 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:21:08,248 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:21:09,077 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:21:09,079 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:21:13,571 views Starting file upload
+INFO 2024-10-31 09:21:13,582 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:21:13,661 views Task 9996c7d3-5aca-4346-9a92-922a39b75f61 started for file processing.
+INFO 2024-10-31 09:21:13,662 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:21:13,670 basehttp "GET /data/api/task-status/9996c7d3-5aca-4346-9a92-922a39b75f61/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:21:15,692 basehttp "GET /data/api/task-status/9996c7d3-5aca-4346-9a92-922a39b75f61/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:21:15,699 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:21:15,700 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:21:39,270 log Not Found: /sw.js
+WARNING 2024-10-31 09:21:39,271 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:22:14,696 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 09:22:23,785 log Not Found: /sw.js
+WARNING 2024-10-31 09:22:23,785 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:22:26,412 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:22:26,416 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:22:34,365 views Starting file upload
+INFO 2024-10-31 09:22:34,374 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:22:34,442 views Task 28bdec8e-e4ed-4f94-86da-25415ca48245 started for file processing.
+INFO 2024-10-31 09:22:34,442 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:22:34,472 basehttp "GET /data/api/task-status/28bdec8e-e4ed-4f94-86da-25415ca48245/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:22:34,477 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:22:34,477 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 09:24:54,905 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:25:07,520 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:25:07,533 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:25:14,903 views Starting file upload
+INFO 2024-10-31 09:25:14,913 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:25:15,035 views Task 49c3a6d1-34bd-4586-b92c-e644478e4f99 started for file processing.
+INFO 2024-10-31 09:25:15,043 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:25:15,052 basehttp "GET /data/api/task-status/49c3a6d1-34bd-4586-b92c-e644478e4f99/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:25:17,064 basehttp "GET /data/api/task-status/49c3a6d1-34bd-4586-b92c-e644478e4f99/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:25:17,084 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:25:17,085 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:27:19,722 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:27:19,723 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:27:21,781 log Not Found: /sw.js
+WARNING 2024-10-31 09:27:21,781 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:29:08,847 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:29:08,847 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:29:10,721 log Not Found: /sw.js
+WARNING 2024-10-31 09:29:10,722 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:29:39,861 log Not Found: /sw.js
+WARNING 2024-10-31 09:29:39,861 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:32:37,971 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:32:39,294 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:32:40,156 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:32:40,159 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:32:45,835 views Starting file upload
+INFO 2024-10-31 09:32:45,840 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:32:45,991 views Task c6e35942-2042-4d77-89d0-e73220bb27c9 started for file processing.
+INFO 2024-10-31 09:32:45,991 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:32:46,005 basehttp "GET /data/api/task-status/c6e35942-2042-4d77-89d0-e73220bb27c9/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:32:48,018 basehttp "GET /data/api/task-status/c6e35942-2042-4d77-89d0-e73220bb27c9/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:32:48,029 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:32:48,029 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:33:10,312 log Not Found: /sw.js
+WARNING 2024-10-31 09:33:10,312 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:34:06,821 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:34:06,822 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+WARNING 2024-10-31 09:34:28,809 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 09:34:28,809 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 09:34:37,277 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:34:38,765 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:34:39,341 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:34:39,341 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:34:47,763 views Starting file upload
+INFO 2024-10-31 09:34:47,773 views File saved at temp/large_test_file - Copy_S1LlOnv.csv
+INFO 2024-10-31 09:34:47,885 views Task 489e39f9-a7c6-480a-a80e-5fd9fb7606d5 started for file processing.
+INFO 2024-10-31 09:34:47,885 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:34:47,909 basehttp "GET /data/api/task-status/489e39f9-a7c6-480a-a80e-5fd9fb7606d5/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:34:49,921 basehttp "GET /data/api/task-status/489e39f9-a7c6-480a-a80e-5fd9fb7606d5/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:34:49,938 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:34:56,970 views Starting file upload
+INFO 2024-10-31 09:34:56,974 views File saved at temp/sample_data.csv
+INFO 2024-10-31 09:34:56,975 views Task 453c80c9-34a0-49dc-ad92-0118177ccc54 started for file processing.
+INFO 2024-10-31 09:34:56,977 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:34:56,982 basehttp "GET /data/api/task-status/453c80c9-34a0-49dc-ad92-0118177ccc54/ HTTP/1.1" 200 53
+INFO 2024-10-31 09:34:59,000 basehttp "GET /data/api/task-status/453c80c9-34a0-49dc-ad92-0118177ccc54/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:34:59,016 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:35:03,847 log Not Found: /sw.js
+WARNING 2024-10-31 09:35:03,848 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:35:10,657 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 09:35:11,321 log Not Found: /sw.js
+WARNING 2024-10-31 09:35:11,321 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:35:22,290 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:35:23,774 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:35:24,603 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:35:24,605 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:35:31,463 views Starting file upload
+INFO 2024-10-31 09:35:31,473 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:35:31,544 views Task db3f0199-f30e-4136-8e1c-137fa0562759 started for file processing.
+INFO 2024-10-31 09:35:31,544 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:35:31,564 basehttp "GET /data/api/task-status/db3f0199-f30e-4136-8e1c-137fa0562759/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:35:33,569 basehttp "GET /data/api/task-status/db3f0199-f30e-4136-8e1c-137fa0562759/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:35:33,572 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:35:54,791 log Not Found: /sw.js
+WARNING 2024-10-31 09:35:54,791 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:36:29,869 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:36:40,047 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:36:40,047 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:36:42,379 log Not Found: /sw.js
+WARNING 2024-10-31 09:36:42,379 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:36:44,847 views Starting file upload
+INFO 2024-10-31 09:36:44,856 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:36:44,961 views Task 23d55230-bd1d-4e89-9eba-bad97a8282e3 started for file processing.
+INFO 2024-10-31 09:36:44,961 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:36:44,986 basehttp "GET /data/api/task-status/23d55230-bd1d-4e89-9eba-bad97a8282e3/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:36:44,991 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:39:06,918 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:39:08,124 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:39:16,316 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:39:16,316 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 09:39:16,727 log Not Found: /sw.js
+WARNING 2024-10-31 09:39:16,732 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:39:23,828 views Starting file upload
+INFO 2024-10-31 09:39:23,833 views File saved at temp/large_test_file - Copy_cvBS7jW.csv
+INFO 2024-10-31 09:39:23,973 views Task 6df13a2e-f7f0-4d91-b180-3a2701289e97 started for file processing.
+INFO 2024-10-31 09:39:23,973 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:39:24,007 basehttp "GET /data/api/task-status/6df13a2e-f7f0-4d91-b180-3a2701289e97/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:39:24,012 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:39:39,136 log Not Found: /sw.js
+WARNING 2024-10-31 09:39:39,136 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:39:58,645 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:40:10,586 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:40:11,978 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:40:12,527 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:40:12,529 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:40:19,820 views Starting file upload
+INFO 2024-10-31 09:40:19,829 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:40:19,977 views Task 5f6f417a-7bd1-42ea-b49b-23b38485dfe4 started for file processing.
+INFO 2024-10-31 09:40:19,985 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:40:20,017 basehttp "GET /data/api/task-status/5f6f417a-7bd1-42ea-b49b-23b38485dfe4/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:40:20,023 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:40:43,007 log Not Found: /sw.js
+WARNING 2024-10-31 09:40:43,007 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:43:32,681 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:43:33,405 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:44:25,210 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:44:25,919 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:45:01,458 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:45:02,771 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:45:03,584 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:45:03,634 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:45:16,917 views Starting file upload
+INFO 2024-10-31 09:45:16,928 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:45:17,085 views Task 78fafc85-6947-4602-812f-6cf5c0f706cc started for file processing.
+INFO 2024-10-31 09:45:17,085 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:45:17,116 views Checking task status: SUCCESS
+INFO 2024-10-31 09:45:17,116 views Task completed successfully.
+INFO 2024-10-31 09:45:17,117 basehttp "GET /data/api/task-status/78fafc85-6947-4602-812f-6cf5c0f706cc/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:45:17,123 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:45:33,779 log Not Found: /sw.js
+WARNING 2024-10-31 09:45:33,779 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:46:07,714 views Checking task status: SUCCESS
+INFO 2024-10-31 09:46:07,715 views Task completed successfully.
+INFO 2024-10-31 09:46:07,716 basehttp "GET /data/api/task-status/78fafc85-6947-4602-812f-6cf5c0f706cc/ HTTP/1.1" 200 98
+WARNING 2024-10-31 09:46:38,725 log Not Found: /sw.js
+WARNING 2024-10-31 09:46:38,725 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:47:30,771 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:48:01,787 log Not Found: /sw.js
+WARNING 2024-10-31 09:48:01,788 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:50:39,753 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:50:40,454 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:50:50,977 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:50:52,744 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:50:53,588 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:50:53,604 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:51:05,772 views Starting file upload
+INFO 2024-10-31 09:51:05,784 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:51:05,890 views Task 2de5bb91-2344-425a-bf2a-ca1a0d40ea55 started for file processing.
+INFO 2024-10-31 09:51:05,890 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:51:05,906 views Checking task status: PENDING
+INFO 2024-10-31 09:51:05,907 basehttp "GET /data/api/task-status/2de5bb91-2344-425a-bf2a-ca1a0d40ea55/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:51:07,929 views Checking task status: SUCCESS
+INFO 2024-10-31 09:51:07,930 views Task completed successfully.
+INFO 2024-10-31 09:51:07,930 basehttp "GET /data/api/task-status/2de5bb91-2344-425a-bf2a-ca1a0d40ea55/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:51:07,938 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:51:11,101 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:51:12,007 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+INFO 2024-10-31 09:51:12,569 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 31
+WARNING 2024-10-31 09:51:43,598 log Not Found: /sw.js
+WARNING 2024-10-31 09:51:43,599 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 09:51:50,519 log Not Found: /sw.js
+WARNING 2024-10-31 09:51:50,520 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 09:53:12,851 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:53:28,169 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:53:28,865 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:54:24,289 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:54:24,991 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:55:06,193 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 09:55:06,853 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:55:11,616 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 09:55:13,101 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 09:55:13,940 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:55:13,948 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 09:55:19,303 views Starting file upload
+INFO 2024-10-31 09:55:19,314 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 09:55:19,418 views Task 68cf06cd-3a4c-46cd-8b18-b05f51621980 started for file processing.
+INFO 2024-10-31 09:55:19,418 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 09:55:19,438 views Checking task status: PENDING
+INFO 2024-10-31 09:55:19,439 basehttp "GET /data/api/task-status/68cf06cd-3a4c-46cd-8b18-b05f51621980/ HTTP/1.1" 200 33
+INFO 2024-10-31 09:55:21,445 views Checking task status: SUCCESS
+INFO 2024-10-31 09:55:21,445 views Task completed successfully.
+INFO 2024-10-31 09:55:21,445 basehttp "GET /data/api/task-status/68cf06cd-3a4c-46cd-8b18-b05f51621980/ HTTP/1.1" 200 98
+INFO 2024-10-31 09:55:21,463 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 09:55:21,468 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:21,471 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:21,483 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:21,483 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:21,490 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 09:55:21,496 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 09:55:23,988 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:23,991 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:23,996 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 09:55:24,480 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:24,483 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:24,487 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 09:55:24,831 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:24,834 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:24,838 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 09:55:25,071 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,075 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,080 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 09:55:25,330 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,334 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,339 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 09:55:25,478 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,482 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,487 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 09:55:25,629 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,633 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,638 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 09:55:25,743 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,746 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,750 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 09:55:25,906 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:25,910 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:25,915 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 09:55:26,043 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,047 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,052 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 09:55:26,186 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,191 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,196 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 09:55:26,346 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,349 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,356 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 09:55:26,510 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,515 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,519 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 09:55:26,722 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,725 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,729 basehttp "GET /data/api/dataset/?page=15&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 09:55:26,922 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:26,926 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:26,931 basehttp "GET /data/api/dataset/?page=16&page_size=10 HTTP/1.1" 200 1189
+INFO 2024-10-31 09:55:27,102 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:27,105 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:27,110 basehttp "GET /data/api/dataset/?page=17&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 09:55:27,270 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:27,275 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:27,280 basehttp "GET /data/api/dataset/?page=18&page_size=10 HTTP/1.1" 200 1179
+INFO 2024-10-31 09:55:27,458 views Processed dataset file found. Loading data...
+INFO 2024-10-31 09:55:27,462 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 09:55:27,466 basehttp "GET /data/api/dataset/?page=19&page_size=10 HTTP/1.1" 200 1195
