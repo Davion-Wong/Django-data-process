@@ -10,4 +10,6 @@ urlpatterns = [
     path('api/task-status/<str:task_id>/', views.check_task_status, name='check_task_status'),
     path('api/task-progress/<str:task_id>/', views.check_task_progress, name='check_task_progress'),
     path('api/csrf/', views.csrf_token_view, name='csrf_token'),
+    path('data/display/', views.dataset_display_view, name='dataset_display_view'),
+    path('get-processed-dataset/', views.get_processed_dataset, name='get_processed_dataset'),
 ]

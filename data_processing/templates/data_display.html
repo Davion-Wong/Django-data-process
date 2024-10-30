@@ -2,32 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dataset Display</title>
+    <title>Processed Data Display</title>
+    <script>
+        let currentPage = 1;
+        const pageSize = 10;
+
+        async function fetchPaginatedData(page = 1) {
+            try {
+                const response = await fetch(`/data/get-processed-dataset/?page=${page}&page_size=${pageSize}`);
+                if (!response.ok) throw new Error('Failed to fetch data');
+
+                const data = await response.json();
+
+                displayData(data.results);
+                updatePaginationControls(data);
+            } catch (error) {
+                console.error('Error fetching paginated data:', error);
+                document.getElementById('data-container').innerHTML = '<p>Error loading data.</p>';
+            }
+        }
+
+        function displayData(data) {
+            const dataContainer = document.getElementById('data-container');
+            dataContainer.innerHTML = ''; // Clear previous data
+
+            data.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.textContent = JSON.stringify(item);
+                dataContainer.appendChild(listItem);
+            });
+        }
+
+        function updatePaginationControls(data) {
+            document.getElementById('pagination-info').textContent = `Page ${data.current_page} of ${Math.ceil(data.count / pageSize)}`;
+
+            // Disable/enable buttons based on availability of pages
+            document.getElementById('prev-button').disabled = !data.previous;
+            document.getElementById('next-button').disabled = !data.next;
+        }
+
+        function goToNextPage() {
+            currentPage++;
+            fetchPaginatedData(currentPage);
+        }
+
+        function goToPreviousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                fetchPaginatedData(currentPage);
+            }
+        }
+
+        // Initial fetch
+        document.addEventListener('DOMContentLoaded', () => fetchPaginatedData());
+    </script>
 </head>
 <body>
-    <h1>Processed Dataset</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Birthdate</th>
-                <th>Score</th>
-                <th>Grade</th>
-                <th>Comments</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for row in data %}
-            <tr>
-                <td>{{ row.Name }}</td>
-                <td>{{ row.Birthdate }}</td>
-                <td>{{ row.Score }}</td>
-                <td>{{ row.Grade }}</td>
-                <td>{{ row.Comments }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <h1>Processed Data</h1>
+    <ul id="data-container"></ul>
+
+    <div id="pagination-controls">
+        <button id="prev-button" onclick="goToPreviousPage()">Previous</button>
+        <span id="pagination-info"></span>
+        <button id="next-button" onclick="goToNextPage()">Next</button>
+    </div>
 </body>
 </html>

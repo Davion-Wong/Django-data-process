@@ -50,7 +50,6 @@ def api_upload_file(request):
         return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-
 # Display view for processed dataset with pagination
 class DatasetPagination(PageNumberPagination):
     page_size = 10
@@ -58,23 +57,11 @@ class DatasetPagination(PageNumberPagination):
     max_page_size = 100
 
 
-# @api_view(['GET'])
-# def get_processed_dataset(request):
-#     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-#     if not os.path.exists(processed_dataset_path):
-#         return Response({'error': 'No processed dataset found. Please upload a file first.'},
-#                         status=status.HTTP_404_NOT_FOUND)
-#
-#     df = pd.read_csv(processed_dataset_path)
-#     paginator = DatasetPagination()
-#     page = paginator.paginate_queryset(df.to_dict('records'), request)
-#     return paginator.get_paginated_response(page)
-
 @api_view(['GET'])
 def get_processed_dataset(request):
     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
 
-    # Add debugging log to check for file existence
+    # Check if the processed file exists
     if not os.path.exists(processed_dataset_path):
         logger.error("Processed dataset file not found.")
         return Response({'error': 'No processed dataset found. Please upload a file first.'},
@@ -82,20 +69,27 @@ def get_processed_dataset(request):
 
     logger.info("Processed dataset file found. Loading data...")
     df = pd.read_csv(processed_dataset_path)
-
-    # Debugging output for DataFrame
     logger.info(f"DataFrame loaded with {len(df)} rows.")
 
+    # Infer data types for each column
+    inferred_types = {col: str(dtype) for col, dtype in df.dtypes.items()}
+
+    # Paginate the DataFrame records
     paginator = DatasetPagination()
     page = paginator.paginate_queryset(df.to_dict('records'), request)
-    return paginator.get_paginated_response(page)
+
+    # Return the data with inferred data types
+    return paginator.get_paginated_response({
+        'data': page,
+        'types': inferred_types,
+        'total_rows': len(df)
+    })
 
 
+# Main dataset display view
 def dataset_display_view(request):
-    context = {
-        'data': processed_data,  # Replace with your actual dataset or context
-    }
-    return render(request, 'data_display.html', context)
+    return render(request, 'data_processing/data_display.html')
+
 
 @api_view(['GET'])
 def check_task_status(request, task_id):
@@ -114,9 +108,11 @@ def check_task_status(request, task_id):
     else:
         return Response({'status': 'Failed', 'error': str(task_result.info)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+
 def start_long_task(request):
     task = long_running_task.delay()
     return JsonResponse({'task_id': task.id})
+
 
 def check_task_progress(request, task_id):
     task = AsyncResult(task_id)

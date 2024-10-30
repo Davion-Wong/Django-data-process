@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import DataDisplay from './components/DataDisplay';
 
 const App = () => {
     const [csrfToken, setCSRFToken] = useState(null);
@@ -78,18 +79,9 @@ const App = () => {
 
     return (
         <div>
-            <input type="file" onChange={handleFileChange} />
-            <button onClick={handleUpload}>Upload File</button>
-            <p>{progress}</p>
-            <button onClick={fetchCSRFToken}>Fetch CSRF Token</button>
-
             <div>
                 <h3>Processed Data:</h3>
-                <ul>
-                    {data.map((item, index) => (
-                        <li key={index}>{JSON.stringify(item)}</li>
-                    ))}
-                </ul>
+                <DataDisplay />
             </div>
         </div>
     );
