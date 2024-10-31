@@ -14,6 +14,8 @@ from celery.result import AsyncResult
 from django.core.files.storage import default_storage
 from .tasks import long_running_task
 import logging
+from datetime import datetime
+from backend.utils import infer_column_type
 
 # Initialize logger
 logger = logging.getLogger(__name__)
@@ -73,38 +75,6 @@ def processed_data_status(request):
     is_ready = os.path.exists(processed_data_path)  # Check file existence
     return Response({'processed_data_ready': is_ready})
 
-
-#
-# @api_view(['GET'])
-# def get_processed_dataset(request):
-#     global processed_data_ready
-#     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-#
-#     if not processed_data_ready or not os.path.exists(processed_dataset_path):
-#         return Response({'error': 'No processed dataset found. Please upload a file first.'},
-#                         status=status.HTTP_404_NOT_FOUND)
-#
-#     logger.info("Processed dataset file found. Loading data...")
-#     df = pd.read_csv(processed_dataset_path)
-#     logger.info(f"DataFrame loaded with {len(df)} rows.")
-#
-#     # Use improved type inference for each column
-#     inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
-#     logger.info(f"Custom Inferred data types: {inferred_types}")
-#
-#     # Paginate the DataFrame records
-#     paginator = DatasetPagination()
-#     page = paginator.paginate_queryset(df.to_dict('records'), request)
-#
-#     # Return the data with inferred custom data types
-#     return paginator.get_paginated_response({
-#         'data': page,
-#         'types': inferred_types,
-#         'total_rows': len(df)
-#     })
-
-
-
 # Main dataset display view
 def dataset_display_view(request):
     return render(request, 'data_processing/data_display.html')
@@ -151,19 +121,57 @@ def check_task_progress(request, task_id):
     return JsonResponse(response)
 
 # Function to infer custom data types
-def infer_column_type(series):
-    """Infer custom types for a DataFrame column."""
-    if pd.api.types.is_numeric_dtype(series):
-        if series.nunique() < 20:
-            return "Category"  # Consider columns with few unique values as categorical
-        return "Numeric"
-    elif pd.api.types.is_datetime64_any_dtype(series):
-        return "Date"
-    elif pd.api.types.is_string_dtype(series):
-        if series.nunique() < 20:
-            return "Category"
-        return "Text"
-    return "Unknown"
+# def infer_column_type(series):
+#     # Try to infer dates by checking a sample
+#     date_count = 0
+#     sample_size = min(len(series), 100)  # Limit sample size for large datasets
+#
+#     # Check for datetime by trying to parse a sample of the data
+#     for value in series.dropna().sample(sample_size):
+#         try:
+#             # Try parsing with a common date format
+#             datetime.strptime(str(value), "%m/%d/%Y")  # Adjust format as needed
+#             date_count += 1
+#         except (ValueError, TypeError):
+#             continue
+#
+#     if date_count > 0.9 * sample_size:  # If most samples match, infer as Date
+#         return "Date"
+#
+#     # Check if it's numeric
+#     if pd.api.types.is_numeric_dtype(series):
+#         if series.nunique() < 20:
+#             return "Category"  # Low unique count for numeric column implies categorical data
+#         return "Numeric"
+#
+#     # Check for categorical data based on unique values count
+#     if series.nunique() < 20:
+#         return "Category"
+#
+#     # Check if the column is mostly strings
+#     if pd.api.types.is_string_dtype(series):
+#         # Check for names based on common name patterns or heuristics
+#         if is_name_column(series):
+#             return "Name"
+#         return "Text"
+#
+#     # Default to "Unknown" for mixed/ambiguous types
+#     return "Unknown"
+#
+#
+# def is_name_column(series):
+#     # Check a sample of values to see if they resemble names
+#     sample_size = min(len(series), 100)
+#     name_count = 0
+#
+#     for value in series.dropna().sample(sample_size):
+#         # Assume a name is likely if it's a single capitalized word or two capitalized words
+#         if isinstance(value, str) and all(word.istitle() for word in value.split()):
+#             name_count += 1
+#
+#     # If most values in the sample look like names, infer it as a Name column
+#     return name_count > 0.7 * sample_size
+
 
 @api_view(['GET'])
 def get_processed_dataset(request):

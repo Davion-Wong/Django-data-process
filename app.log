@@ -8136,3 +8136,1611 @@ INFO 2024-10-31 11:26:42,340 views Processed dataset file found. Loading data...
 INFO 2024-10-31 11:26:42,342 views DataFrame loaded with 999 rows.
 INFO 2024-10-31 11:26:42,343 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
 INFO 2024-10-31 11:26:42,346 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+WARNING 2024-10-31 11:27:08,313 log Not Found: /sw.js
+WARNING 2024-10-31 11:27:08,313 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 12:32:09,841 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:09,844 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:09,845 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:09,849 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:32:10,315 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:10,318 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:10,320 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:10,324 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:32:10,686 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:10,689 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:10,691 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:10,696 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:32:10,890 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:10,894 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:10,895 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:10,900 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 12:32:11,134 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:11,137 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:11,139 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:11,143 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 12:32:11,382 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:11,385 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:11,386 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:11,391 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 12:32:11,556 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:11,559 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:11,560 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:11,564 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 12:32:11,771 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:11,774 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:11,775 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:11,779 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:32:14,369 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:14,372 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:14,373 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:14,377 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:32:14,612 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:14,615 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:14,617 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:14,622 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1207
+INFO 2024-10-31 12:32:14,876 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:14,880 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:14,880 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:14,886 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:32:15,039 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,043 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,046 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,050 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 12:32:15,248 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,252 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,253 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,257 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1222
+INFO 2024-10-31 12:32:15,417 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,420 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,421 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,425 basehttp "GET /data/api/dataset/?page=15&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:32:15,560 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,563 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,564 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,569 basehttp "GET /data/api/dataset/?page=16&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:32:15,709 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,711 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,712 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,718 basehttp "GET /data/api/dataset/?page=17&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:32:15,856 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,858 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:15,860 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:15,864 basehttp "GET /data/api/dataset/?page=18&page_size=10 HTTP/1.1" 200 1185
+INFO 2024-10-31 12:32:15,995 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:15,999 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,001 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,005 basehttp "GET /data/api/dataset/?page=19&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 12:32:16,172 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,175 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,177 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,182 basehttp "GET /data/api/dataset/?page=20&page_size=10 HTTP/1.1" 200 1209
+INFO 2024-10-31 12:32:16,301 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,303 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,304 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,309 basehttp "GET /data/api/dataset/?page=21&page_size=10 HTTP/1.1" 200 1205
+INFO 2024-10-31 12:32:16,452 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,455 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,457 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,465 basehttp "GET /data/api/dataset/?page=22&page_size=10 HTTP/1.1" 200 1241
+INFO 2024-10-31 12:32:16,597 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,600 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,602 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,606 basehttp "GET /data/api/dataset/?page=23&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:32:16,772 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,776 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,777 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,781 basehttp "GET /data/api/dataset/?page=24&page_size=10 HTTP/1.1" 200 1196
+INFO 2024-10-31 12:32:16,925 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:16,928 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:16,929 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:16,933 basehttp "GET /data/api/dataset/?page=25&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:32:17,068 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,071 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,073 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,078 basehttp "GET /data/api/dataset/?page=26&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 12:32:17,224 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,227 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,229 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,233 basehttp "GET /data/api/dataset/?page=27&page_size=10 HTTP/1.1" 200 1209
+INFO 2024-10-31 12:32:17,368 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,371 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,372 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,377 basehttp "GET /data/api/dataset/?page=28&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 12:32:17,516 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,520 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,521 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,525 basehttp "GET /data/api/dataset/?page=29&page_size=10 HTTP/1.1" 200 1232
+INFO 2024-10-31 12:32:17,656 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,659 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,661 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,665 basehttp "GET /data/api/dataset/?page=30&page_size=10 HTTP/1.1" 200 1170
+INFO 2024-10-31 12:32:17,909 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:17,913 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:17,914 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:17,919 basehttp "GET /data/api/dataset/?page=31&page_size=10 HTTP/1.1" 200 1184
+INFO 2024-10-31 12:32:20,333 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:20,336 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:20,337 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:20,341 basehttp "GET /data/api/dataset/?page=32&page_size=10 HTTP/1.1" 200 1205
+INFO 2024-10-31 12:32:20,672 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:20,675 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:20,676 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:20,681 basehttp "GET /data/api/dataset/?page=33&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:32:20,845 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:20,848 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:20,849 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:20,853 basehttp "GET /data/api/dataset/?page=34&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 12:32:21,024 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:32:21,027 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:32:21,029 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:32:21,032 basehttp "GET /data/api/dataset/?page=35&page_size=10 HTTP/1.1" 200 1207
+INFO 2024-10-31 12:35:06,181 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 12:35:07,734 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 12:35:08,546 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:35:08,551 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:35:11,461 views Starting file upload
+INFO 2024-10-31 12:35:11,466 views File saved at temp/large_test_file - 1000.xlsx
+INFO 2024-10-31 12:35:11,539 views Task f456af74-1bc4-4336-a6b6-f467c515eba5 started for file processing.
+INFO 2024-10-31 12:35:11,539 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 12:35:11,558 views Checking task status: FAILURE
+ERROR 2024-10-31 12:35:11,558 views Task failed with error: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+ERROR 2024-10-31 12:35:11,559 log Internal Server Error: /data/api/task-status/f456af74-1bc4-4336-a6b6-f467c515eba5/
+ERROR 2024-10-31 12:35:11,559 basehttp "GET /data/api/task-status/f456af74-1bc4-4336-a6b6-f467c515eba5/ HTTP/1.1" 500 114
+WARNING 2024-10-31 12:35:38,755 log Not Found: /sw.js
+WARNING 2024-10-31 12:35:38,755 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 12:50:06,081 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 12:50:08,220 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 12:50:09,050 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:50:09,068 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:50:13,971 views Starting file upload
+INFO 2024-10-31 12:50:13,977 views File saved at temp/large_test_file - 1000.csv
+INFO 2024-10-31 12:50:14,087 views Task 2937c31b-bfc6-4857-a7f6-e32ce4aad56d started for file processing.
+INFO 2024-10-31 12:50:14,087 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 12:50:14,123 views Checking task status: SUCCESS
+INFO 2024-10-31 12:50:14,123 views Task completed successfully.
+INFO 2024-10-31 12:50:14,124 basehttp "GET /data/api/task-status/2937c31b-bfc6-4857-a7f6-e32ce4aad56d/ HTTP/1.1" 200 98
+INFO 2024-10-31 12:50:14,129 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 12:50:14,133 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:14,140 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:14,140 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:14,140 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 12:50:14,158 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:14,161 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:14,162 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:14,166 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 12:50:16,374 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:16,379 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:16,380 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:16,386 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:50:16,692 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:16,695 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:16,696 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:16,700 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:50:16,871 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:16,875 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:16,876 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:16,883 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:50:17,011 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:17,014 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:17,015 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:17,020 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 12:50:17,171 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:17,174 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:17,175 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:17,180 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 12:50:23,141 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:23,144 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:23,146 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:23,150 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 12:50:23,304 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:23,308 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:23,309 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:23,318 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 12:50:23,452 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:23,452 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:23,452 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:23,452 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:50:24,139 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,142 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,143 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,147 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:50:24,317 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,321 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,323 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,326 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1207
+INFO 2024-10-31 12:50:24,456 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,460 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,462 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,466 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:50:24,591 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,594 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,595 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,598 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 12:50:24,749 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,753 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,755 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,760 basehttp "GET /data/api/dataset/?page=14&page_size=10 HTTP/1.1" 200 1222
+INFO 2024-10-31 12:50:24,889 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:24,892 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:24,893 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:24,898 basehttp "GET /data/api/dataset/?page=15&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:50:25,021 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,024 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,026 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,032 basehttp "GET /data/api/dataset/?page=16&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:50:25,169 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,172 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,174 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,178 basehttp "GET /data/api/dataset/?page=17&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:50:25,313 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,316 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,317 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,321 basehttp "GET /data/api/dataset/?page=18&page_size=10 HTTP/1.1" 200 1185
+INFO 2024-10-31 12:50:25,428 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,432 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,433 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,438 basehttp "GET /data/api/dataset/?page=19&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 12:50:25,592 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,596 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,597 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,602 basehttp "GET /data/api/dataset/?page=20&page_size=10 HTTP/1.1" 200 1209
+INFO 2024-10-31 12:50:25,740 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,743 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,744 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,749 basehttp "GET /data/api/dataset/?page=21&page_size=10 HTTP/1.1" 200 1205
+INFO 2024-10-31 12:50:25,889 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:25,892 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:25,893 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:25,897 basehttp "GET /data/api/dataset/?page=22&page_size=10 HTTP/1.1" 200 1241
+INFO 2024-10-31 12:50:26,026 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,029 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,030 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,035 basehttp "GET /data/api/dataset/?page=23&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:50:26,174 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,178 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,178 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,183 basehttp "GET /data/api/dataset/?page=24&page_size=10 HTTP/1.1" 200 1196
+INFO 2024-10-31 12:50:26,322 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,325 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,327 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,331 basehttp "GET /data/api/dataset/?page=25&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 12:50:26,486 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,490 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,491 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,496 basehttp "GET /data/api/dataset/?page=26&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 12:50:26,635 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,638 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,640 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,644 basehttp "GET /data/api/dataset/?page=27&page_size=10 HTTP/1.1" 200 1209
+INFO 2024-10-31 12:50:26,787 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,791 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,792 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,797 basehttp "GET /data/api/dataset/?page=28&page_size=10 HTTP/1.1" 200 1174
+INFO 2024-10-31 12:50:26,956 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:26,958 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:26,960 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:26,965 basehttp "GET /data/api/dataset/?page=29&page_size=10 HTTP/1.1" 200 1232
+INFO 2024-10-31 12:50:27,107 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,110 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,110 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,116 basehttp "GET /data/api/dataset/?page=30&page_size=10 HTTP/1.1" 200 1170
+INFO 2024-10-31 12:50:27,271 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,274 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,275 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,280 basehttp "GET /data/api/dataset/?page=31&page_size=10 HTTP/1.1" 200 1184
+INFO 2024-10-31 12:50:27,456 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,459 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,460 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,464 basehttp "GET /data/api/dataset/?page=32&page_size=10 HTTP/1.1" 200 1205
+INFO 2024-10-31 12:50:27,594 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,597 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,599 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,603 basehttp "GET /data/api/dataset/?page=33&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:50:27,751 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,754 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,756 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,760 basehttp "GET /data/api/dataset/?page=34&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 12:50:27,907 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:27,909 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:27,910 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:27,915 basehttp "GET /data/api/dataset/?page=35&page_size=10 HTTP/1.1" 200 1207
+INFO 2024-10-31 12:50:28,058 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,061 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,062 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,067 basehttp "GET /data/api/dataset/?page=36&page_size=10 HTTP/1.1" 200 1179
+INFO 2024-10-31 12:50:28,211 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,214 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,215 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,221 basehttp "GET /data/api/dataset/?page=37&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 12:50:28,362 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,366 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,367 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,372 basehttp "GET /data/api/dataset/?page=38&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 12:50:28,505 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,505 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,505 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,505 basehttp "GET /data/api/dataset/?page=39&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 12:50:28,690 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,693 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,694 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,700 basehttp "GET /data/api/dataset/?page=40&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:50:28,818 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,821 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,823 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,826 basehttp "GET /data/api/dataset/?page=41&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:50:28,974 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:28,977 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:28,978 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:28,983 basehttp "GET /data/api/dataset/?page=42&page_size=10 HTTP/1.1" 200 1200
+INFO 2024-10-31 12:50:29,131 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,134 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,135 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:29,140 basehttp "GET /data/api/dataset/?page=43&page_size=10 HTTP/1.1" 200 1204
+INFO 2024-10-31 12:50:29,290 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,293 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,295 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:29,299 basehttp "GET /data/api/dataset/?page=44&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 12:50:29,458 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,461 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,462 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:29,469 basehttp "GET /data/api/dataset/?page=45&page_size=10 HTTP/1.1" 200 1198
+INFO 2024-10-31 12:50:29,626 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,629 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,631 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:29,637 basehttp "GET /data/api/dataset/?page=46&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:50:29,774 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,777 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,778 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:29,783 basehttp "GET /data/api/dataset/?page=47&page_size=10 HTTP/1.1" 200 1223
+INFO 2024-10-31 12:50:29,993 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:29,995 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:29,996 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,000 basehttp "GET /data/api/dataset/?page=48&page_size=10 HTTP/1.1" 200 1211
+INFO 2024-10-31 12:50:30,156 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,159 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,160 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,165 basehttp "GET /data/api/dataset/?page=49&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 12:50:30,303 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,306 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,307 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,311 basehttp "GET /data/api/dataset/?page=50&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 12:50:30,461 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,464 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,465 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,469 basehttp "GET /data/api/dataset/?page=51&page_size=10 HTTP/1.1" 200 1198
+INFO 2024-10-31 12:50:30,630 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,635 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,636 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,640 basehttp "GET /data/api/dataset/?page=52&page_size=10 HTTP/1.1" 200 1215
+INFO 2024-10-31 12:50:30,772 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,775 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,776 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,781 basehttp "GET /data/api/dataset/?page=53&page_size=10 HTTP/1.1" 200 1170
+INFO 2024-10-31 12:50:30,931 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:30,934 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:30,936 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:30,941 basehttp "GET /data/api/dataset/?page=54&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:50:31,094 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,098 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,099 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,103 basehttp "GET /data/api/dataset/?page=55&page_size=10 HTTP/1.1" 200 1214
+INFO 2024-10-31 12:50:31,271 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,273 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,274 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,279 basehttp "GET /data/api/dataset/?page=56&page_size=10 HTTP/1.1" 200 1229
+INFO 2024-10-31 12:50:31,406 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,409 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,411 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,415 basehttp "GET /data/api/dataset/?page=57&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:50:31,566 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,569 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,571 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,576 basehttp "GET /data/api/dataset/?page=58&page_size=10 HTTP/1.1" 200 1177
+INFO 2024-10-31 12:50:31,725 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,728 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,729 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,734 basehttp "GET /data/api/dataset/?page=59&page_size=10 HTTP/1.1" 200 1176
+INFO 2024-10-31 12:50:31,898 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:31,901 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:31,903 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:31,909 basehttp "GET /data/api/dataset/?page=60&page_size=10 HTTP/1.1" 200 1221
+INFO 2024-10-31 12:50:32,071 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,073 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,075 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,110 basehttp "GET /data/api/dataset/?page=61&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 12:50:32,231 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,233 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,235 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,239 basehttp "GET /data/api/dataset/?page=62&page_size=10 HTTP/1.1" 200 1184
+INFO 2024-10-31 12:50:32,387 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,391 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,392 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,396 basehttp "GET /data/api/dataset/?page=63&page_size=10 HTTP/1.1" 200 1224
+INFO 2024-10-31 12:50:32,542 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,545 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,546 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,550 basehttp "GET /data/api/dataset/?page=64&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:50:32,714 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,718 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,719 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,723 basehttp "GET /data/api/dataset/?page=65&page_size=10 HTTP/1.1" 200 1248
+INFO 2024-10-31 12:50:32,882 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:32,885 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:32,887 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:32,891 basehttp "GET /data/api/dataset/?page=66&page_size=10 HTTP/1.1" 200 1190
+INFO 2024-10-31 12:50:33,042 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,045 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,047 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,051 basehttp "GET /data/api/dataset/?page=67&page_size=10 HTTP/1.1" 200 1190
+INFO 2024-10-31 12:50:33,206 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,210 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,211 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,215 basehttp "GET /data/api/dataset/?page=68&page_size=10 HTTP/1.1" 200 1182
+INFO 2024-10-31 12:50:33,358 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,361 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,362 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,367 basehttp "GET /data/api/dataset/?page=69&page_size=10 HTTP/1.1" 200 1188
+INFO 2024-10-31 12:50:33,508 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,511 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,512 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,517 basehttp "GET /data/api/dataset/?page=70&page_size=10 HTTP/1.1" 200 1194
+INFO 2024-10-31 12:50:33,677 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,679 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,680 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,688 basehttp "GET /data/api/dataset/?page=71&page_size=10 HTTP/1.1" 200 1214
+INFO 2024-10-31 12:50:33,848 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:33,853 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:33,855 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:33,859 basehttp "GET /data/api/dataset/?page=72&page_size=10 HTTP/1.1" 200 1238
+INFO 2024-10-31 12:50:34,008 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,011 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,013 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,017 basehttp "GET /data/api/dataset/?page=73&page_size=10 HTTP/1.1" 200 1217
+INFO 2024-10-31 12:50:34,211 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,214 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,215 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,220 basehttp "GET /data/api/dataset/?page=74&page_size=10 HTTP/1.1" 200 1198
+INFO 2024-10-31 12:50:34,380 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,382 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,383 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,388 basehttp "GET /data/api/dataset/?page=75&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 12:50:34,591 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,591 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,591 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,601 basehttp "GET /data/api/dataset/?page=76&page_size=10 HTTP/1.1" 200 1207
+INFO 2024-10-31 12:50:34,764 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,767 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,769 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,773 basehttp "GET /data/api/dataset/?page=77&page_size=10 HTTP/1.1" 200 1202
+INFO 2024-10-31 12:50:34,932 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:34,935 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:34,937 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:34,941 basehttp "GET /data/api/dataset/?page=78&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 12:50:35,108 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,111 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,113 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,117 basehttp "GET /data/api/dataset/?page=79&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 12:50:35,196 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,199 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,201 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,205 basehttp "GET /data/api/dataset/?page=80&page_size=10 HTTP/1.1" 200 1246
+INFO 2024-10-31 12:50:35,358 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,361 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,363 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,368 basehttp "GET /data/api/dataset/?page=81&page_size=10 HTTP/1.1" 200 1215
+INFO 2024-10-31 12:50:35,512 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,515 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,516 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,521 basehttp "GET /data/api/dataset/?page=82&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 12:50:35,664 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,668 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,669 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,673 basehttp "GET /data/api/dataset/?page=83&page_size=10 HTTP/1.1" 200 1215
+INFO 2024-10-31 12:50:35,832 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,836 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,837 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:35,841 basehttp "GET /data/api/dataset/?page=84&page_size=10 HTTP/1.1" 200 1216
+INFO 2024-10-31 12:50:35,992 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:35,995 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:35,996 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,001 basehttp "GET /data/api/dataset/?page=85&page_size=10 HTTP/1.1" 200 1208
+INFO 2024-10-31 12:50:36,172 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,176 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,176 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,181 basehttp "GET /data/api/dataset/?page=86&page_size=10 HTTP/1.1" 200 1200
+INFO 2024-10-31 12:50:36,336 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,339 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,340 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,345 basehttp "GET /data/api/dataset/?page=87&page_size=10 HTTP/1.1" 200 1205
+INFO 2024-10-31 12:50:36,500 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,502 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,503 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,507 basehttp "GET /data/api/dataset/?page=88&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 12:50:36,671 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,674 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,676 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,681 basehttp "GET /data/api/dataset/?page=89&page_size=10 HTTP/1.1" 200 1235
+INFO 2024-10-31 12:50:36,825 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,828 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,830 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,836 basehttp "GET /data/api/dataset/?page=90&page_size=10 HTTP/1.1" 200 1228
+INFO 2024-10-31 12:50:36,968 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:36,971 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:36,972 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:36,977 basehttp "GET /data/api/dataset/?page=91&page_size=10 HTTP/1.1" 200 1208
+INFO 2024-10-31 12:50:37,128 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,131 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,133 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,137 basehttp "GET /data/api/dataset/?page=92&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 12:50:37,296 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,300 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,301 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,305 basehttp "GET /data/api/dataset/?page=93&page_size=10 HTTP/1.1" 200 1211
+INFO 2024-10-31 12:50:37,460 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,462 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,464 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,469 basehttp "GET /data/api/dataset/?page=94&page_size=10 HTTP/1.1" 200 1203
+INFO 2024-10-31 12:50:37,627 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,627 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,627 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,636 basehttp "GET /data/api/dataset/?page=95&page_size=10 HTTP/1.1" 200 1211
+INFO 2024-10-31 12:50:37,804 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,807 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,808 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,813 basehttp "GET /data/api/dataset/?page=96&page_size=10 HTTP/1.1" 200 1208
+INFO 2024-10-31 12:50:37,977 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:37,980 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:37,981 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:37,985 basehttp "GET /data/api/dataset/?page=97&page_size=10 HTTP/1.1" 200 1280
+INFO 2024-10-31 12:50:38,136 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:38,140 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:38,141 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:38,145 basehttp "GET /data/api/dataset/?page=98&page_size=10 HTTP/1.1" 200 1190
+INFO 2024-10-31 12:50:38,296 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:38,300 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:38,301 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:38,309 basehttp "GET /data/api/dataset/?page=99&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 12:50:38,465 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:38,468 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:38,470 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:50:38,477 basehttp "GET /data/api/dataset/?page=100&page_size=10 HTTP/1.1" 200 1046
+INFO 2024-10-31 12:50:38,647 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:38,651 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:38,652 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:38,656 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:38,656 basehttp "GET /data/api/dataset/?page=101&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:39,001 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:39,005 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:39,007 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:39,013 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:39,013 basehttp "GET /data/api/dataset/?page=102&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:39,195 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:39,198 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:39,200 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:39,205 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:39,205 basehttp "GET /data/api/dataset/?page=103&page_size=10 HTTP/1.1" 404 26
+WARNING 2024-10-31 12:50:39,230 log Not Found: /sw.js
+WARNING 2024-10-31 12:50:39,230 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 12:50:39,355 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:39,358 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:39,359 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:39,362 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:39,363 basehttp "GET /data/api/dataset/?page=104&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:39,540 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:39,545 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:39,547 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:39,551 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:39,551 basehttp "GET /data/api/dataset/?page=105&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:39,700 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:39,704 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:39,705 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:39,709 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:39,709 basehttp "GET /data/api/dataset/?page=106&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,115 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,118 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,119 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,122 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,122 basehttp "GET /data/api/dataset/?page=107&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,296 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,299 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,299 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,304 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,304 basehttp "GET /data/api/dataset/?page=108&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,460 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,463 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,465 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,468 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,469 basehttp "GET /data/api/dataset/?page=109&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,624 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,627 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,628 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,632 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,633 basehttp "GET /data/api/dataset/?page=110&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,788 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,792 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,793 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,797 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,797 basehttp "GET /data/api/dataset/?page=111&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:40,949 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:40,952 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:40,953 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:40,957 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:40,957 basehttp "GET /data/api/dataset/?page=112&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:41,111 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:41,113 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:41,115 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:41,119 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:41,120 basehttp "GET /data/api/dataset/?page=113&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:41,294 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:41,297 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:41,298 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:41,302 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:41,303 basehttp "GET /data/api/dataset/?page=114&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:50:41,466 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:50:41,469 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:50:41,471 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+WARNING 2024-10-31 12:50:41,475 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 12:50:41,476 basehttp "GET /data/api/dataset/?page=115&page_size=10 HTTP/1.1" 404 26
+INFO 2024-10-31 12:52:57,533 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:52:57,537 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 12:52:58,471 log Not Found: /sw.js
+WARNING 2024-10-31 12:52:58,472 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 12:53:00,556 views Starting file upload
+INFO 2024-10-31 12:53:00,564 views File saved at temp/large_test_file - 1000_5TGXrPq.csv
+INFO 2024-10-31 12:53:00,566 views Task 06581c76-bcb9-4b9e-9a95-b0a3ab622086 started for file processing.
+INFO 2024-10-31 12:53:00,567 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 12:53:00,571 views Checking task status: PENDING
+INFO 2024-10-31 12:53:00,574 basehttp "GET /data/api/task-status/06581c76-bcb9-4b9e-9a95-b0a3ab622086/ HTTP/1.1" 200 33
+INFO 2024-10-31 12:53:02,588 views Checking task status: SUCCESS
+INFO 2024-10-31 12:53:02,588 views Task completed successfully.
+INFO 2024-10-31 12:53:02,588 basehttp "GET /data/api/task-status/06581c76-bcb9-4b9e-9a95-b0a3ab622086/ HTTP/1.1" 200 98
+INFO 2024-10-31 12:53:02,606 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 12:53:02,610 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:02,610 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:02,622 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:02,627 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 12:53:02,630 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:02,633 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:02,635 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:02,640 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 12:53:07,990 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:07,993 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:07,994 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:07,999 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:53:08,157 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:08,160 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:08,162 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:08,166 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 12:53:08,369 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:08,373 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:08,374 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:08,379 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 12:53:08,533 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:08,536 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:08,537 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:08,542 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 12:53:08,709 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:08,713 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:08,715 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:08,723 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 12:53:09,247 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:09,251 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 12:53:09,267 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 12:53:09,279 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 12:53:11,425 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:53:11,427 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:53:15,056 views Starting file upload
+INFO 2024-10-31 12:53:15,069 views File saved at temp/large_test_file - 10k.csv
+INFO 2024-10-31 12:53:15,071 views Task 3b7a7331-ad46-4fc4-8141-c98a06561b5a started for file processing.
+INFO 2024-10-31 12:53:15,071 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 12:53:15,082 views Checking task status: PENDING
+INFO 2024-10-31 12:53:15,087 basehttp "GET /data/api/task-status/3b7a7331-ad46-4fc4-8141-c98a06561b5a/ HTTP/1.1" 200 33
+INFO 2024-10-31 12:53:17,098 views Checking task status: SUCCESS
+INFO 2024-10-31 12:53:17,098 views Task completed successfully.
+INFO 2024-10-31 12:53:17,098 basehttp "GET /data/api/task-status/3b7a7331-ad46-4fc4-8141-c98a06561b5a/ HTTP/1.1" 200 98
+INFO 2024-10-31 12:53:17,116 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 12:53:17,120 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:17,342 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:17,347 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:18,393 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 12:53:18,408 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:18,615 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:18,615 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:19,751 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 12:53:20,413 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:20,565 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:20,616 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:20,616 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:20,732 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:20,916 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:21,065 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:21,280 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:21,817 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:53:21,820 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:21,971 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:21,971 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:22,628 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:22,785 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:22,848 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:22,942 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:22,974 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:23,037 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:24,248 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:24,330 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:27,639 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:27,892 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:28,171 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 12:53:28,267 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:28,441 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1221
+INFO 2024-10-31 12:53:28,544 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:29,232 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1251
+INFO 2024-10-31 12:53:29,279 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 12:53:29,326 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:29,342 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:30,266 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 12:53:30,281 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:53:30,791 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1218
+INFO 2024-10-31 12:53:30,950 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:30,964 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:31,247 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:31,275 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:31,767 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:31,883 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:33,677 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:33,751 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:34,869 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1236
+INFO 2024-10-31 12:53:35,289 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:53:35,399 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:53:35,400 basehttp "GET /data/api/dataset/?page=11&page_size=10 HTTP/1.1" 200 1233
+INFO 2024-10-31 12:53:36,059 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1223
+INFO 2024-10-31 12:53:37,885 basehttp "GET /data/api/dataset/?page=12&page_size=10 HTTP/1.1" 200 1221
+INFO 2024-10-31 12:53:37,885 basehttp "GET /data/api/dataset/?page=13&page_size=10 HTTP/1.1" 200 1227
+INFO 2024-10-31 12:59:13,204 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 12:59:17,351 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 12:59:26,036 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 12:59:26,864 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:59:26,866 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 12:59:30,224 views Starting file upload
+INFO 2024-10-31 12:59:30,236 views File saved at temp/large_test_file - 10k_LUK8Wdt.csv
+INFO 2024-10-31 12:59:30,309 views Task 61914c54-16c1-4492-b078-3b7843e7a626 started for file processing.
+INFO 2024-10-31 12:59:30,309 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 12:59:30,317 views Checking task status: PENDING
+INFO 2024-10-31 12:59:30,317 basehttp "GET /data/api/task-status/61914c54-16c1-4492-b078-3b7843e7a626/ HTTP/1.1" 200 33
+INFO 2024-10-31 12:59:32,334 views Checking task status: SUCCESS
+INFO 2024-10-31 12:59:32,334 views Task completed successfully.
+INFO 2024-10-31 12:59:32,334 basehttp "GET /data/api/task-status/61914c54-16c1-4492-b078-3b7843e7a626/ HTTP/1.1" 200 98
+INFO 2024-10-31 12:59:32,341 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 12:59:32,344 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:59:32,473 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:59:32,490 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:59:33,120 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 12:59:33,126 views Processed dataset file found. Loading data...
+INFO 2024-10-31 12:59:33,245 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 12:59:33,260 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 12:59:33,878 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+WARNING 2024-10-31 12:59:57,042 log Not Found: /sw.js
+WARNING 2024-10-31 12:59:57,042 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:00:08,224 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:00:09,411 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:00:10,252 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:00:10,252 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:00:12,802 views Starting file upload
+INFO 2024-10-31 13:00:12,809 views File saved at temp/sample_data.csv
+INFO 2024-10-31 13:00:12,861 views Task 2443b5ca-1c8d-4d97-b7d2-0fb7309b25d5 started for file processing.
+INFO 2024-10-31 13:00:12,861 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:00:12,881 views Checking task status: PROGRESS
+INFO 2024-10-31 13:00:12,881 views Task completed successfully.
+INFO 2024-10-31 13:00:12,881 basehttp "GET /data/api/task-status/2443b5ca-1c8d-4d97-b7d2-0fb7309b25d5/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:00:12,881 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:00:12,881 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:12,881 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 13:00:12,881 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Category', 'Grade': 'Category'}
+INFO 2024-10-31 13:00:12,881 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 503
+INFO 2024-10-31 13:00:12,897 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:12,898 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 13:00:12,898 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Category', 'Grade': 'Category'}
+INFO 2024-10-31 13:00:12,898 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 503
+INFO 2024-10-31 13:00:20,509 views Starting file upload
+INFO 2024-10-31 13:00:20,517 views File saved at temp/large_test_file - 1000_bl3OM6q.csv
+INFO 2024-10-31 13:00:20,520 views Task 8094b702-b029-4448-a232-d3d25f2934e8 started for file processing.
+INFO 2024-10-31 13:00:20,520 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:00:20,531 views Checking task status: PENDING
+INFO 2024-10-31 13:00:20,532 basehttp "GET /data/api/task-status/8094b702-b029-4448-a232-d3d25f2934e8/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:00:22,552 views Checking task status: SUCCESS
+INFO 2024-10-31 13:00:22,552 views Task completed successfully.
+INFO 2024-10-31 13:00:22,552 basehttp "GET /data/api/task-status/8094b702-b029-4448-a232-d3d25f2934e8/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:00:22,564 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:00:22,565 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:22,565 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 13:00:22,582 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:00:22,587 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 13:00:22,589 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:22,592 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 13:00:22,593 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:00:22,595 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 13:00:28,806 views Starting file upload
+INFO 2024-10-31 13:00:28,824 views File saved at temp/large_test_file - 10k_NgqwpFa.csv
+INFO 2024-10-31 13:00:28,825 views Task b5ca1431-c4ba-4b98-acee-03fb7f232ff9 started for file processing.
+INFO 2024-10-31 13:00:28,826 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:00:28,830 views Checking task status: PENDING
+INFO 2024-10-31 13:00:28,831 basehttp "GET /data/api/task-status/b5ca1431-c4ba-4b98-acee-03fb7f232ff9/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:00:30,846 views Checking task status: SUCCESS
+INFO 2024-10-31 13:00:30,846 views Task completed successfully.
+INFO 2024-10-31 13:00:30,846 basehttp "GET /data/api/task-status/b5ca1431-c4ba-4b98-acee-03fb7f232ff9/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:00:30,863 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:00:30,866 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:31,137 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:00:31,152 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:00:32,631 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 13:00:32,631 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:32,900 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:00:32,900 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:00:33,959 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+WARNING 2024-10-31 13:00:40,429 log Not Found: /sw.js
+WARNING 2024-10-31 13:00:40,429 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:00:51,857 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:00:53,581 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:00:54,118 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:00:54,120 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:00:56,124 views Starting file upload
+INFO 2024-10-31 13:00:56,129 views File saved at temp/large_test_file - 10k_5AreXzq.csv
+INFO 2024-10-31 13:00:56,206 views Task 015fc5c0-69f7-43e8-ab3f-b2b34fdebb42 started for file processing.
+INFO 2024-10-31 13:00:56,206 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:00:56,237 views Checking task status: PENDING
+INFO 2024-10-31 13:00:56,238 basehttp "GET /data/api/task-status/015fc5c0-69f7-43e8-ab3f-b2b34fdebb42/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:00:58,248 views Checking task status: SUCCESS
+INFO 2024-10-31 13:00:58,248 views Task completed successfully.
+INFO 2024-10-31 13:00:58,249 basehttp "GET /data/api/task-status/015fc5c0-69f7-43e8-ab3f-b2b34fdebb42/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:00:58,253 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:00:58,253 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:58,408 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:00:58,412 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:00:59,032 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 13:00:59,042 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:00:59,162 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:00:59,162 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:01:00,054 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+WARNING 2024-10-31 13:01:24,590 log Not Found: /sw.js
+WARNING 2024-10-31 13:01:24,590 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:01:37,057 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:01:38,500 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:01:39,055 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:01:39,056 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:01:42,349 views Starting file upload
+INFO 2024-10-31 13:01:42,360 views File saved at temp/large_test_file - 10k_f4ieCkq.csv
+INFO 2024-10-31 13:01:42,433 views Task 98522728-058a-47b0-abb2-29046edf56e1 started for file processing.
+INFO 2024-10-31 13:01:42,433 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:01:42,457 views Checking task status: PENDING
+INFO 2024-10-31 13:01:42,458 basehttp "GET /data/api/task-status/98522728-058a-47b0-abb2-29046edf56e1/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:01:44,468 views Checking task status: SUCCESS
+INFO 2024-10-31 13:01:44,468 views Task completed successfully.
+INFO 2024-10-31 13:01:44,468 basehttp "GET /data/api/task-status/98522728-058a-47b0-abb2-29046edf56e1/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:01:44,484 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:01:44,484 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:01:44,696 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:01:44,712 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:01:46,286 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 13:01:46,286 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:01:46,542 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:01:46,542 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 13:01:47,666 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+WARNING 2024-10-31 13:02:09,507 log Not Found: /sw.js
+WARNING 2024-10-31 13:02:09,522 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:02:23,528 views Starting file upload
+INFO 2024-10-31 13:02:23,536 views File saved at temp/large_test_file - 1000_5toO2tf.csv
+INFO 2024-10-31 13:02:23,541 views Task c79d818a-be85-409e-9ece-3b2af8fcbf31 started for file processing.
+INFO 2024-10-31 13:02:23,542 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:02:23,565 views Checking task status: SUCCESS
+INFO 2024-10-31 13:02:23,566 views Task completed successfully.
+INFO 2024-10-31 13:02:23,566 basehttp "GET /data/api/task-status/c79d818a-be85-409e-9ece-3b2af8fcbf31/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:02:23,571 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:02:23,575 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:02:23,582 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 13:02:23,585 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:02:23,585 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 13:02:23,591 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:02:23,591 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 13:02:23,591 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:02:23,602 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 13:06:18,075 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:06:18,845 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:08:06,371 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:08:07,055 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:08:18,954 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:08:20,556 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:08:21,431 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:08:21,447 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:08:25,263 views Starting file upload
+INFO 2024-10-31 13:08:25,273 views File saved at temp/large_test_file - 10k_L0UTC7R.csv
+INFO 2024-10-31 13:08:25,341 views Task 263fbee1-2c77-4956-a117-a2179cd40dcd started for file processing.
+INFO 2024-10-31 13:08:25,341 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:08:25,371 views Checking task status: PENDING
+INFO 2024-10-31 13:08:25,372 basehttp "GET /data/api/task-status/263fbee1-2c77-4956-a117-a2179cd40dcd/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:08:27,388 views Checking task status: SUCCESS
+INFO 2024-10-31 13:08:27,388 views Task completed successfully.
+INFO 2024-10-31 13:08:27,388 basehttp "GET /data/api/task-status/263fbee1-2c77-4956-a117-a2179cd40dcd/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:08:27,400 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:08:27,403 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:08:27,691 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:08:27,896 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:08:29,439 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1182
+INFO 2024-10-31 13:08:29,456 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:08:29,772 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:08:29,928 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:08:31,353 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1182
+INFO 2024-10-31 13:08:55,224 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:08:57,949 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:08:58,502 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:08:58,502 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:09:01,802 views Starting file upload
+INFO 2024-10-31 13:09:01,821 views File saved at temp/large_test_file - 10k.csv
+INFO 2024-10-31 13:09:01,884 views Task 1a1bf1b0-8d0a-48c2-8e7f-f83a3361860a started for file processing.
+INFO 2024-10-31 13:09:01,884 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:09:01,908 views Checking task status: PENDING
+INFO 2024-10-31 13:09:01,910 basehttp "GET /data/api/task-status/1a1bf1b0-8d0a-48c2-8e7f-f83a3361860a/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:09:03,918 views Checking task status: SUCCESS
+INFO 2024-10-31 13:09:03,918 views Task completed successfully.
+INFO 2024-10-31 13:09:03,918 basehttp "GET /data/api/task-status/1a1bf1b0-8d0a-48c2-8e7f-f83a3361860a/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:09:03,923 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:09:03,926 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:09:04,145 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:09:04,299 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:09:05,704 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1182
+INFO 2024-10-31 13:09:05,706 views Processed dataset file found. Loading data...
+INFO 2024-10-31 13:09:05,944 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 13:09:06,102 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 13:09:07,369 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1182
+WARNING 2024-10-31 13:09:28,976 log Not Found: /sw.js
+WARNING 2024-10-31 13:09:28,976 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:12:44,647 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:12:45,315 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:13:24,389 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:13:25,094 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:13:30,314 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:13:32,129 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:13:32,974 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:13:32,989 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:13:36,134 views Starting file upload
+INFO 2024-10-31 13:13:36,153 views File saved at temp/large_test_file - 10k_qCal3jK.csv
+INFO 2024-10-31 13:13:36,214 views Task 9dfb3013-40a0-454f-b9b1-8b05e2daed51 started for file processing.
+INFO 2024-10-31 13:13:36,214 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:13:36,234 views Checking task status: PENDING
+INFO 2024-10-31 13:13:36,234 basehttp "GET /data/api/task-status/9dfb3013-40a0-454f-b9b1-8b05e2daed51/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:13:38,240 views Checking task status: SUCCESS
+INFO 2024-10-31 13:13:38,240 views Task completed successfully.
+INFO 2024-10-31 13:13:38,240 basehttp "GET /data/api/task-status/9dfb3013-40a0-454f-b9b1-8b05e2daed51/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:13:38,252 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:13:40,255 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:13:42,265 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:13:47,921 log Not Found: /sw.js
+WARNING 2024-10-31 13:13:47,978 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:13:56,278 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:13:57,775 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:13:58,288 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:13:58,290 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:14:01,405 views Starting file upload
+INFO 2024-10-31 13:14:01,420 views File saved at temp/large_test_file - 10k.csv
+INFO 2024-10-31 13:14:01,474 views Task d8741239-4ff9-42e2-a7b8-afba33589667 started for file processing.
+INFO 2024-10-31 13:14:01,474 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:14:01,493 views Checking task status: PENDING
+INFO 2024-10-31 13:14:01,495 basehttp "GET /data/api/task-status/d8741239-4ff9-42e2-a7b8-afba33589667/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:14:03,511 views Checking task status: SUCCESS
+INFO 2024-10-31 13:14:03,511 views Task completed successfully.
+INFO 2024-10-31 13:14:03,511 basehttp "GET /data/api/task-status/d8741239-4ff9-42e2-a7b8-afba33589667/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:14:03,521 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:14:05,035 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:14:07,039 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:14:28,740 log Not Found: /sw.js
+WARNING 2024-10-31 13:14:28,740 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:16:08,129 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:16:08,817 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:16:20,000 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:16:20,638 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:16:25,361 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:16:26,490 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:16:27,339 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:16:27,386 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:16:30,375 views Starting file upload
+INFO 2024-10-31 13:16:30,391 views File saved at temp/large_test_file - 10k_VpvVd0x.csv
+INFO 2024-10-31 13:16:30,447 views Task bb5d9bcb-1734-43fb-994d-8d3a3fe6bad0 started for file processing.
+INFO 2024-10-31 13:16:30,447 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:16:30,461 views Checking task status: PENDING
+INFO 2024-10-31 13:16:30,461 basehttp "GET /data/api/task-status/bb5d9bcb-1734-43fb-994d-8d3a3fe6bad0/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:16:32,474 views Checking task status: SUCCESS
+INFO 2024-10-31 13:16:32,474 views Task completed successfully.
+INFO 2024-10-31 13:16:32,474 basehttp "GET /data/api/task-status/bb5d9bcb-1734-43fb-994d-8d3a3fe6bad0/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:16:32,494 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:16:34,085 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:16:35,860 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:16:57,518 log Not Found: /sw.js
+WARNING 2024-10-31 13:16:57,518 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:18:36,074 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:18:36,811 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:18:48,022 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:18:48,789 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:19:01,123 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:19:02,705 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:19:03,576 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:19:03,581 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:19:06,041 views Starting file upload
+INFO 2024-10-31 13:19:06,061 views File saved at temp/large_test_file - 10k_i9Z8S1B.csv
+INFO 2024-10-31 13:19:06,127 views Task 6f248b23-7f90-47a6-9902-23401e9dee11 started for file processing.
+INFO 2024-10-31 13:19:06,127 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:19:06,157 views Checking task status: PENDING
+INFO 2024-10-31 13:19:06,158 basehttp "GET /data/api/task-status/6f248b23-7f90-47a6-9902-23401e9dee11/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:19:08,171 views Checking task status: SUCCESS
+INFO 2024-10-31 13:19:08,171 views Task completed successfully.
+INFO 2024-10-31 13:19:08,171 basehttp "GET /data/api/task-status/6f248b23-7f90-47a6-9902-23401e9dee11/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:19:08,188 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:19:09,579 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:19:11,559 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:19:33,731 log Not Found: /sw.js
+WARNING 2024-10-31 13:19:33,731 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:19:42,214 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:19:42,921 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:19:46,951 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:19:48,291 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:19:48,832 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:19:48,834 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:19:51,373 views Starting file upload
+INFO 2024-10-31 13:19:51,385 views File saved at temp/large_test_file - 10k_wsQqg32.csv
+INFO 2024-10-31 13:19:51,448 views Task 15ef8a22-7f84-4503-b050-f5b88366cb63 started for file processing.
+INFO 2024-10-31 13:19:51,448 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:19:51,478 views Checking task status: PENDING
+INFO 2024-10-31 13:19:51,479 basehttp "GET /data/api/task-status/15ef8a22-7f84-4503-b050-f5b88366cb63/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:19:53,488 views Checking task status: SUCCESS
+INFO 2024-10-31 13:19:53,488 views Task completed successfully.
+INFO 2024-10-31 13:19:53,488 basehttp "GET /data/api/task-status/15ef8a22-7f84-4503-b050-f5b88366cb63/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:19:53,504 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:19:54,278 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:19:55,821 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:20:02,742 log Not Found: /sw.js
+WARNING 2024-10-31 13:20:02,742 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:20:20,856 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:20:21,668 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:20:25,084 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:20:26,839 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:20:27,678 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:20:27,695 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:20:29,709 views Starting file upload
+INFO 2024-10-31 13:20:29,725 views File saved at temp/large_test_file - 10k_wYil5iV.csv
+INFO 2024-10-31 13:20:29,788 views Task 39eeccdd-f11e-474e-8614-17b0f0bd7158 started for file processing.
+INFO 2024-10-31 13:20:29,788 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:20:29,803 views Checking task status: PENDING
+INFO 2024-10-31 13:20:29,805 basehttp "GET /data/api/task-status/39eeccdd-f11e-474e-8614-17b0f0bd7158/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:20:31,808 views Checking task status: SUCCESS
+INFO 2024-10-31 13:20:31,809 views Task completed successfully.
+INFO 2024-10-31 13:20:31,809 basehttp "GET /data/api/task-status/39eeccdd-f11e-474e-8614-17b0f0bd7158/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:20:31,814 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:20:32,666 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:20:34,312 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:20:57,862 log Not Found: /sw.js
+WARNING 2024-10-31 13:20:57,863 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:22:59,598 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:25:48,102 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:25:49,905 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:25:50,471 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:25:50,473 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:25:54,223 views Starting file upload
+INFO 2024-10-31 13:25:54,238 views File saved at temp/large_test_file - 10k_TS1Qfm6.csv
+INFO 2024-10-31 13:25:54,312 views Task 15cc5a79-7307-4dd9-842b-898b24e1c808 started for file processing.
+INFO 2024-10-31 13:25:54,312 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:25:54,335 views Checking task status: PENDING
+INFO 2024-10-31 13:25:54,336 basehttp "GET /data/api/task-status/15cc5a79-7307-4dd9-842b-898b24e1c808/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:25:56,346 views Checking task status: SUCCESS
+INFO 2024-10-31 13:25:56,346 views Task completed successfully.
+INFO 2024-10-31 13:25:56,346 basehttp "GET /data/api/task-status/15cc5a79-7307-4dd9-842b-898b24e1c808/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:25:56,364 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:25:58,259 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:25:59,950 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:26:20,938 log Not Found: /sw.js
+WARNING 2024-10-31 13:26:20,940 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:28:08,884 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:28:10,466 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:28:10,719 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:28:10,724 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:28:13,500 views Starting file upload
+INFO 2024-10-31 13:28:13,519 views File saved at temp/large_test_file - 10k_uQw3ujL.csv
+INFO 2024-10-31 13:28:13,589 views Task 79d7c6c7-e86a-4eee-9235-9eda98f1f197 started for file processing.
+INFO 2024-10-31 13:28:13,589 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:28:13,603 views Checking task status: PENDING
+INFO 2024-10-31 13:28:13,605 basehttp "GET /data/api/task-status/79d7c6c7-e86a-4eee-9235-9eda98f1f197/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:28:15,607 views Checking task status: SUCCESS
+INFO 2024-10-31 13:28:15,607 views Task completed successfully.
+INFO 2024-10-31 13:28:15,607 basehttp "GET /data/api/task-status/79d7c6c7-e86a-4eee-9235-9eda98f1f197/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:28:15,625 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:28:16,399 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:28:18,270 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:28:41,479 log Not Found: /sw.js
+WARNING 2024-10-31 13:28:41,479 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:29:17,278 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:29:18,541 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:29:19,063 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:29:19,063 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:29:22,980 views Starting file upload
+INFO 2024-10-31 13:29:22,997 views File saved at temp/large_test_file - 10k_MkOkwDu.csv
+INFO 2024-10-31 13:29:23,056 views Task 9e70e208-bfc0-4544-9b30-47eed244179a started for file processing.
+INFO 2024-10-31 13:29:23,056 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:29:23,072 views Checking task status: PENDING
+INFO 2024-10-31 13:29:23,072 basehttp "GET /data/api/task-status/9e70e208-bfc0-4544-9b30-47eed244179a/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:29:25,077 views Checking task status: SUCCESS
+INFO 2024-10-31 13:29:25,077 views Task completed successfully.
+INFO 2024-10-31 13:29:25,077 basehttp "GET /data/api/task-status/9e70e208-bfc0-4544-9b30-47eed244179a/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:29:25,096 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:29:26,996 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:29:28,751 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:29:49,563 log Not Found: /sw.js
+WARNING 2024-10-31 13:29:49,564 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:31:41,127 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:31:42,421 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:31:42,982 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:31:42,989 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:31:45,527 views Starting file upload
+INFO 2024-10-31 13:31:45,537 views File saved at temp/large_test_file - 10k_Pb5P32O.csv
+INFO 2024-10-31 13:31:45,608 views Task dfd2948d-f72d-4c7f-998d-c89188bf4f6c started for file processing.
+INFO 2024-10-31 13:31:45,608 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:31:45,617 views Checking task status: PENDING
+INFO 2024-10-31 13:31:45,617 basehttp "GET /data/api/task-status/dfd2948d-f72d-4c7f-998d-c89188bf4f6c/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:31:47,624 views Checking task status: SUCCESS
+INFO 2024-10-31 13:31:47,624 views Task completed successfully.
+INFO 2024-10-31 13:31:47,624 basehttp "GET /data/api/task-status/dfd2948d-f72d-4c7f-998d-c89188bf4f6c/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:31:47,641 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:31:48,417 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:31:50,027 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:32:13,447 log Not Found: /sw.js
+WARNING 2024-10-31 13:32:13,448 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:34:03,581 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:34:04,962 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:34:05,493 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:34:05,493 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:34:08,138 views Starting file upload
+INFO 2024-10-31 13:34:08,154 views File saved at temp/large_test_file - 10k_DLMjZK1.csv
+INFO 2024-10-31 13:34:08,214 views Task 1b1c821f-45b1-4fa5-addf-20ab368398be started for file processing.
+INFO 2024-10-31 13:34:08,214 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:34:08,243 views Checking task status: PENDING
+INFO 2024-10-31 13:34:08,243 basehttp "GET /data/api/task-status/1b1c821f-45b1-4fa5-addf-20ab368398be/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:34:10,253 views Checking task status: SUCCESS
+INFO 2024-10-31 13:34:10,254 views Task completed successfully.
+INFO 2024-10-31 13:34:10,254 basehttp "GET /data/api/task-status/1b1c821f-45b1-4fa5-addf-20ab368398be/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:34:10,258 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:34:11,042 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:34:12,616 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:34:35,985 log Not Found: /sw.js
+WARNING 2024-10-31 13:34:35,986 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:36:03,644 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:36:04,410 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 13:36:51,815 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 13:36:51,816 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 13:36:59,101 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:37:02,410 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:37:02,973 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:37:02,974 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:37:06,149 views Starting file upload
+INFO 2024-10-31 13:37:06,160 views File saved at temp/large_test_file - 10k_eCymiFe.csv
+INFO 2024-10-31 13:37:06,216 views Task 3012a85d-8ca1-4b2a-bab8-71754844103a started for file processing.
+INFO 2024-10-31 13:37:06,216 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:37:06,237 views Checking task status: PENDING
+INFO 2024-10-31 13:37:06,238 basehttp "GET /data/api/task-status/3012a85d-8ca1-4b2a-bab8-71754844103a/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:37:08,241 views Checking task status: SUCCESS
+INFO 2024-10-31 13:37:08,241 views Task completed successfully.
+INFO 2024-10-31 13:37:08,241 basehttp "GET /data/api/task-status/3012a85d-8ca1-4b2a-bab8-71754844103a/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:37:08,259 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:37:08,986 views Sending paginated response data:
+INFO 2024-10-31 13:37:09,017 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:37:09,741 views Sending paginated response data:
+INFO 2024-10-31 13:37:09,773 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:37:33,446 log Not Found: /sw.js
+WARNING 2024-10-31 13:37:33,446 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:39:05,791 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 13:39:06,529 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:41:17,758 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:41:19,248 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:41:20,053 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:41:20,053 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:41:23,000 views Starting file upload
+INFO 2024-10-31 13:41:23,016 views File saved at temp/large_test_file - 10k_7qRxr5c.csv
+INFO 2024-10-31 13:41:23,072 views Task 53ace67a-1ca6-4252-b31e-64b8e3df22d6 started for file processing.
+INFO 2024-10-31 13:41:23,072 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:41:23,090 views Checking task status: PENDING
+INFO 2024-10-31 13:41:23,090 basehttp "GET /data/api/task-status/53ace67a-1ca6-4252-b31e-64b8e3df22d6/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:41:25,107 views Checking task status: SUCCESS
+INFO 2024-10-31 13:41:25,107 views Task completed successfully.
+INFO 2024-10-31 13:41:25,107 basehttp "GET /data/api/task-status/53ace67a-1ca6-4252-b31e-64b8e3df22d6/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:41:25,124 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:41:26,513 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:41:26,576 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:41:28,416 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:41:28,471 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:41:50,280 log Not Found: /sw.js
+WARNING 2024-10-31 13:41:50,282 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:43:14,844 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:43:16,131 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:43:16,680 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:43:16,680 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:43:19,724 views Starting file upload
+INFO 2024-10-31 13:43:19,741 views File saved at temp/large_test_file - 10k_bl014fZ.csv
+INFO 2024-10-31 13:43:19,814 views Task ceec3fde-9a02-4ec4-bcf4-672f97295bb3 started for file processing.
+INFO 2024-10-31 13:43:19,814 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:43:19,823 views Checking task status: PENDING
+INFO 2024-10-31 13:43:19,823 basehttp "GET /data/api/task-status/ceec3fde-9a02-4ec4-bcf4-672f97295bb3/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:43:21,830 views Checking task status: SUCCESS
+INFO 2024-10-31 13:43:21,830 views Task completed successfully.
+INFO 2024-10-31 13:43:21,830 basehttp "GET /data/api/task-status/ceec3fde-9a02-4ec4-bcf4-672f97295bb3/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:43:21,848 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:43:23,081 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:43:23,131 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:43:25,055 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:43:25,117 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:43:47,198 log Not Found: /sw.js
+WARNING 2024-10-31 13:43:47,199 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:46:44,778 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:46:46,067 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:46:46,604 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:46:46,604 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:46:50,668 views Starting file upload
+INFO 2024-10-31 13:46:50,673 views File saved at temp/large_test_file - 10k_O2xQw8h.csv
+INFO 2024-10-31 13:46:50,748 views Task b2793b22-d4f8-45af-b82e-317fba15332b started for file processing.
+INFO 2024-10-31 13:46:50,748 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:46:50,759 views Checking task status: PENDING
+INFO 2024-10-31 13:46:50,761 basehttp "GET /data/api/task-status/b2793b22-d4f8-45af-b82e-317fba15332b/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:46:52,774 views Checking task status: SUCCESS
+INFO 2024-10-31 13:46:52,774 views Task completed successfully.
+INFO 2024-10-31 13:46:52,774 basehttp "GET /data/api/task-status/b2793b22-d4f8-45af-b82e-317fba15332b/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:46:52,792 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:46:54,640 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:46:54,703 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:46:56,563 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:46:56,620 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:47:17,089 log Not Found: /sw.js
+WARNING 2024-10-31 13:47:17,089 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:48:09,743 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:48:21,029 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:48:21,033 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 13:48:25,752 log Not Found: /sw.js
+WARNING 2024-10-31 13:48:25,753 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:48:27,783 views Starting file upload
+INFO 2024-10-31 13:48:27,800 views File saved at temp/large_test_file - 10k_chKmS8S.csv
+INFO 2024-10-31 13:48:27,887 views Task 0d6ee2ad-1981-4221-97b0-a55fed29781d started for file processing.
+INFO 2024-10-31 13:48:27,887 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:48:27,902 views Checking task status: PENDING
+INFO 2024-10-31 13:48:27,904 basehttp "GET /data/api/task-status/0d6ee2ad-1981-4221-97b0-a55fed29781d/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:48:29,913 views Checking task status: SUCCESS
+INFO 2024-10-31 13:48:29,913 views Task completed successfully.
+INFO 2024-10-31 13:48:29,915 basehttp "GET /data/api/task-status/0d6ee2ad-1981-4221-97b0-a55fed29781d/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:48:29,919 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:48:31,571 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:48:31,634 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:48:33,086 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:48:33,134 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:50:46,681 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:50:46,718 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:50:53,247 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:50:54,473 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:50:55,077 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:50:55,079 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:50:57,874 views Starting file upload
+INFO 2024-10-31 13:50:57,881 views File saved at temp/large_test_file - 10k_GLSC1Kl.csv
+INFO 2024-10-31 13:50:57,960 views Task 15a45964-7c6b-4370-8494-16ce2b4046bf started for file processing.
+INFO 2024-10-31 13:50:57,960 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:50:57,977 views Checking task status: PENDING
+INFO 2024-10-31 13:50:57,978 basehttp "GET /data/api/task-status/15a45964-7c6b-4370-8494-16ce2b4046bf/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:50:59,992 views Checking task status: SUCCESS
+INFO 2024-10-31 13:50:59,992 views Task completed successfully.
+INFO 2024-10-31 13:50:59,992 basehttp "GET /data/api/task-status/15a45964-7c6b-4370-8494-16ce2b4046bf/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:51:00,013 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:51:00,768 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:51:00,831 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:51:02,706 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:51:02,759 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:51:14,826 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:51:16,153 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:51:16,962 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:51:16,962 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:51:19,563 views Starting file upload
+INFO 2024-10-31 13:51:19,569 views File saved at temp/large_test_file - 10k.csv
+INFO 2024-10-31 13:51:19,646 views Task 91d98a23-fb6e-4285-800b-55cafaf7e769 started for file processing.
+INFO 2024-10-31 13:51:19,646 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:51:19,654 views Checking task status: PENDING
+INFO 2024-10-31 13:51:19,654 basehttp "GET /data/api/task-status/91d98a23-fb6e-4285-800b-55cafaf7e769/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:51:21,667 views Checking task status: SUCCESS
+INFO 2024-10-31 13:51:21,667 views Task completed successfully.
+INFO 2024-10-31 13:51:21,667 basehttp "GET /data/api/task-status/91d98a23-fb6e-4285-800b-55cafaf7e769/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:51:21,686 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:51:22,557 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:51:22,620 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:51:24,562 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:51:24,610 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:51:47,142 log Not Found: /sw.js
+WARNING 2024-10-31 13:51:47,142 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:52:55,466 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:52:56,809 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:52:57,341 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:52:57,344 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:53:01,270 views Starting file upload
+INFO 2024-10-31 13:53:01,280 views File saved at temp/large_test_file - 10k_iPw5Wov.csv
+INFO 2024-10-31 13:53:01,354 views Task 34adc983-92c9-434e-abe2-17522b88f8a3 started for file processing.
+INFO 2024-10-31 13:53:01,354 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:53:01,360 views Checking task status: PENDING
+INFO 2024-10-31 13:53:01,361 basehttp "GET /data/api/task-status/34adc983-92c9-434e-abe2-17522b88f8a3/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:53:03,367 views Checking task status: SUCCESS
+INFO 2024-10-31 13:53:03,367 views Task completed successfully.
+INFO 2024-10-31 13:53:03,367 basehttp "GET /data/api/task-status/34adc983-92c9-434e-abe2-17522b88f8a3/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:53:03,387 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:53:05,395 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:53:05,443 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:53:07,483 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:53:07,549 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:53:27,828 log Not Found: /sw.js
+WARNING 2024-10-31 13:53:27,828 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:54:41,537 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:54:41,569 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:54:46,664 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:54:48,410 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:54:49,036 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:54:49,036 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:54:52,137 views Starting file upload
+INFO 2024-10-31 13:54:52,144 views File saved at temp/large_test_file - 10k_lLk0wXC.csv
+INFO 2024-10-31 13:54:52,224 views Task 2e826d3a-ac1e-4361-bb6b-e1da14fa8ceb started for file processing.
+INFO 2024-10-31 13:54:52,224 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:54:52,237 views Checking task status: PENDING
+INFO 2024-10-31 13:54:52,237 basehttp "GET /data/api/task-status/2e826d3a-ac1e-4361-bb6b-e1da14fa8ceb/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:54:54,242 views Checking task status: SUCCESS
+INFO 2024-10-31 13:54:54,242 views Task completed successfully.
+INFO 2024-10-31 13:54:54,242 basehttp "GET /data/api/task-status/2e826d3a-ac1e-4361-bb6b-e1da14fa8ceb/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:54:54,255 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:54:55,874 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:54:55,937 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:54:57,606 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:54:57,659 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:55:19,440 log Not Found: /sw.js
+WARNING 2024-10-31 13:55:19,440 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 13:56:44,531 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:56:44,562 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:56:59,591 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:56:59,619 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:57:19,374 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 13:57:20,697 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 13:57:21,308 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:57:21,308 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 13:57:25,562 views Starting file upload
+INFO 2024-10-31 13:57:25,580 views File saved at temp/large_test_file - 10k_wlmIAyx.csv
+INFO 2024-10-31 13:57:25,638 views Task 4133e0fb-500a-4106-afaa-f474865f7b03 started for file processing.
+INFO 2024-10-31 13:57:25,638 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 13:57:25,666 views Checking task status: PENDING
+INFO 2024-10-31 13:57:25,666 basehttp "GET /data/api/task-status/4133e0fb-500a-4106-afaa-f474865f7b03/ HTTP/1.1" 200 33
+INFO 2024-10-31 13:57:27,683 views Checking task status: SUCCESS
+INFO 2024-10-31 13:57:27,683 views Task completed successfully.
+INFO 2024-10-31 13:57:27,683 basehttp "GET /data/api/task-status/4133e0fb-500a-4106-afaa-f474865f7b03/ HTTP/1.1" 200 98
+INFO 2024-10-31 13:57:27,696 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 13:57:29,479 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:57:29,542 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 13:57:31,196 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 13:57:31,240 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+WARNING 2024-10-31 13:57:51,734 log Not Found: /sw.js
+WARNING 2024-10-31 13:57:51,735 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:05:11,656 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 14:05:11,687 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 14:05:12,395 views Sending paginated response data: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71.0, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51.0, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64.0, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77.0, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67.0, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98.0, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76.0, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50.0, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60.0, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'Category', 'Birthdate': 'Category', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}, 'total_rows': 499999, 'current_page': 1, 'total_pages': 50000}
+INFO 2024-10-31 14:05:12,427 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1219
+INFO 2024-10-31 14:06:28,979 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 14:06:29,695 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:06:56,873 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 14:07:08,043 log Not Found: /sw.js
+WARNING 2024-10-31 14:07:08,043 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:09:06,704 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:11:04,008 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 14:11:04,980 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:12:41,597 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:12:42,852 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 14:12:43,676 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:12:43,679 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:12:46,936 views Starting file upload
+INFO 2024-10-31 14:12:46,952 views File saved at temp/large_test_file - 10k_xYPO4Ta.csv
+INFO 2024-10-31 14:12:47,016 views Task 24c29062-e481-4918-879b-5a2402d86121 started for file processing.
+INFO 2024-10-31 14:12:47,016 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:12:47,028 views Checking task status: PENDING
+INFO 2024-10-31 14:12:47,029 basehttp "GET /data/api/task-status/24c29062-e481-4918-879b-5a2402d86121/ HTTP/1.1" 200 33
+INFO 2024-10-31 14:12:49,047 views Checking task status: SUCCESS
+INFO 2024-10-31 14:12:49,047 views Task completed successfully.
+INFO 2024-10-31 14:12:49,047 basehttp "GET /data/api/task-status/24c29062-e481-4918-879b-5a2402d86121/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:12:49,064 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:12:49,069 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:12:49,256 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:12:49,272 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 14:12:50,743 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 14:12:50,746 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:12:51,085 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:12:51,101 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 14:12:52,369 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1178
+INFO 2024-10-31 14:12:54,650 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:12:54,852 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:12:54,867 views Custom Inferred data types: {'Name': 'Unknown', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Unknown', 'Comments': 'Unknown'}
+INFO 2024-10-31 14:12:56,190 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1212
+INFO 2024-10-31 14:13:00,578 views Starting file upload
+INFO 2024-10-31 14:13:00,590 views File saved at temp/large_test_file - 1000.csv
+INFO 2024-10-31 14:13:00,597 views Task 41afd21a-69f6-4bde-9ddb-c46d3150a3be started for file processing.
+INFO 2024-10-31 14:13:00,598 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:13:00,603 views Checking task status: PENDING
+INFO 2024-10-31 14:13:00,604 basehttp "GET /data/api/task-status/41afd21a-69f6-4bde-9ddb-c46d3150a3be/ HTTP/1.1" 200 33
+INFO 2024-10-31 14:13:02,612 views Checking task status: SUCCESS
+INFO 2024-10-31 14:13:02,612 views Task completed successfully.
+INFO 2024-10-31 14:13:02,612 basehttp "GET /data/api/task-status/41afd21a-69f6-4bde-9ddb-c46d3150a3be/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:13:02,629 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:13:02,634 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:13:02,643 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 14:13:02,644 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:13:02,649 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 14:13:02,651 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:13:02,653 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 14:13:02,654 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:13:02,660 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+WARNING 2024-10-31 14:13:13,877 log Not Found: /sw.js
+WARNING 2024-10-31 14:13:13,878 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 14:16:00,747 log Not Found: /sw.js
+WARNING 2024-10-31 14:16:00,748 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:41:30,130 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:41:32,693 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 14:41:33,489 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:41:33,494 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:41:35,885 views Starting file upload
+INFO 2024-10-31 14:41:35,902 views File saved at temp/large_test_file - 10k_p4ogRwA.csv
+INFO 2024-10-31 14:41:35,991 views Task 7bb26d38-51dc-46cc-a52d-f4cd454b0d1f started for file processing.
+INFO 2024-10-31 14:41:35,991 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:41:36,022 views Checking task status: PENDING
+INFO 2024-10-31 14:41:36,023 basehttp "GET /data/api/task-status/7bb26d38-51dc-46cc-a52d-f4cd454b0d1f/ HTTP/1.1" 200 33
+INFO 2024-10-31 14:41:38,038 views Checking task status: SUCCESS
+INFO 2024-10-31 14:41:38,038 views Task completed successfully.
+INFO 2024-10-31 14:41:38,038 basehttp "GET /data/api/task-status/7bb26d38-51dc-46cc-a52d-f4cd454b0d1f/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:41:38,051 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:41:38,054 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:38,369 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:38,527 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:40,168 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1181
+INFO 2024-10-31 14:41:40,184 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:40,497 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:40,680 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:42,206 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1181
+INFO 2024-10-31 14:41:51,771 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:51,946 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:52,056 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:52,312 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:52,748 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:53,104 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1215
+INFO 2024-10-31 14:41:53,131 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:53,314 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:53,472 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:53,771 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:54,039 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:54,377 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:54,405 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:55,271 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:55,654 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1215
+INFO 2024-10-31 14:41:55,786 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:57,206 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:41:57,860 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1224
+INFO 2024-10-31 14:41:58,003 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:58,284 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:58,308 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:41:58,841 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:41:59,139 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1254
+INFO 2024-10-31 14:42:00,452 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:42:00,717 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:42:01,049 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1222
+INFO 2024-10-31 14:42:01,335 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1209
+INFO 2024-10-31 14:42:02,152 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1221
+WARNING 2024-10-31 14:42:03,711 log Not Found: /sw.js
+WARNING 2024-10-31 14:42:03,711 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:45:40,744 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 14:45:41,484 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:45:59,053 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 14:46:00,082 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:46:10,502 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 14:46:11,235 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:47:20,255 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 14:47:20,963 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:47:39,585 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 14:47:40,238 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:47:44,710 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:50:13,713 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 14:50:14,745 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:50:30,043 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 14:50:30,829 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:50:35,599 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:50:37,079 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 14:50:37,889 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:50:37,892 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:50:40,841 views Starting file upload
+INFO 2024-10-31 14:50:40,857 views File saved at temp/large_test_file - 10k_oEb1jNW.csv
+INFO 2024-10-31 14:50:40,928 views Task 547d743a-6cf8-4f7b-9835-cfa2b69cd49a started for file processing.
+INFO 2024-10-31 14:50:40,929 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:50:40,933 views Checking task status: PENDING
+INFO 2024-10-31 14:50:40,935 basehttp "GET /data/api/task-status/547d743a-6cf8-4f7b-9835-cfa2b69cd49a/ HTTP/1.1" 200 33
+INFO 2024-10-31 14:50:42,956 views Checking task status: SUCCESS
+INFO 2024-10-31 14:50:42,957 views Task completed successfully.
+INFO 2024-10-31 14:50:42,958 basehttp "GET /data/api/task-status/547d743a-6cf8-4f7b-9835-cfa2b69cd49a/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:50:42,964 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:50:42,968 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:50:43,120 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:50:43,248 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:50:44,639 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1181
+INFO 2024-10-31 14:50:44,642 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:50:44,961 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 14:50:45,121 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Unknown', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:50:46,410 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1181
+WARNING 2024-10-31 14:51:08,117 log Not Found: /sw.js
+WARNING 2024-10-31 14:51:08,118 basehttp "GET /sw.js HTTP/1.1" 404 2672
+WARNING 2024-10-31 14:55:49,826 log Not Found: /sw.js
+WARNING 2024-10-31 14:55:49,827 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:56:02,403 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:56:03,671 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 14:56:04,482 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:56:04,482 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:56:07,422 views Starting file upload
+INFO 2024-10-31 14:56:07,426 views File saved at temp/large_test_file - 10k_36BRZjh.csv
+INFO 2024-10-31 14:56:07,498 views Task ee2dc264-deb7-461c-9aac-4f4f44988dfd started for file processing.
+INFO 2024-10-31 14:56:07,498 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:56:07,533 views Checking task status: PROGRESS
+INFO 2024-10-31 14:56:07,534 basehttp "GET /data/api/task-status/ee2dc264-deb7-461c-9aac-4f4f44988dfd/ HTTP/1.1" 200 49
+INFO 2024-10-31 14:56:09,539 views Checking task status: SUCCESS
+INFO 2024-10-31 14:56:09,539 views Task completed successfully.
+INFO 2024-10-31 14:56:09,540 basehttp "GET /data/api/task-status/ee2dc264-deb7-461c-9aac-4f4f44988dfd/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:56:09,544 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:56:09,547 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:56:09,552 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 14:56:09,575 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:56:09,596 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 14:56:09,598 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:56:09,608 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 14:56:09,618 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:56:09,638 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1201
+WARNING 2024-10-31 14:56:34,694 log Not Found: /sw.js
+WARNING 2024-10-31 14:56:34,696 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 14:59:42,640 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\utils.py changed, reloading.
+INFO 2024-10-31 14:59:43,376 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:59:47,579 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 14:59:49,070 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 14:59:49,846 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:59:49,849 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 14:59:52,020 views Starting file upload
+INFO 2024-10-31 14:59:52,033 views File saved at temp/large_test_file - 10k_0VXFlX0.csv
+INFO 2024-10-31 14:59:52,105 views Task 7e56a043-aea2-4dda-9f77-51616ddc33f5 started for file processing.
+INFO 2024-10-31 14:59:52,105 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 14:59:52,112 views Checking task status: PENDING
+INFO 2024-10-31 14:59:52,112 basehttp "GET /data/api/task-status/7e56a043-aea2-4dda-9f77-51616ddc33f5/ HTTP/1.1" 200 33
+INFO 2024-10-31 14:59:54,129 views Checking task status: SUCCESS
+INFO 2024-10-31 14:59:54,129 views Task completed successfully.
+INFO 2024-10-31 14:59:54,129 basehttp "GET /data/api/task-status/7e56a043-aea2-4dda-9f77-51616ddc33f5/ HTTP/1.1" 200 98
+INFO 2024-10-31 14:59:54,138 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 14:59:54,142 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:59:54,159 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 14:59:54,177 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Date', 'Score': 'Date', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:59:54,192 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1198
+INFO 2024-10-31 14:59:54,206 views Processed dataset file found. Loading data...
+INFO 2024-10-31 14:59:54,216 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 14:59:54,227 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Date', 'Score': 'Date', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 14:59:54,243 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1198
+WARNING 2024-10-31 15:00:20,091 log Not Found: /sw.js
+WARNING 2024-10-31 15:00:20,091 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 15:01:52,999 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\utils.py changed, reloading.
+INFO 2024-10-31 15:01:53,797 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 15:01:55,109 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 15:01:55,924 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 15:01:55,927 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 15:01:58,009 views Starting file upload
+INFO 2024-10-31 15:01:58,016 views File saved at temp/large_test_file - 10k_sfJNwyL.csv
+INFO 2024-10-31 15:01:58,090 views Task 4af3e1f8-bd4a-466b-bf84-38b0c82cfe2a started for file processing.
+INFO 2024-10-31 15:01:58,090 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 15:01:58,124 views Checking task status: PROGRESS
+INFO 2024-10-31 15:01:58,127 basehttp "GET /data/api/task-status/4af3e1f8-bd4a-466b-bf84-38b0c82cfe2a/ HTTP/1.1" 200 49
+INFO 2024-10-31 15:02:00,133 views Checking task status: SUCCESS
+INFO 2024-10-31 15:02:00,133 views Task completed successfully.
+INFO 2024-10-31 15:02:00,134 basehttp "GET /data/api/task-status/4af3e1f8-bd4a-466b-bf84-38b0c82cfe2a/ HTTP/1.1" 200 98
+INFO 2024-10-31 15:02:00,139 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 15:02:00,144 views Processed dataset file found. Loading data...
+INFO 2024-10-31 15:02:00,164 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 15:02:00,185 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Date', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 15:02:00,206 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1201
+INFO 2024-10-31 15:02:00,209 views Processed dataset file found. Loading data...
+INFO 2024-10-31 15:02:00,219 views DataFrame loaded with 10000 rows.
+INFO 2024-10-31 15:02:00,237 views Custom Inferred data types: {'Name': 'Name', 'Birthdate': 'Date', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 15:02:00,257 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1201
