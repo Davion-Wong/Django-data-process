@@ -74,41 +74,35 @@ def processed_data_status(request):
     return Response({'processed_data_ready': is_ready})
 
 
+#
+# @api_view(['GET'])
+# def get_processed_dataset(request):
+#     global processed_data_ready
+#     processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+#
+#     if not processed_data_ready or not os.path.exists(processed_dataset_path):
+#         return Response({'error': 'No processed dataset found. Please upload a file first.'},
+#                         status=status.HTTP_404_NOT_FOUND)
+#
+#     logger.info("Processed dataset file found. Loading data...")
+#     df = pd.read_csv(processed_dataset_path)
+#     logger.info(f"DataFrame loaded with {len(df)} rows.")
+#
+#     # Use improved type inference for each column
+#     inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+#     logger.info(f"Custom Inferred data types: {inferred_types}")
+#
+#     # Paginate the DataFrame records
+#     paginator = DatasetPagination()
+#     page = paginator.paginate_queryset(df.to_dict('records'), request)
+#
+#     # Return the data with inferred custom data types
+#     return paginator.get_paginated_response({
+#         'data': page,
+#         'types': inferred_types,
+#         'total_rows': len(df)
+#     })
 
-@api_view(['GET'])
-def get_processed_dataset(request):
-    global processed_data_ready
-    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-
-    if not processed_data_ready or not os.path.exists(processed_dataset_path):
-        return Response({'error': 'No processed dataset found. Please upload a file first.'},
-                        status=status.HTTP_404_NOT_FOUND)
-
-    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
-
-    # Check if the processed file exists
-    if not os.path.exists(processed_dataset_path):
-        logger.error("Processed dataset file not found.")
-        return Response({'error': 'No processed dataset found. Please upload a file first.'},
-                        status=status.HTTP_404_NOT_FOUND)
-
-    logger.info("Processed dataset file found. Loading data...")
-    df = pd.read_csv(processed_dataset_path)
-    logger.info(f"DataFrame loaded with {len(df)} rows.")
-
-    # Infer data types for each column
-    inferred_types = {col: str(dtype) for col, dtype in df.dtypes.items()}
-
-    # Paginate the DataFrame records
-    paginator = DatasetPagination()
-    page = paginator.paginate_queryset(df.to_dict('records'), request)
-
-    # Return the data with inferred data types
-    return paginator.get_paginated_response({
-        'data': page,
-        'types': inferred_types,
-        'total_rows': len(df)
-    })
 
 
 # Main dataset display view
@@ -155,3 +149,46 @@ def check_task_progress(request, task_id):
         response = {'state': task.state, 'progress': 100, 'error': str(task.info)}  # In case of error
 
     return JsonResponse(response)
+
+# Function to infer custom data types
+def infer_column_type(series):
+    """Infer custom types for a DataFrame column."""
+    if pd.api.types.is_numeric_dtype(series):
+        if series.nunique() < 20:
+            return "Category"  # Consider columns with few unique values as categorical
+        return "Numeric"
+    elif pd.api.types.is_datetime64_any_dtype(series):
+        return "Date"
+    elif pd.api.types.is_string_dtype(series):
+        if series.nunique() < 20:
+            return "Category"
+        return "Text"
+    return "Unknown"
+
+@api_view(['GET'])
+def get_processed_dataset(request):
+    global processed_data_ready
+    processed_dataset_path = os.path.join('temp', 'processed_dataset.csv')
+
+    if not processed_data_ready or not os.path.exists(processed_dataset_path):
+        return Response({'error': 'No processed dataset found. Please upload a file first.'},
+                        status=status.HTTP_404_NOT_FOUND)
+
+    logger.info("Processed dataset file found. Loading data...")
+    df = pd.read_csv(processed_dataset_path)
+    logger.info(f"DataFrame loaded with {len(df)} rows.")
+
+    # Use improved type inference for each column
+    inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+    logger.info(f"Custom Inferred data types: {inferred_types}")
+
+    # Paginate the DataFrame records
+    paginator = DatasetPagination()
+    page = paginator.paginate_queryset(df.to_dict('records'), request)
+
+    # Return the data with inferred custom data types
+    return paginator.get_paginated_response({
+        'data': page,
+        'types': inferred_types,
+        'total_rows': len(df)
+    })

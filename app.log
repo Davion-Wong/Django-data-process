@@ -7738,3 +7738,401 @@ INFO 2024-10-31 09:55:27,280 basehttp "GET /data/api/dataset/?page=18&page_size=
 INFO 2024-10-31 09:55:27,458 views Processed dataset file found. Loading data...
 INFO 2024-10-31 09:55:27,462 views DataFrame loaded with 999 rows.
 INFO 2024-10-31 09:55:27,466 basehttp "GET /data/api/dataset/?page=19&page_size=10 HTTP/1.1" 200 1195
+WARNING 2024-10-31 09:55:44,126 log Not Found: /sw.js
+WARNING 2024-10-31 09:55:44,126 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 10:21:50,295 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:21:50,299 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:21:50,305 basehttp "GET /data/api/dataset/?page=20&page_size=10 HTTP/1.1" 200 1203
+INFO 2024-10-31 10:21:50,708 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:21:50,712 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:21:50,716 basehttp "GET /data/api/dataset/?page=21&page_size=10 HTTP/1.1" 200 1199
+INFO 2024-10-31 10:21:50,892 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:21:50,895 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:21:50,900 basehttp "GET /data/api/dataset/?page=22&page_size=10 HTTP/1.1" 200 1235
+INFO 2024-10-31 10:21:51,053 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:21:51,056 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:21:51,060 basehttp "GET /data/api/dataset/?page=23&page_size=10 HTTP/1.1" 200 1206
+INFO 2024-10-31 10:21:51,258 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:21:51,262 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:21:51,266 basehttp "GET /data/api/dataset/?page=24&page_size=10 HTTP/1.1" 200 1190
+INFO 2024-10-31 10:22:41,267 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:22:41,271 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:22:41,276 basehttp "GET /data/api/dataset/?page=25&page_size=10 HTTP/1.1" 200 1191
+INFO 2024-10-31 10:22:41,586 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:22:41,588 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:22:41,594 basehttp "GET /data/api/dataset/?page=26&page_size=10 HTTP/1.1" 200 1187
+INFO 2024-10-31 10:22:41,807 views Processed dataset file found. Loading data...
+INFO 2024-10-31 10:22:41,811 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 10:22:41,822 basehttp "GET /data/api/dataset/?page=27&page_size=10 HTTP/1.1" 200 1203
+INFO 2024-10-31 11:04:32,692 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:04:33,497 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:04:44,852 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:04:46,224 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:04:47,086 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:04:47,092 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:04:50,177 views Starting file upload
+INFO 2024-10-31 11:04:50,186 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 11:04:50,254 views Task 770397b2-415e-4a6e-97ce-69db1992ac56 started for file processing.
+INFO 2024-10-31 11:04:50,254 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:04:50,264 views Checking task status: PENDING
+INFO 2024-10-31 11:04:50,266 basehttp "GET /data/api/task-status/770397b2-415e-4a6e-97ce-69db1992ac56/ HTTP/1.1" 200 33
+INFO 2024-10-31 11:04:52,270 views Checking task status: SUCCESS
+INFO 2024-10-31 11:04:52,270 views Task completed successfully.
+INFO 2024-10-31 11:04:52,271 basehttp "GET /data/api/task-status/770397b2-415e-4a6e-97ce-69db1992ac56/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:04:52,276 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:04:52,280 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:04:52,280 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:04:52,280 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 11:04:52,296 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:04:52,298 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:04:52,301 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 11:05:02,722 log Not Found: /sw.js
+WARNING 2024-10-31 11:05:02,723 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:05:21,287 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:05:22,924 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:05:23,432 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:05:23,432 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:05:26,017 views Starting file upload
+INFO 2024-10-31 11:05:26,072 views File saved at temp/large_test_file - Copy1.csv
+INFO 2024-10-31 11:05:26,135 views Task 6119ec0e-e9f6-4036-ac06-ded98be086ea started for file processing.
+INFO 2024-10-31 11:05:26,135 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:05:26,143 views Checking task status: PENDING
+INFO 2024-10-31 11:05:26,143 basehttp "GET /data/api/task-status/6119ec0e-e9f6-4036-ac06-ded98be086ea/ HTTP/1.1" 200 33
+INFO 2024-10-31 11:05:28,153 views Checking task status: SUCCESS
+INFO 2024-10-31 11:05:28,153 views Task completed successfully.
+INFO 2024-10-31 11:05:28,153 basehttp "GET /data/api/task-status/6119ec0e-e9f6-4036-ac06-ded98be086ea/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:05:28,165 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:05:28,165 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:28,429 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:30,089 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 11:05:30,105 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:30,603 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:32,565 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 11:05:32,908 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:33,331 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:34,109 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:34,640 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:35,409 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:05:35,582 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:35,757 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:35,890 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:36,374 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:39,838 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:05:39,964 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:40,042 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:41,351 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 11:05:41,505 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:42,606 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:45,798 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 11:05:46,068 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:05:46,068 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:46,321 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:46,919 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:48,139 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:50,228 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:52,210 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:52,281 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 11:05:52,392 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:05:52,407 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:53,689 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:53,689 views DataFrame loaded with 499999 rows.
+WARNING 2024-10-31 11:05:54,256 log Not Found: /sw.js
+WARNING 2024-10-31 11:05:54,429 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:05:54,587 basehttp - Broken pipe from ('127.0.0.1', 11277)
+INFO 2024-10-31 11:05:54,985 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:05:56,103 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:57,063 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:57,380 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:05:57,559 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 11:05:57,725 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:58,113 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:05:58,850 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:02,160 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:06:02,306 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:02,736 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 11:06:02,789 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:02,914 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:04,244 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:06,846 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 11:06:06,946 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:07,502 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:09,081 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 11:06:09,197 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:09,580 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:10,260 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 11:06:10,269 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:10,319 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:16,772 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 11:06:16,794 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:16,940 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:17,058 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 11:06:17,079 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:17,603 basehttp "GET /data/api/dataset/?page=10&page_size=10 HTTP/1.1" 200 1210
+INFO 2024-10-31 11:06:17,644 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:17,849 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:18,359 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:24,254 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 11:06:24,328 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:06:24,927 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:06:25,095 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:25,256 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:06:25,597 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:26,168 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:30,948 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 11:06:31,170 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:06:32,243 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 11:06:33,312 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 11:06:34,511 basehttp "GET /data/api/dataset/?page=9&page_size=10 HTTP/1.1" 200 1197
+INFO 2024-10-31 11:07:34,084 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:34,623 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:36,859 basehttp "GET /data/api/dataset/?page=2&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:07:39,569 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:39,914 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:42,114 basehttp "GET /data/api/dataset/?page=3&page_size=10 HTTP/1.1" 200 1186
+INFO 2024-10-31 11:07:43,483 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:43,983 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:46,093 basehttp "GET /data/api/dataset/?page=4&page_size=10 HTTP/1.1" 200 1195
+INFO 2024-10-31 11:07:47,795 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:48,196 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:50,099 basehttp "GET /data/api/dataset/?page=5&page_size=10 HTTP/1.1" 200 1225
+INFO 2024-10-31 11:07:51,781 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:52,163 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:54,321 basehttp "GET /data/api/dataset/?page=6&page_size=10 HTTP/1.1" 200 1193
+INFO 2024-10-31 11:07:56,197 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:07:56,659 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:07:58,916 basehttp "GET /data/api/dataset/?page=7&page_size=10 HTTP/1.1" 200 1180
+INFO 2024-10-31 11:08:00,388 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:08:00,819 views DataFrame loaded with 499999 rows.
+INFO 2024-10-31 11:08:02,573 basehttp "GET /data/api/dataset/?page=8&page_size=10 HTTP/1.1" 200 1192
+INFO 2024-10-31 11:11:48,635 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:11:49,436 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:12:02,972 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:12:04,196 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:12:05,054 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:12:05,121 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:12:09,045 views Starting file upload
+INFO 2024-10-31 11:12:09,051 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 11:12:09,123 views Task 1e3c26bf-873a-4e02-85e5-696cda506bab started for file processing.
+INFO 2024-10-31 11:12:09,123 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:12:09,151 views Checking task status: SUCCESS
+INFO 2024-10-31 11:12:09,152 views Task completed successfully.
+INFO 2024-10-31 11:12:09,152 basehttp "GET /data/api/task-status/1e3c26bf-873a-4e02-85e5-696cda506bab/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:12:09,157 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:12:09,161 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:12:09,169 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:12:09,173 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 11:12:09,177 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:12:09,180 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:12:09,184 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 11:12:35,189 log Not Found: /sw.js
+WARNING 2024-10-31 11:12:35,189 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:12:39,327 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:12:39,327 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+WARNING 2024-10-31 11:12:40,133 log Not Found: /sw.js
+WARNING 2024-10-31 11:12:40,134 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:12:42,433 views Starting file upload
+INFO 2024-10-31 11:12:42,437 views File saved at temp/sample_data.csv
+INFO 2024-10-31 11:12:42,452 views Task afca2798-76e6-4a24-895d-5e3f1025cd69 started for file processing.
+INFO 2024-10-31 11:12:42,453 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:12:42,461 views Checking task status: PROGRESS
+INFO 2024-10-31 11:12:42,461 views Task completed successfully.
+INFO 2024-10-31 11:12:42,462 basehttp "GET /data/api/task-status/afca2798-76e6-4a24-895d-5e3f1025cd69/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:12:42,468 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:12:42,474 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:12:42,474 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:12:42,477 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 11:12:42,477 views DataFrame loaded with 5 rows.
+INFO 2024-10-31 11:12:42,478 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2024-10-31 11:12:42,479 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2024-10-31 11:15:20,692 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 11:15:21,477 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 11:15:40,820 log Not Found: /data/api/dataset/
+WARNING 2024-10-31 11:15:40,820 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 404 67
+INFO 2024-10-31 11:15:50,440 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:15:51,585 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:15:52,151 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:15:52,151 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:15:55,540 views Starting file upload
+INFO 2024-10-31 11:15:55,546 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 11:15:55,621 views Task 3ec457af-9d9f-4bab-bb74-a2da6a1d0883 started for file processing.
+INFO 2024-10-31 11:15:55,621 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:15:55,645 views Checking task status: SUCCESS
+INFO 2024-10-31 11:15:55,646 views Task completed successfully.
+INFO 2024-10-31 11:15:55,646 basehttp "GET /data/api/task-status/3ec457af-9d9f-4bab-bb74-a2da6a1d0883/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:15:55,650 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:15:55,650 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:15:55,663 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:15:55,664 views Inferred data types: {'Name': 'object', 'Birthdate': 'object', 'Score': 'int64', 'Grade': 'object', 'Comments': 'object'}
+INFO 2024-10-31 11:15:55,667 views Response data being sent: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'object', 'Birthdate': 'object', 'Score': 'int64', 'Grade': 'object', 'Comments': 'object'}, 'total_rows': 999}
+INFO 2024-10-31 11:15:55,668 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 11:15:55,670 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:15:55,673 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:15:55,673 views Inferred data types: {'Name': 'object', 'Birthdate': 'object', 'Score': 'int64', 'Grade': 'object', 'Comments': 'object'}
+INFO 2024-10-31 11:15:55,678 views Response data being sent: {'data': [{'Name': 'David', 'Birthdate': '1/1/1990 0:00', 'Score': 71, 'Grade': 'D', 'Comments': 'Excellent'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:01', 'Score': 54, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Charlie', 'Birthdate': '1/1/1990 0:02', 'Score': 51, 'Grade': 'A', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:03', 'Score': 64, 'Grade': 'C', 'Comments': 'Needs Improvement'}, {'Name': 'Alice', 'Birthdate': '1/1/1990 0:04', 'Score': 77, 'Grade': 'F', 'Comments': 'Excellent'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:05', 'Score': 67, 'Grade': 'D', 'Comments': 'Poor'}, {'Name': 'David', 'Birthdate': '1/1/1990 0:06', 'Score': 98, 'Grade': 'B', 'Comments': 'Poor'}, {'Name': 'Bob', 'Birthdate': '1/1/1990 0:07', 'Score': 76, 'Grade': 'A', 'Comments': 'Average'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:08', 'Score': 50, 'Grade': 'C', 'Comments': 'Poor'}, {'Name': 'Eve', 'Birthdate': '1/1/1990 0:09', 'Score': 60, 'Grade': 'B', 'Comments': 'Needs Improvement'}], 'types': {'Name': 'object', 'Birthdate': 'object', 'Score': 'int64', 'Grade': 'object', 'Comments': 'object'}, 'total_rows': 999}
+INFO 2024-10-31 11:15:55,679 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 11:16:22,624 log Not Found: /sw.js
+WARNING 2024-10-31 11:16:22,625 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:17:26,879 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:17:27,641 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:18:39,232 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:18:40,671 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:18:41,520 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:18:41,523 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:18:45,175 views Starting file upload
+INFO 2024-10-31 11:18:45,183 views File saved at temp/large_test_file - Copy.csv
+ERROR 2024-10-31 11:18:45,190 views Exception occurred during file upload
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 46, in api_upload_file
+    task = infer_data_types.delay(file_path)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 559, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: infer_data_types() takes 1 positional argument but 2 were given
+ERROR 2024-10-31 11:18:45,199 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-31 11:18:45,199 basehttp "POST /data/api/upload/ HTTP/1.1" 500 75
+WARNING 2024-10-31 11:19:11,704 log Not Found: /sw.js
+WARNING 2024-10-31 11:19:11,704 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:20:04,057 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 11:20:04,802 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:20:07,256 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:20:08,124 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:20:08,167 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:20:10,323 views Starting file upload
+INFO 2024-10-31 11:20:10,333 views File saved at temp/large_test_file - Copy_L8JdC5u.csv
+ERROR 2024-10-31 11:20:10,333 views Exception occurred during file upload
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 46, in api_upload_file
+    task = infer_data_types.delay(file_path)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\celery\app\task.py", line 559, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: infer_data_types() takes 1 positional argument but 2 were given
+ERROR 2024-10-31 11:20:10,333 log Internal Server Error: /data/api/upload/
+ERROR 2024-10-31 11:20:10,333 basehttp "POST /data/api/upload/ HTTP/1.1" 500 75
+INFO 2024-10-31 11:20:18,708 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:20:19,393 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:20:20,659 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:20:21,180 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:20:21,184 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:20:24,866 views Starting file upload
+INFO 2024-10-31 11:20:24,872 views File saved at temp/large_test_file - Copy_IgY0U3Y.csv
+INFO 2024-10-31 11:20:24,942 views Task 338e20a4-9685-4865-a3fe-a7644b4d2bd9 started for file processing.
+INFO 2024-10-31 11:20:24,942 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:20:24,970 views Checking task status: SUCCESS
+INFO 2024-10-31 11:20:24,970 views Task completed successfully.
+INFO 2024-10-31 11:20:24,971 basehttp "GET /data/api/task-status/338e20a4-9685-4865-a3fe-a7644b4d2bd9/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:20:24,976 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:20:24,981 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:20:24,989 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:20:24,994 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+INFO 2024-10-31 11:20:24,994 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:20:24,994 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:20:25,002 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1146
+WARNING 2024-10-31 11:20:28,357 log Not Found: /sw.js
+WARNING 2024-10-31 11:20:28,357 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:23:11,314 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:23:11,990 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:23:39,212 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 11:23:40,023 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:23:47,829 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:23:48,939 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:23:49,789 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:23:49,796 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:23:52,122 views Starting file upload
+INFO 2024-10-31 11:23:52,128 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 11:23:52,201 views Task 6925b3f9-6baf-4c0f-be9d-49a7b176c7b9 started for file processing.
+INFO 2024-10-31 11:23:52,201 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:23:52,213 views Checking task status: PENDING
+INFO 2024-10-31 11:23:52,213 basehttp "GET /data/api/task-status/6925b3f9-6baf-4c0f-be9d-49a7b176c7b9/ HTTP/1.1" 200 33
+INFO 2024-10-31 11:23:54,228 views Checking task status: SUCCESS
+INFO 2024-10-31 11:23:54,228 views Task completed successfully.
+INFO 2024-10-31 11:23:54,228 basehttp "GET /data/api/task-status/6925b3f9-6baf-4c0f-be9d-49a7b176c7b9/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:23:54,241 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:23:54,243 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:23:54,254 views DataFrame loaded with 999 rows.
+ERROR 2024-10-31 11:23:54,349 log Internal Server Error: /data/api/dataset/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 92, in get_processed_dataset
+    inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 92, in <dictcomp>
+    inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+NameError: name 'infer_column_type' is not defined
+ERROR 2024-10-31 11:23:54,349 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 500 105376
+INFO 2024-10-31 11:23:54,349 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:23:54,361 views DataFrame loaded with 999 rows.
+ERROR 2024-10-31 11:23:54,385 log Internal Server Error: /data/api/dataset/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\.venv\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 92, in get_processed_dataset
+    inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+  File "C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py", line 92, in <dictcomp>
+    inferred_types = {col: infer_column_type(df[col]) for col in df.columns}
+NameError: name 'infer_column_type' is not defined
+ERROR 2024-10-31 11:23:54,386 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 500 105376
+WARNING 2024-10-31 11:24:19,959 log Not Found: /sw.js
+WARNING 2024-10-31 11:24:19,959 basehttp "GET /sw.js HTTP/1.1" 404 2672
+INFO 2024-10-31 11:25:32,428 autoreload C:\Users\User\PycharmProjects\Django-data-process\backend\infer_data_types.py changed, reloading.
+INFO 2024-10-31 11:25:33,171 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:25:47,510 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 11:25:48,217 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:26:23,828 autoreload C:\Users\User\PycharmProjects\Django-data-process\data_processing\views.py changed, reloading.
+INFO 2024-10-31 11:26:24,546 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:26:35,947 autoreload Watching for file changes with StatReloader
+INFO 2024-10-31 11:26:37,282 basehttp "GET / HTTP/1.1" 302 0
+INFO 2024-10-31 11:26:38,123 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:26:38,138 basehttp "GET /data/api/csrf/ HTTP/1.1" 200 81
+INFO 2024-10-31 11:26:40,193 views Starting file upload
+INFO 2024-10-31 11:26:40,200 views File saved at temp/large_test_file - Copy.csv
+INFO 2024-10-31 11:26:40,256 views Task 8218e125-16bc-4404-8de2-96d2c6349e1d started for file processing.
+INFO 2024-10-31 11:26:40,256 basehttp "POST /data/api/upload/ HTTP/1.1" 202 115
+INFO 2024-10-31 11:26:40,277 views Checking task status: PENDING
+INFO 2024-10-31 11:26:40,277 basehttp "GET /data/api/task-status/8218e125-16bc-4404-8de2-96d2c6349e1d/ HTTP/1.1" 200 33
+INFO 2024-10-31 11:26:42,297 views Checking task status: SUCCESS
+INFO 2024-10-31 11:26:42,297 views Task completed successfully.
+INFO 2024-10-31 11:26:42,297 basehttp "GET /data/api/task-status/8218e125-16bc-4404-8de2-96d2c6349e1d/ HTTP/1.1" 200 98
+INFO 2024-10-31 11:26:42,307 basehttp "GET /data/api/processed_data_status/ HTTP/1.1" 200 30
+INFO 2024-10-31 11:26:42,310 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:26:42,321 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:26:42,333 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 11:26:42,337 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152
+INFO 2024-10-31 11:26:42,340 views Processed dataset file found. Loading data...
+INFO 2024-10-31 11:26:42,342 views DataFrame loaded with 999 rows.
+INFO 2024-10-31 11:26:42,343 views Custom Inferred data types: {'Name': 'Category', 'Birthdate': 'Text', 'Score': 'Numeric', 'Grade': 'Category', 'Comments': 'Category'}
+INFO 2024-10-31 11:26:42,346 basehttp "GET /data/api/dataset/?page=1&page_size=10 HTTP/1.1" 200 1152

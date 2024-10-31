@@ -39,27 +39,25 @@ function DataDisplay() {
 
     // Function to fetch the processed data
     const fetchProcessedData = async () => {
-        console.log("Fetching processed data...");
         try {
             const response = await fetch(`http://127.0.0.1:8000/data/api/dataset/?page=${page}&page_size=${pageSize}`);
             const result = await response.json();
-            console.log("Data fetched:", result); // Log the fetched data
 
-            if (response.ok) {
-                setData(result.results.data);
-                setTypes(result.results.types);
-                setError(null);  // Clear any previous errors
-            } else {
-                // Handle cases where data is not available or there's an error
-                setError("No processed data available. Please upload a file first.");
-                setData([]);  // Clear data if there's no processed data file
-                setTypes({});
-            }
+            console.log("Fetched data:", result);  // Log fetched data to inspect it
+            setData(result.results.data);
+            setTypes(result.results.types);
         } catch (err) {
-            console.error("Failed to fetch processed data:", err);
-            setError("Failed to fetch processed data.");
+            if (err.response && err.response.status === 404) {
+                setError("No processed data available. Please upload a file first.");
+                setData([]);
+                setTypes({});
+            } else {
+                console.error("Failed to fetch processed data:", err);
+                setError("Failed to fetch processed data.");
+            }
         }
     };
+
 
     // Handle file upload and initiate processing
     const handleFileUpload = async (event) => {
