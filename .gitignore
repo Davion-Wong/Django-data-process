@@ -1,1 +1,12 @@
 temp/
+dump.rdb
+app.log
+__pycache__
+db.sqlite3
+.idea/
+venv/
+env/
+node_modules/
+frontend/build/
+.DS_Store
+Thumbs.db
